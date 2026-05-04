@@ -1,0 +1,11 @@
+[theme]
+base="light"
+primaryColor="#F58220"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F7F8FA"
+textColor="#111827"
+font="sans serif"
+
+[server]
+headless=true
+runOnSave=false

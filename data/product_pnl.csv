@@ -1,0 +1,2421 @@
+date,product,revenue_mil_vnd,cost_mil_vnd,profit_mil_vnd
+2025-01-01,Equity Brokerage,1226.2,690.3,535.9
+2025-01-01,Margin Lending,888.6,411.2,477.4
+2025-01-01,Derivatives,504.9,240.9,263.9
+2025-01-01,Advisory,176.3,105.1,71.2
+2025-01-01,Bond/Fund Distribution,256.0,100.9,155.1
+2025-01-02,Equity Brokerage,1184.1,421.8,762.3
+2025-01-02,Margin Lending,1211.6,384.2,827.4
+2025-01-02,Derivatives,279.1,131.4,147.7
+2025-01-02,Advisory,127.1,35.9,91.2
+2025-01-02,Bond/Fund Distribution,125.9,56.9,68.9
+2025-01-03,Equity Brokerage,1004.5,416.3,588.1
+2025-01-03,Margin Lending,1075.0,392.6,682.3
+2025-01-03,Derivatives,448.4,229.2,219.2
+2025-01-03,Advisory,149.4,67.1,82.3
+2025-01-03,Bond/Fund Distribution,299.5,169.6,129.9
+2025-01-04,Equity Brokerage,1343.4,508.2,835.2
+2025-01-04,Margin Lending,1089.1,403.0,686.1
+2025-01-04,Derivatives,383.9,229.4,154.4
+2025-01-04,Advisory,140.1,78.4,61.7
+2025-01-04,Bond/Fund Distribution,275.0,98.0,177.1
+2025-01-05,Equity Brokerage,1141.9,400.2,741.7
+2025-01-05,Margin Lending,898.2,533.8,364.4
+2025-01-05,Derivatives,291.3,137.2,154.1
+2025-01-05,Advisory,150.8,77.3,73.5
+2025-01-05,Bond/Fund Distribution,316.9,121.6,195.3
+2025-01-06,Equity Brokerage,1096.6,379.6,717.0
+2025-01-06,Margin Lending,1049.0,467.2,581.8
+2025-01-06,Derivatives,532.3,276.2,256.1
+2025-01-06,Advisory,210.3,121.1,89.1
+2025-01-06,Bond/Fund Distribution,225.0,108.2,116.8
+2025-01-07,Equity Brokerage,1258.5,490.0,768.5
+2025-01-07,Margin Lending,1014.6,481.5,533.1
+2025-01-07,Derivatives,570.6,269.1,301.5
+2025-01-07,Advisory,230.0,112.0,118.0
+2025-01-07,Bond/Fund Distribution,216.3,65.8,150.5
+2025-01-08,Equity Brokerage,1174.7,557.0,617.7
+2025-01-08,Margin Lending,785.5,392.0,393.5
+2025-01-08,Derivatives,336.2,106.7,229.4
+2025-01-08,Advisory,173.4,93.5,79.9
+2025-01-08,Bond/Fund Distribution,20.0,10.0,10.0
+2025-01-09,Equity Brokerage,1228.9,507.9,721.0
+2025-01-09,Margin Lending,995.1,310.4,684.7
+2025-01-09,Derivatives,387.4,187.7,199.8
+2025-01-09,Advisory,226.6,77.1,149.5
+2025-01-09,Bond/Fund Distribution,207.9,68.7,139.1
+2025-01-10,Equity Brokerage,1208.1,541.1,667.0
+2025-01-10,Margin Lending,918.3,501.2,417.1
+2025-01-10,Derivatives,342.9,114.4,228.5
+2025-01-10,Advisory,344.5,209.1,135.4
+2025-01-10,Bond/Fund Distribution,372.7,195.4,177.2
+2025-01-11,Equity Brokerage,1265.2,719.2,546.0
+2025-01-11,Margin Lending,1033.7,573.1,460.6
+2025-01-11,Derivatives,469.4,138.8,330.6
+2025-01-11,Advisory,277.9,110.2,167.7
+2025-01-11,Bond/Fund Distribution,162.6,77.5,85.1
+2025-01-12,Equity Brokerage,1315.2,523.5,791.7
+2025-01-12,Margin Lending,1061.8,327.9,733.9
+2025-01-12,Derivatives,329.3,108.8,220.5
+2025-01-12,Advisory,177.0,89.9,87.1
+2025-01-12,Bond/Fund Distribution,261.8,119.4,142.4
+2025-01-13,Equity Brokerage,1031.0,527.4,503.6
+2025-01-13,Margin Lending,855.4,419.6,435.8
+2025-01-13,Derivatives,446.2,245.6,200.5
+2025-01-13,Advisory,187.6,54.3,133.2
+2025-01-13,Bond/Fund Distribution,192.8,64.8,128.1
+2025-01-14,Equity Brokerage,1105.8,646.4,459.4
+2025-01-14,Margin Lending,964.9,525.9,439.0
+2025-01-14,Derivatives,359.4,216.9,142.5
+2025-01-14,Advisory,84.9,45.0,39.9
+2025-01-14,Bond/Fund Distribution,318.0,106.8,211.3
+2025-01-15,Equity Brokerage,1282.6,381.9,900.8
+2025-01-15,Margin Lending,922.3,285.9,636.4
+2025-01-15,Derivatives,410.3,167.2,243.1
+2025-01-15,Advisory,168.9,58.5,110.4
+2025-01-15,Bond/Fund Distribution,303.1,115.4,187.7
+2025-01-16,Equity Brokerage,1202.0,720.0,482.0
+2025-01-16,Margin Lending,1020.3,486.8,533.5
+2025-01-16,Derivatives,296.3,128.3,168.1
+2025-01-16,Advisory,180.1,102.9,77.2
+2025-01-16,Bond/Fund Distribution,172.3,104.5,67.8
+2025-01-17,Equity Brokerage,1176.5,422.2,754.2
+2025-01-17,Margin Lending,955.7,424.9,530.8
+2025-01-17,Derivatives,394.7,226.2,168.5
+2025-01-17,Advisory,73.6,27.3,46.3
+2025-01-17,Bond/Fund Distribution,258.3,140.8,117.5
+2025-01-18,Equity Brokerage,1087.0,390.4,696.5
+2025-01-18,Margin Lending,1061.8,619.1,442.7
+2025-01-18,Derivatives,572.7,327.9,244.8
+2025-01-18,Advisory,200.6,115.7,84.9
+2025-01-18,Bond/Fund Distribution,225.5,126.2,99.3
+2025-01-19,Equity Brokerage,1139.1,652.5,486.5
+2025-01-19,Margin Lending,1009.2,414.2,595.1
+2025-01-19,Derivatives,268.6,163.4,105.1
+2025-01-19,Advisory,133.1,74.5,58.5
+2025-01-19,Bond/Fund Distribution,208.3,118.3,90.0
+2025-01-20,Equity Brokerage,1146.6,504.2,642.4
+2025-01-20,Margin Lending,1075.1,652.0,423.1
+2025-01-20,Derivatives,378.8,134.7,244.1
+2025-01-20,Advisory,262.8,132.3,130.4
+2025-01-20,Bond/Fund Distribution,266.2,164.9,101.3
+2025-01-21,Equity Brokerage,1282.7,360.5,922.2
+2025-01-21,Margin Lending,962.5,560.3,402.2
+2025-01-21,Derivatives,372.5,161.1,211.4
+2025-01-21,Advisory,164.9,52.0,112.9
+2025-01-21,Bond/Fund Distribution,279.8,171.1,108.8
+2025-01-22,Equity Brokerage,1094.7,678.7,416.0
+2025-01-22,Margin Lending,875.1,384.7,490.4
+2025-01-22,Derivatives,415.0,137.1,278.0
+2025-01-22,Advisory,300.3,176.6,123.7
+2025-01-22,Bond/Fund Distribution,388.7,136.2,252.5
+2025-01-23,Equity Brokerage,1139.2,364.9,774.3
+2025-01-23,Margin Lending,1068.2,505.9,562.3
+2025-01-23,Derivatives,519.7,247.1,272.6
+2025-01-23,Advisory,254.6,97.4,157.2
+2025-01-23,Bond/Fund Distribution,138.6,49.6,89.0
+2025-01-24,Equity Brokerage,1360.4,527.3,833.0
+2025-01-24,Margin Lending,1125.5,442.6,683.0
+2025-01-24,Derivatives,297.6,139.9,157.7
+2025-01-24,Advisory,242.9,150.6,92.4
+2025-01-24,Bond/Fund Distribution,332.1,110.6,221.5
+2025-01-25,Equity Brokerage,1126.6,318.2,808.4
+2025-01-25,Margin Lending,938.7,305.8,632.9
+2025-01-25,Derivatives,362.2,177.9,184.3
+2025-01-25,Advisory,207.4,115.4,92.0
+2025-01-25,Bond/Fund Distribution,463.5,246.6,216.8
+2025-01-26,Equity Brokerage,1207.1,642.8,564.4
+2025-01-26,Margin Lending,957.1,451.8,505.2
+2025-01-26,Derivatives,470.5,175.7,294.8
+2025-01-26,Advisory,74.2,45.2,29.0
+2025-01-26,Bond/Fund Distribution,388.7,141.2,247.5
+2025-01-27,Equity Brokerage,1065.2,605.2,460.0
+2025-01-27,Margin Lending,1037.7,602.8,434.8
+2025-01-27,Derivatives,313.2,164.1,149.1
+2025-01-27,Advisory,114.4,56.0,58.4
+2025-01-27,Bond/Fund Distribution,253.0,95.7,157.4
+2025-01-28,Equity Brokerage,1218.3,599.5,618.8
+2025-01-28,Margin Lending,866.6,381.5,485.2
+2025-01-28,Derivatives,426.7,247.5,179.2
+2025-01-28,Advisory,156.6,51.6,105.0
+2025-01-28,Bond/Fund Distribution,315.0,153.2,161.8
+2025-01-29,Equity Brokerage,1195.4,538.2,657.2
+2025-01-29,Margin Lending,1017.1,293.2,723.9
+2025-01-29,Derivatives,397.1,133.6,263.5
+2025-01-29,Advisory,147.6,42.0,105.6
+2025-01-29,Bond/Fund Distribution,238.7,79.7,159.0
+2025-01-30,Equity Brokerage,1181.2,717.4,463.8
+2025-01-30,Margin Lending,1042.3,353.3,689.0
+2025-01-30,Derivatives,352.2,105.6,246.7
+2025-01-30,Advisory,141.5,40.6,100.9
+2025-01-30,Bond/Fund Distribution,315.1,175.5,139.5
+2025-01-31,Equity Brokerage,1162.7,330.9,831.8
+2025-01-31,Margin Lending,841.7,238.6,603.0
+2025-01-31,Derivatives,336.5,156.1,180.5
+2025-01-31,Advisory,152.7,85.9,66.8
+2025-01-31,Bond/Fund Distribution,286.1,160.0,126.1
+2025-02-01,Equity Brokerage,1201.6,524.2,677.4
+2025-02-01,Margin Lending,930.2,314.2,616.0
+2025-02-01,Derivatives,463.8,188.4,275.4
+2025-02-01,Advisory,108.0,63.1,44.9
+2025-02-01,Bond/Fund Distribution,285.0,122.7,162.3
+2025-02-02,Equity Brokerage,1247.0,518.6,728.5
+2025-02-02,Margin Lending,1096.3,488.6,607.7
+2025-02-02,Derivatives,348.2,125.0,223.2
+2025-02-02,Advisory,105.6,57.1,48.5
+2025-02-02,Bond/Fund Distribution,379.1,154.5,224.6
+2025-02-03,Equity Brokerage,1117.5,493.4,624.1
+2025-02-03,Margin Lending,1093.7,669.3,424.4
+2025-02-03,Derivatives,364.3,134.9,229.4
+2025-02-03,Advisory,288.6,132.3,156.3
+2025-02-03,Bond/Fund Distribution,169.7,70.3,99.4
+2025-02-04,Equity Brokerage,1267.8,779.2,488.6
+2025-02-04,Margin Lending,1052.0,544.7,507.3
+2025-02-04,Derivatives,416.1,216.8,199.3
+2025-02-04,Advisory,66.6,23.8,42.8
+2025-02-04,Bond/Fund Distribution,198.6,105.6,93.0
+2025-02-05,Equity Brokerage,1323.6,590.3,733.3
+2025-02-05,Margin Lending,895.4,454.8,440.6
+2025-02-05,Derivatives,307.0,88.5,218.6
+2025-02-05,Advisory,232.0,89.9,142.1
+2025-02-05,Bond/Fund Distribution,377.4,209.4,167.9
+2025-02-06,Equity Brokerage,1061.2,442.7,618.5
+2025-02-06,Margin Lending,835.9,313.6,522.2
+2025-02-06,Derivatives,351.2,163.9,187.4
+2025-02-06,Advisory,284.0,114.7,169.3
+2025-02-06,Bond/Fund Distribution,342.0,182.4,159.6
+2025-02-07,Equity Brokerage,1228.8,522.8,706.0
+2025-02-07,Margin Lending,1118.0,672.0,446.0
+2025-02-07,Derivatives,476.3,219.6,256.6
+2025-02-07,Advisory,253.2,85.1,168.1
+2025-02-07,Bond/Fund Distribution,168.9,78.6,90.3
+2025-02-08,Equity Brokerage,1307.0,555.3,751.8
+2025-02-08,Margin Lending,1157.7,355.3,802.4
+2025-02-08,Derivatives,557.3,234.3,323.0
+2025-02-08,Advisory,132.3,48.6,83.8
+2025-02-08,Bond/Fund Distribution,329.9,137.6,192.3
+2025-02-09,Equity Brokerage,1221.9,641.7,580.2
+2025-02-09,Margin Lending,969.3,301.1,668.2
+2025-02-09,Derivatives,235.1,101.6,133.6
+2025-02-09,Advisory,187.0,93.4,93.6
+2025-02-09,Bond/Fund Distribution,221.7,135.9,85.8
+2025-02-10,Equity Brokerage,1201.1,395.3,805.8
+2025-02-10,Margin Lending,990.7,329.9,660.8
+2025-02-10,Derivatives,440.0,269.9,170.2
+2025-02-10,Advisory,172.5,90.3,82.2
+2025-02-10,Bond/Fund Distribution,217.2,82.0,135.2
+2025-02-11,Equity Brokerage,1269.6,743.3,526.3
+2025-02-11,Margin Lending,1024.0,552.0,472.0
+2025-02-11,Derivatives,479.0,208.7,270.3
+2025-02-11,Advisory,20.0,10.0,10.0
+2025-02-11,Bond/Fund Distribution,278.3,126.8,151.6
+2025-02-12,Equity Brokerage,1217.0,363.0,854.0
+2025-02-12,Margin Lending,857.1,372.2,484.8
+2025-02-12,Derivatives,464.6,274.7,189.9
+2025-02-12,Advisory,159.3,77.1,82.1
+2025-02-12,Bond/Fund Distribution,226.0,129.2,96.8
+2025-02-13,Equity Brokerage,1181.8,580.4,601.4
+2025-02-13,Margin Lending,846.8,274.8,572.0
+2025-02-13,Derivatives,483.4,265.0,218.4
+2025-02-13,Advisory,175.3,91.8,83.6
+2025-02-13,Bond/Fund Distribution,243.5,140.0,103.6
+2025-02-14,Equity Brokerage,1276.6,627.6,649.0
+2025-02-14,Margin Lending,950.6,318.6,632.0
+2025-02-14,Derivatives,274.8,128.6,146.2
+2025-02-14,Advisory,114.9,58.1,56.8
+2025-02-14,Bond/Fund Distribution,220.4,131.0,89.5
+2025-02-15,Equity Brokerage,1199.7,718.5,481.2
+2025-02-15,Margin Lending,1008.0,401.8,606.1
+2025-02-15,Derivatives,413.3,242.0,171.3
+2025-02-15,Advisory,264.4,152.6,111.8
+2025-02-15,Bond/Fund Distribution,289.3,98.3,191.0
+2025-02-16,Equity Brokerage,1274.9,767.2,507.6
+2025-02-16,Margin Lending,925.0,280.8,644.3
+2025-02-16,Derivatives,466.7,162.6,304.0
+2025-02-16,Advisory,197.3,66.6,130.7
+2025-02-16,Bond/Fund Distribution,235.1,108.7,126.3
+2025-02-17,Equity Brokerage,1162.2,355.4,806.7
+2025-02-17,Margin Lending,707.5,260.8,446.6
+2025-02-17,Derivatives,358.0,125.9,232.1
+2025-02-17,Advisory,270.0,116.4,153.5
+2025-02-17,Bond/Fund Distribution,373.6,211.9,161.7
+2025-02-18,Equity Brokerage,1108.2,640.4,467.8
+2025-02-18,Margin Lending,1091.7,675.6,416.1
+2025-02-18,Derivatives,440.1,145.7,294.4
+2025-02-18,Advisory,273.5,164.3,109.3
+2025-02-18,Bond/Fund Distribution,257.1,133.7,123.3
+2025-02-19,Equity Brokerage,1219.2,456.4,762.8
+2025-02-19,Margin Lending,832.0,498.5,333.4
+2025-02-19,Derivatives,419.4,238.3,181.1
+2025-02-19,Advisory,20.6,10.0,11.9
+2025-02-19,Bond/Fund Distribution,138.1,83.8,54.3
+2025-02-20,Equity Brokerage,1220.8,733.5,487.3
+2025-02-20,Margin Lending,1009.0,364.9,644.1
+2025-02-20,Derivatives,246.1,108.3,137.8
+2025-02-20,Advisory,169.4,85.1,84.3
+2025-02-20,Bond/Fund Distribution,149.5,73.5,76.1
+2025-02-21,Equity Brokerage,1107.8,387.2,720.6
+2025-02-21,Margin Lending,935.5,476.7,458.8
+2025-02-21,Derivatives,470.0,264.9,205.1
+2025-02-21,Advisory,177.1,55.9,121.2
+2025-02-21,Bond/Fund Distribution,208.9,114.3,94.6
+2025-02-22,Equity Brokerage,1072.6,378.4,694.3
+2025-02-22,Margin Lending,902.9,276.5,626.3
+2025-02-22,Derivatives,263.1,99.1,164.0
+2025-02-22,Advisory,173.7,98.0,75.7
+2025-02-22,Bond/Fund Distribution,208.5,127.8,80.7
+2025-02-23,Equity Brokerage,1279.8,395.1,884.7
+2025-02-23,Margin Lending,811.1,390.6,420.5
+2025-02-23,Derivatives,440.1,180.1,260.1
+2025-02-23,Advisory,273.2,165.5,107.7
+2025-02-23,Bond/Fund Distribution,162.8,67.3,95.5
+2025-02-24,Equity Brokerage,1201.8,731.3,470.5
+2025-02-24,Margin Lending,1019.4,558.4,460.9
+2025-02-24,Derivatives,398.3,237.1,161.1
+2025-02-24,Advisory,245.9,147.7,98.2
+2025-02-24,Bond/Fund Distribution,175.7,55.3,120.4
+2025-02-25,Equity Brokerage,1294.8,456.8,838.0
+2025-02-25,Margin Lending,976.9,506.6,470.4
+2025-02-25,Derivatives,435.3,162.1,273.2
+2025-02-25,Advisory,239.1,124.3,114.9
+2025-02-25,Bond/Fund Distribution,95.1,35.0,60.2
+2025-02-26,Equity Brokerage,1141.0,646.0,495.0
+2025-02-26,Margin Lending,841.4,435.1,406.3
+2025-02-26,Derivatives,325.4,182.6,142.8
+2025-02-26,Advisory,119.3,36.5,82.8
+2025-02-26,Bond/Fund Distribution,276.9,143.5,133.4
+2025-02-27,Equity Brokerage,1236.3,714.5,521.8
+2025-02-27,Margin Lending,975.7,387.5,588.2
+2025-02-27,Derivatives,427.4,148.4,279.0
+2025-02-27,Advisory,109.7,50.1,59.5
+2025-02-27,Bond/Fund Distribution,192.5,75.2,117.3
+2025-02-28,Equity Brokerage,1184.7,675.0,509.6
+2025-02-28,Margin Lending,878.8,321.5,557.3
+2025-02-28,Derivatives,286.8,171.5,115.3
+2025-02-28,Advisory,325.1,192.2,133.0
+2025-02-28,Bond/Fund Distribution,256.0,114.5,141.5
+2025-03-01,Equity Brokerage,1384.1,509.1,875.0
+2025-03-01,Margin Lending,948.2,320.7,627.5
+2025-03-01,Derivatives,399.9,139.2,260.6
+2025-03-01,Advisory,211.5,117.3,94.2
+2025-03-01,Bond/Fund Distribution,194.3,82.2,112.2
+2025-03-02,Equity Brokerage,1166.5,434.2,732.3
+2025-03-02,Margin Lending,950.6,519.2,431.4
+2025-03-02,Derivatives,297.5,140.8,156.7
+2025-03-02,Advisory,104.1,52.8,51.4
+2025-03-02,Bond/Fund Distribution,92.1,55.3,36.8
+2025-03-03,Equity Brokerage,1138.3,535.6,602.7
+2025-03-03,Margin Lending,905.9,281.8,624.1
+2025-03-03,Derivatives,371.0,173.3,197.7
+2025-03-03,Advisory,20.0,10.0,10.0
+2025-03-03,Bond/Fund Distribution,249.0,131.0,118.0
+2025-03-04,Equity Brokerage,1194.7,610.7,584.0
+2025-03-04,Margin Lending,1080.4,466.5,613.9
+2025-03-04,Derivatives,302.5,115.4,187.2
+2025-03-04,Advisory,50.7,28.6,22.1
+2025-03-04,Bond/Fund Distribution,309.6,136.3,173.3
+2025-03-05,Equity Brokerage,1149.4,336.4,813.0
+2025-03-05,Margin Lending,1052.0,477.6,574.4
+2025-03-05,Derivatives,394.7,177.0,217.7
+2025-03-05,Advisory,155.3,56.3,99.0
+2025-03-05,Bond/Fund Distribution,179.8,88.3,91.5
+2025-03-06,Equity Brokerage,1305.1,390.6,914.6
+2025-03-06,Margin Lending,1095.3,504.4,590.9
+2025-03-06,Derivatives,431.7,264.9,166.7
+2025-03-06,Advisory,134.0,53.9,80.1
+2025-03-06,Bond/Fund Distribution,148.2,57.0,91.3
+2025-03-07,Equity Brokerage,1272.4,655.8,616.6
+2025-03-07,Margin Lending,942.0,282.6,659.4
+2025-03-07,Derivatives,354.3,192.4,161.9
+2025-03-07,Advisory,165.4,90.1,75.3
+2025-03-07,Bond/Fund Distribution,347.0,125.5,221.5
+2025-03-08,Equity Brokerage,1053.4,513.6,539.8
+2025-03-08,Margin Lending,934.2,347.1,587.1
+2025-03-08,Derivatives,236.4,130.5,105.9
+2025-03-08,Advisory,147.2,87.9,59.3
+2025-03-08,Bond/Fund Distribution,152.5,45.9,106.6
+2025-03-09,Equity Brokerage,1288.3,784.5,503.8
+2025-03-09,Margin Lending,910.8,348.3,562.5
+2025-03-09,Derivatives,463.5,161.6,301.9
+2025-03-09,Advisory,283.5,163.4,120.1
+2025-03-09,Bond/Fund Distribution,357.5,165.0,192.5
+2025-03-10,Equity Brokerage,1146.9,371.9,775.0
+2025-03-10,Margin Lending,942.9,407.9,534.9
+2025-03-10,Derivatives,338.3,176.4,161.9
+2025-03-10,Advisory,206.9,104.0,102.9
+2025-03-10,Bond/Fund Distribution,283.1,95.2,188.0
+2025-03-11,Equity Brokerage,1308.5,616.3,692.2
+2025-03-11,Margin Lending,886.8,292.9,593.9
+2025-03-11,Derivatives,285.9,151.4,134.6
+2025-03-11,Advisory,204.2,91.2,113.0
+2025-03-11,Bond/Fund Distribution,214.5,95.5,118.9
+2025-03-12,Equity Brokerage,1237.9,500.4,737.5
+2025-03-12,Margin Lending,871.3,535.4,336.0
+2025-03-12,Derivatives,255.3,109.7,145.6
+2025-03-12,Advisory,139.1,55.0,84.2
+2025-03-12,Bond/Fund Distribution,233.5,116.9,116.6
+2025-03-13,Equity Brokerage,1093.9,371.7,722.1
+2025-03-13,Margin Lending,992.8,554.0,438.8
+2025-03-13,Derivatives,158.3,74.3,84.0
+2025-03-13,Advisory,114.4,32.3,82.1
+2025-03-13,Bond/Fund Distribution,149.3,86.0,63.4
+2025-03-14,Equity Brokerage,1234.9,691.4,543.6
+2025-03-14,Margin Lending,1018.1,365.3,652.8
+2025-03-14,Derivatives,511.0,220.6,290.5
+2025-03-14,Advisory,175.8,78.0,97.8
+2025-03-14,Bond/Fund Distribution,270.3,125.8,144.4
+2025-03-15,Equity Brokerage,1113.4,605.1,508.2
+2025-03-15,Margin Lending,1002.1,313.3,688.8
+2025-03-15,Derivatives,450.8,172.1,278.7
+2025-03-15,Advisory,164.7,64.8,99.9
+2025-03-15,Bond/Fund Distribution,176.4,104.0,72.4
+2025-03-16,Equity Brokerage,1104.1,378.4,725.7
+2025-03-16,Margin Lending,952.9,517.7,435.3
+2025-03-16,Derivatives,420.1,249.9,170.3
+2025-03-16,Advisory,228.4,112.3,116.1
+2025-03-16,Bond/Fund Distribution,216.8,81.2,135.7
+2025-03-17,Equity Brokerage,1128.3,679.3,448.9
+2025-03-17,Margin Lending,834.9,487.0,347.9
+2025-03-17,Derivatives,397.5,225.1,172.4
+2025-03-17,Advisory,134.3,66.4,67.9
+2025-03-17,Bond/Fund Distribution,344.2,197.0,147.3
+2025-03-18,Equity Brokerage,1187.6,514.2,673.4
+2025-03-18,Margin Lending,889.4,334.1,555.3
+2025-03-18,Derivatives,399.2,168.4,230.8
+2025-03-18,Advisory,122.5,63.1,59.4
+2025-03-18,Bond/Fund Distribution,317.6,143.7,173.9
+2025-03-19,Equity Brokerage,1155.4,629.3,526.0
+2025-03-19,Margin Lending,1008.4,599.9,408.6
+2025-03-19,Derivatives,547.7,268.7,279.1
+2025-03-19,Advisory,193.4,116.5,76.9
+2025-03-19,Bond/Fund Distribution,228.7,105.6,123.0
+2025-03-20,Equity Brokerage,1366.7,432.4,934.3
+2025-03-20,Margin Lending,976.5,524.8,451.7
+2025-03-20,Derivatives,378.8,107.8,271.0
+2025-03-20,Advisory,238.4,119.9,118.5
+2025-03-20,Bond/Fund Distribution,327.8,105.9,221.9
+2025-03-21,Equity Brokerage,1214.1,342.5,871.6
+2025-03-21,Margin Lending,929.1,275.5,653.6
+2025-03-21,Derivatives,481.7,191.6,290.1
+2025-03-21,Advisory,217.7,74.7,143.0
+2025-03-21,Bond/Fund Distribution,271.9,108.5,163.4
+2025-03-22,Equity Brokerage,1197.9,519.8,678.1
+2025-03-22,Margin Lending,883.9,502.0,382.0
+2025-03-22,Derivatives,375.2,216.9,158.3
+2025-03-22,Advisory,93.0,51.5,41.6
+2025-03-22,Bond/Fund Distribution,278.2,131.7,146.4
+2025-03-23,Equity Brokerage,1137.6,539.2,598.3
+2025-03-23,Margin Lending,1081.3,579.6,501.7
+2025-03-23,Derivatives,503.2,177.7,325.5
+2025-03-23,Advisory,257.0,77.7,179.3
+2025-03-23,Bond/Fund Distribution,355.8,173.8,181.9
+2025-03-24,Equity Brokerage,1175.8,489.2,686.6
+2025-03-24,Margin Lending,954.7,307.9,646.8
+2025-03-24,Derivatives,378.8,210.7,168.0
+2025-03-24,Advisory,225.0,64.9,160.1
+2025-03-24,Bond/Fund Distribution,259.7,128.9,130.9
+2025-03-25,Equity Brokerage,1206.0,608.9,597.1
+2025-03-25,Margin Lending,888.7,357.3,531.4
+2025-03-25,Derivatives,321.5,182.6,138.8
+2025-03-25,Advisory,183.3,105.1,78.2
+2025-03-25,Bond/Fund Distribution,254.2,125.7,128.5
+2025-03-26,Equity Brokerage,1169.1,719.2,449.9
+2025-03-26,Margin Lending,988.2,284.4,703.8
+2025-03-26,Derivatives,425.9,231.6,194.3
+2025-03-26,Advisory,142.5,78.9,63.6
+2025-03-26,Bond/Fund Distribution,186.1,82.7,103.4
+2025-03-27,Equity Brokerage,1241.9,644.3,597.6
+2025-03-27,Margin Lending,1116.4,313.4,803.0
+2025-03-27,Derivatives,445.4,228.8,216.7
+2025-03-27,Advisory,20.0,10.0,10.0
+2025-03-27,Bond/Fund Distribution,274.3,146.8,127.5
+2025-03-28,Equity Brokerage,1172.3,328.3,844.0
+2025-03-28,Margin Lending,1007.6,454.8,552.8
+2025-03-28,Derivatives,375.8,229.2,146.6
+2025-03-28,Advisory,209.7,70.9,138.9
+2025-03-28,Bond/Fund Distribution,161.7,77.5,84.1
+2025-03-29,Equity Brokerage,1175.6,687.9,487.7
+2025-03-29,Margin Lending,952.3,292.8,659.5
+2025-03-29,Derivatives,354.4,120.0,234.3
+2025-03-29,Advisory,133.7,73.6,60.2
+2025-03-29,Bond/Fund Distribution,176.9,107.2,69.7
+2025-03-30,Equity Brokerage,1208.0,580.5,627.5
+2025-03-30,Margin Lending,901.6,428.0,473.5
+2025-03-30,Derivatives,372.1,197.9,174.2
+2025-03-30,Advisory,126.1,41.6,84.5
+2025-03-30,Bond/Fund Distribution,147.5,49.9,97.6
+2025-03-31,Equity Brokerage,1114.5,415.0,699.4
+2025-03-31,Margin Lending,947.6,327.4,620.2
+2025-03-31,Derivatives,477.0,264.7,212.4
+2025-03-31,Advisory,204.4,110.5,93.9
+2025-03-31,Bond/Fund Distribution,246.8,151.1,95.7
+2025-04-01,Equity Brokerage,1033.0,506.0,527.0
+2025-04-01,Margin Lending,937.6,430.5,507.1
+2025-04-01,Derivatives,416.6,168.7,247.9
+2025-04-01,Advisory,228.1,124.6,103.5
+2025-04-01,Bond/Fund Distribution,299.8,170.8,129.0
+2025-04-02,Equity Brokerage,1188.0,513.2,674.8
+2025-04-02,Margin Lending,903.1,528.4,374.7
+2025-04-02,Derivatives,395.3,188.8,206.6
+2025-04-02,Advisory,225.9,107.4,118.6
+2025-04-02,Bond/Fund Distribution,332.6,106.3,226.2
+2025-04-03,Equity Brokerage,1222.9,353.9,869.0
+2025-04-03,Margin Lending,1019.8,340.4,679.4
+2025-04-03,Derivatives,401.8,191.8,210.0
+2025-04-03,Advisory,148.7,61.4,87.3
+2025-04-03,Bond/Fund Distribution,447.5,178.6,268.9
+2025-04-04,Equity Brokerage,1233.7,524.9,708.8
+2025-04-04,Margin Lending,862.1,396.8,465.3
+2025-04-04,Derivatives,359.0,112.9,246.1
+2025-04-04,Advisory,122.2,71.8,50.4
+2025-04-04,Bond/Fund Distribution,287.5,141.3,146.2
+2025-04-05,Equity Brokerage,1212.5,689.0,523.5
+2025-04-05,Margin Lending,904.2,533.3,370.9
+2025-04-05,Derivatives,387.2,239.6,147.6
+2025-04-05,Advisory,215.2,78.9,136.3
+2025-04-05,Bond/Fund Distribution,306.4,88.7,217.7
+2025-04-06,Equity Brokerage,1219.4,563.1,656.3
+2025-04-06,Margin Lending,950.0,529.2,420.8
+2025-04-06,Derivatives,316.5,172.9,143.7
+2025-04-06,Advisory,114.9,46.5,68.4
+2025-04-06,Bond/Fund Distribution,176.1,105.4,70.6
+2025-04-07,Equity Brokerage,1130.8,426.9,703.9
+2025-04-07,Margin Lending,940.7,579.0,361.7
+2025-04-07,Derivatives,370.3,227.2,143.1
+2025-04-07,Advisory,124.7,35.2,89.4
+2025-04-07,Bond/Fund Distribution,245.4,112.0,133.5
+2025-04-08,Equity Brokerage,1286.6,573.9,712.7
+2025-04-08,Margin Lending,989.1,281.5,707.6
+2025-04-08,Derivatives,500.9,301.2,199.7
+2025-04-08,Advisory,141.5,63.0,78.5
+2025-04-08,Bond/Fund Distribution,190.6,64.4,126.2
+2025-04-09,Equity Brokerage,1235.8,742.6,493.3
+2025-04-09,Margin Lending,850.6,371.4,479.1
+2025-04-09,Derivatives,386.3,157.8,228.5
+2025-04-09,Advisory,128.5,76.5,51.9
+2025-04-09,Bond/Fund Distribution,280.6,100.9,179.6
+2025-04-10,Equity Brokerage,1228.2,621.4,606.9
+2025-04-10,Margin Lending,847.2,456.8,390.4
+2025-04-10,Derivatives,395.4,161.5,233.9
+2025-04-10,Advisory,246.6,104.9,141.7
+2025-04-10,Bond/Fund Distribution,356.1,201.4,154.7
+2025-04-11,Equity Brokerage,1212.8,680.4,532.4
+2025-04-11,Margin Lending,935.2,552.7,382.5
+2025-04-11,Derivatives,354.7,122.9,231.8
+2025-04-11,Advisory,219.8,106.0,113.8
+2025-04-11,Bond/Fund Distribution,111.2,63.0,48.2
+2025-04-12,Equity Brokerage,1132.0,586.4,545.7
+2025-04-12,Margin Lending,803.5,227.2,576.4
+2025-04-12,Derivatives,169.3,61.1,108.2
+2025-04-12,Advisory,149.8,44.4,105.4
+2025-04-12,Bond/Fund Distribution,200.1,70.8,129.3
+2025-04-13,Equity Brokerage,1160.1,602.6,557.4
+2025-04-13,Margin Lending,908.3,293.8,614.5
+2025-04-13,Derivatives,429.4,122.4,307.0
+2025-04-13,Advisory,220.7,70.3,150.3
+2025-04-13,Bond/Fund Distribution,343.2,126.3,217.0
+2025-04-14,Equity Brokerage,1312.0,808.3,503.7
+2025-04-14,Margin Lending,1049.5,638.4,411.2
+2025-04-14,Derivatives,333.0,111.0,221.9
+2025-04-14,Advisory,178.4,68.6,109.8
+2025-04-14,Bond/Fund Distribution,153.9,56.6,97.3
+2025-04-15,Equity Brokerage,1213.9,490.2,723.7
+2025-04-15,Margin Lending,881.7,389.1,492.5
+2025-04-15,Derivatives,390.3,192.5,197.7
+2025-04-15,Advisory,116.7,60.5,56.2
+2025-04-15,Bond/Fund Distribution,88.4,41.7,46.7
+2025-04-16,Equity Brokerage,1311.7,686.8,624.9
+2025-04-16,Margin Lending,1097.2,628.0,469.2
+2025-04-16,Derivatives,505.6,154.2,351.4
+2025-04-16,Advisory,72.9,34.5,38.4
+2025-04-16,Bond/Fund Distribution,203.3,116.5,86.9
+2025-04-17,Equity Brokerage,1055.9,496.6,559.3
+2025-04-17,Margin Lending,886.3,512.9,373.4
+2025-04-17,Derivatives,331.7,199.4,132.3
+2025-04-17,Advisory,192.1,69.5,122.6
+2025-04-17,Bond/Fund Distribution,274.1,110.5,163.6
+2025-04-18,Equity Brokerage,1206.4,567.1,639.3
+2025-04-18,Margin Lending,992.3,576.6,415.7
+2025-04-18,Derivatives,375.0,117.2,257.8
+2025-04-18,Advisory,159.3,58.5,100.8
+2025-04-18,Bond/Fund Distribution,288.7,132.1,156.6
+2025-04-19,Equity Brokerage,1228.9,473.4,755.5
+2025-04-19,Margin Lending,828.9,308.3,520.6
+2025-04-19,Derivatives,256.4,96.3,160.1
+2025-04-19,Advisory,190.4,75.7,114.6
+2025-04-19,Bond/Fund Distribution,228.0,105.3,122.7
+2025-04-20,Equity Brokerage,1307.3,582.3,724.9
+2025-04-20,Margin Lending,970.7,566.9,403.9
+2025-04-20,Derivatives,486.5,288.6,197.9
+2025-04-20,Advisory,111.4,65.9,45.5
+2025-04-20,Bond/Fund Distribution,274.6,149.9,124.6
+2025-04-21,Equity Brokerage,1177.6,482.9,694.7
+2025-04-21,Margin Lending,957.7,566.9,390.8
+2025-04-21,Derivatives,311.7,184.8,126.9
+2025-04-21,Advisory,272.2,145.4,126.8
+2025-04-21,Bond/Fund Distribution,268.5,100.0,168.5
+2025-04-22,Equity Brokerage,1083.3,395.0,688.3
+2025-04-22,Margin Lending,982.0,463.7,518.3
+2025-04-22,Derivatives,398.9,195.1,203.7
+2025-04-22,Advisory,162.7,68.0,94.7
+2025-04-22,Bond/Fund Distribution,241.9,146.8,95.1
+2025-04-23,Equity Brokerage,1165.7,425.4,740.3
+2025-04-23,Margin Lending,919.6,532.3,387.3
+2025-04-23,Derivatives,324.1,168.9,155.2
+2025-04-23,Advisory,202.4,75.3,127.1
+2025-04-23,Bond/Fund Distribution,199.1,63.2,135.9
+2025-04-24,Equity Brokerage,1185.9,495.5,690.3
+2025-04-24,Margin Lending,966.3,557.3,409.0
+2025-04-24,Derivatives,377.1,222.3,154.8
+2025-04-24,Advisory,143.4,56.3,87.0
+2025-04-24,Bond/Fund Distribution,269.9,113.4,156.5
+2025-04-25,Equity Brokerage,1172.7,564.7,608.0
+2025-04-25,Margin Lending,967.7,309.6,658.0
+2025-04-25,Derivatives,352.7,99.6,253.1
+2025-04-25,Advisory,279.5,125.8,153.7
+2025-04-25,Bond/Fund Distribution,218.0,88.5,129.5
+2025-04-26,Equity Brokerage,1128.0,468.5,659.5
+2025-04-26,Margin Lending,875.1,492.0,383.1
+2025-04-26,Derivatives,452.5,270.4,182.1
+2025-04-26,Advisory,155.6,72.2,83.5
+2025-04-26,Bond/Fund Distribution,35.0,14.0,21.0
+2025-04-27,Equity Brokerage,1298.4,618.9,679.4
+2025-04-27,Margin Lending,814.8,350.7,464.1
+2025-04-27,Derivatives,412.9,198.6,214.4
+2025-04-27,Advisory,114.0,54.5,59.5
+2025-04-27,Bond/Fund Distribution,199.3,91.4,107.9
+2025-04-28,Equity Brokerage,1210.8,343.5,867.2
+2025-04-28,Margin Lending,940.8,351.7,589.1
+2025-04-28,Derivatives,298.3,124.9,173.4
+2025-04-28,Advisory,140.3,77.1,63.2
+2025-04-28,Bond/Fund Distribution,373.8,200.5,173.3
+2025-04-29,Equity Brokerage,1247.1,582.5,664.5
+2025-04-29,Margin Lending,950.9,581.3,369.6
+2025-04-29,Derivatives,337.6,141.4,196.2
+2025-04-29,Advisory,20.0,10.0,10.0
+2025-04-29,Bond/Fund Distribution,227.0,85.1,141.9
+2025-04-30,Equity Brokerage,1208.6,578.5,630.0
+2025-04-30,Margin Lending,1021.2,439.9,581.3
+2025-04-30,Derivatives,420.7,191.3,229.4
+2025-04-30,Advisory,48.4,23.9,24.5
+2025-04-30,Bond/Fund Distribution,138.2,75.3,62.9
+2025-05-01,Equity Brokerage,1153.4,633.1,520.3
+2025-05-01,Margin Lending,1014.1,505.4,508.7
+2025-05-01,Derivatives,153.6,49.7,103.9
+2025-05-01,Advisory,162.7,100.8,61.8
+2025-05-01,Bond/Fund Distribution,206.1,122.4,83.6
+2025-05-02,Equity Brokerage,1420.4,423.8,996.6
+2025-05-02,Margin Lending,812.4,327.3,485.0
+2025-05-02,Derivatives,287.5,129.8,157.7
+2025-05-02,Advisory,70.3,40.4,30.0
+2025-05-02,Bond/Fund Distribution,156.8,59.8,97.0
+2025-05-03,Equity Brokerage,1207.8,742.7,465.0
+2025-05-03,Margin Lending,1031.2,498.4,532.8
+2025-05-03,Derivatives,382.2,148.8,233.3
+2025-05-03,Advisory,224.0,122.1,101.9
+2025-05-03,Bond/Fund Distribution,203.2,60.2,143.0
+2025-05-04,Equity Brokerage,1295.9,439.3,856.6
+2025-05-04,Margin Lending,913.1,295.6,617.5
+2025-05-04,Derivatives,275.8,80.7,195.1
+2025-05-04,Advisory,139.6,47.9,91.7
+2025-05-04,Bond/Fund Distribution,199.3,66.1,133.2
+2025-05-05,Equity Brokerage,1226.5,478.8,747.7
+2025-05-05,Margin Lending,982.7,535.5,447.2
+2025-05-05,Derivatives,441.8,218.2,223.6
+2025-05-05,Advisory,184.6,67.3,117.2
+2025-05-05,Bond/Fund Distribution,371.7,156.8,215.0
+2025-05-06,Equity Brokerage,1133.1,618.8,514.3
+2025-05-06,Margin Lending,947.4,373.1,574.3
+2025-05-06,Derivatives,591.2,246.9,344.3
+2025-05-06,Advisory,190.6,94.7,96.0
+2025-05-06,Bond/Fund Distribution,348.1,194.3,153.8
+2025-05-07,Equity Brokerage,1155.5,502.9,652.6
+2025-05-07,Margin Lending,902.9,433.5,469.4
+2025-05-07,Derivatives,466.9,170.4,296.5
+2025-05-07,Advisory,42.3,13.0,29.3
+2025-05-07,Bond/Fund Distribution,165.6,61.0,104.6
+2025-05-08,Equity Brokerage,1207.1,611.6,595.5
+2025-05-08,Margin Lending,891.0,532.1,358.9
+2025-05-08,Derivatives,316.7,110.0,206.7
+2025-05-08,Advisory,145.5,44.8,100.7
+2025-05-08,Bond/Fund Distribution,348.5,156.5,192.0
+2025-05-09,Equity Brokerage,1211.6,633.1,578.5
+2025-05-09,Margin Lending,820.0,384.4,435.5
+2025-05-09,Derivatives,270.7,91.6,179.1
+2025-05-09,Advisory,317.1,180.5,136.6
+2025-05-09,Bond/Fund Distribution,362.4,147.2,215.2
+2025-05-10,Equity Brokerage,1151.5,588.8,562.7
+2025-05-10,Margin Lending,937.5,463.1,474.4
+2025-05-10,Derivatives,311.9,122.3,189.6
+2025-05-10,Advisory,283.8,80.9,202.8
+2025-05-10,Bond/Fund Distribution,271.9,104.8,167.1
+2025-05-11,Equity Brokerage,1231.6,642.0,589.5
+2025-05-11,Margin Lending,1091.2,398.0,693.2
+2025-05-11,Derivatives,367.1,195.4,171.7
+2025-05-11,Advisory,52.1,22.4,29.7
+2025-05-11,Bond/Fund Distribution,361.8,147.6,214.2
+2025-05-12,Equity Brokerage,1109.2,625.0,484.2
+2025-05-12,Margin Lending,931.0,459.1,471.9
+2025-05-12,Derivatives,490.1,236.4,253.8
+2025-05-12,Advisory,20.0,10.0,10.0
+2025-05-12,Bond/Fund Distribution,128.0,43.3,84.7
+2025-05-13,Equity Brokerage,1111.5,405.1,706.4
+2025-05-13,Margin Lending,1025.8,632.7,393.1
+2025-05-13,Derivatives,330.3,124.8,205.5
+2025-05-13,Advisory,96.7,36.3,60.4
+2025-05-13,Bond/Fund Distribution,469.5,198.6,270.9
+2025-05-14,Equity Brokerage,1122.6,432.3,690.4
+2025-05-14,Margin Lending,1006.7,549.2,457.5
+2025-05-14,Derivatives,358.2,222.0,136.3
+2025-05-14,Advisory,163.4,62.5,100.8
+2025-05-14,Bond/Fund Distribution,92.6,29.6,63.1
+2025-05-15,Equity Brokerage,1137.1,355.1,782.0
+2025-05-15,Margin Lending,1027.7,402.1,625.7
+2025-05-15,Derivatives,321.9,192.9,129.0
+2025-05-15,Advisory,20.0,10.0,10.0
+2025-05-15,Bond/Fund Distribution,312.7,146.7,166.0
+2025-05-16,Equity Brokerage,1177.2,622.2,555.0
+2025-05-16,Margin Lending,882.6,270.9,611.7
+2025-05-16,Derivatives,378.1,168.9,209.2
+2025-05-16,Advisory,91.3,50.9,40.4
+2025-05-16,Bond/Fund Distribution,184.4,110.0,74.4
+2025-05-17,Equity Brokerage,1184.6,584.2,600.4
+2025-05-17,Margin Lending,737.4,316.7,420.7
+2025-05-17,Derivatives,406.5,183.4,223.1
+2025-05-17,Advisory,151.4,42.4,109.0
+2025-05-17,Bond/Fund Distribution,293.2,93.2,200.0
+2025-05-18,Equity Brokerage,1203.3,684.7,518.6
+2025-05-18,Margin Lending,925.4,559.4,366.1
+2025-05-18,Derivatives,394.7,162.1,232.7
+2025-05-18,Advisory,79.0,25.4,53.7
+2025-05-18,Bond/Fund Distribution,335.9,148.3,187.6
+2025-05-19,Equity Brokerage,1282.1,633.3,648.8
+2025-05-19,Margin Lending,1040.1,536.3,503.8
+2025-05-19,Derivatives,464.4,251.9,212.5
+2025-05-19,Advisory,126.7,65.8,60.9
+2025-05-19,Bond/Fund Distribution,176.6,64.3,112.3
+2025-05-20,Equity Brokerage,1332.3,479.9,852.4
+2025-05-20,Margin Lending,1016.6,593.1,423.5
+2025-05-20,Derivatives,504.1,158.7,345.4
+2025-05-20,Advisory,249.2,91.4,157.8
+2025-05-20,Bond/Fund Distribution,236.5,77.6,158.9
+2025-05-21,Equity Brokerage,1031.8,417.4,614.3
+2025-05-21,Margin Lending,1003.1,305.1,698.0
+2025-05-21,Derivatives,396.9,126.0,270.8
+2025-05-21,Advisory,229.3,122.4,106.9
+2025-05-21,Bond/Fund Distribution,251.5,97.5,154.1
+2025-05-22,Equity Brokerage,1254.2,550.4,703.8
+2025-05-22,Margin Lending,931.8,508.9,422.9
+2025-05-22,Derivatives,364.1,155.9,208.2
+2025-05-22,Advisory,228.5,122.1,106.4
+2025-05-22,Bond/Fund Distribution,241.0,89.8,151.2
+2025-05-23,Equity Brokerage,1206.6,401.8,804.8
+2025-05-23,Margin Lending,896.3,340.8,555.5
+2025-05-23,Derivatives,448.9,213.4,235.6
+2025-05-23,Advisory,144.6,50.3,94.2
+2025-05-23,Bond/Fund Distribution,145.4,57.2,88.2
+2025-05-24,Equity Brokerage,1244.2,659.1,585.0
+2025-05-24,Margin Lending,1009.3,434.4,574.9
+2025-05-24,Derivatives,386.9,233.2,153.7
+2025-05-24,Advisory,169.3,85.9,83.5
+2025-05-24,Bond/Fund Distribution,221.3,135.1,86.2
+2025-05-25,Equity Brokerage,1280.5,776.2,504.2
+2025-05-25,Margin Lending,903.1,448.4,454.7
+2025-05-25,Derivatives,422.8,152.4,270.4
+2025-05-25,Advisory,217.4,72.0,145.4
+2025-05-25,Bond/Fund Distribution,416.9,233.4,183.5
+2025-05-26,Equity Brokerage,1127.2,577.6,549.5
+2025-05-26,Margin Lending,990.1,607.5,382.6
+2025-05-26,Derivatives,353.7,147.9,205.8
+2025-05-26,Advisory,208.5,114.0,94.5
+2025-05-26,Bond/Fund Distribution,368.5,167.7,200.8
+2025-05-27,Equity Brokerage,1271.8,554.0,717.8
+2025-05-27,Margin Lending,880.6,532.1,348.6
+2025-05-27,Derivatives,303.7,169.7,134.0
+2025-05-27,Advisory,57.1,23.4,33.7
+2025-05-27,Bond/Fund Distribution,283.1,154.6,128.5
+2025-05-28,Equity Brokerage,1244.0,685.6,558.4
+2025-05-28,Margin Lending,939.0,293.6,645.4
+2025-05-28,Derivatives,327.3,158.4,168.9
+2025-05-28,Advisory,152.0,91.7,60.3
+2025-05-28,Bond/Fund Distribution,212.0,113.2,98.8
+2025-05-29,Equity Brokerage,1258.1,368.5,889.6
+2025-05-29,Margin Lending,997.4,371.2,626.2
+2025-05-29,Derivatives,231.5,132.2,99.3
+2025-05-29,Advisory,173.5,57.9,115.6
+2025-05-29,Bond/Fund Distribution,243.6,131.0,112.6
+2025-05-30,Equity Brokerage,1334.0,699.2,634.8
+2025-05-30,Margin Lending,965.6,350.9,614.7
+2025-05-30,Derivatives,297.4,140.4,157.1
+2025-05-30,Advisory,102.5,45.8,56.7
+2025-05-30,Bond/Fund Distribution,214.2,115.1,99.1
+2025-05-31,Equity Brokerage,1112.8,612.6,500.2
+2025-05-31,Margin Lending,885.4,450.6,434.9
+2025-05-31,Derivatives,298.3,158.6,139.7
+2025-05-31,Advisory,183.9,90.0,94.0
+2025-05-31,Bond/Fund Distribution,233.4,127.4,106.0
+2025-06-01,Equity Brokerage,1145.1,666.0,479.1
+2025-06-01,Margin Lending,896.2,461.5,434.7
+2025-06-01,Derivatives,468.3,133.8,334.5
+2025-06-01,Advisory,226.5,104.8,121.7
+2025-06-01,Bond/Fund Distribution,261.9,125.7,136.2
+2025-06-02,Equity Brokerage,1254.3,385.3,869.1
+2025-06-02,Margin Lending,858.7,280.6,578.1
+2025-06-02,Derivatives,473.8,156.4,317.4
+2025-06-02,Advisory,20.0,10.0,10.0
+2025-06-02,Bond/Fund Distribution,291.5,91.4,200.0
+2025-06-03,Equity Brokerage,1087.4,398.1,689.3
+2025-06-03,Margin Lending,1011.0,287.3,723.7
+2025-06-03,Derivatives,307.0,164.1,142.9
+2025-06-03,Advisory,300.3,123.0,177.3
+2025-06-03,Bond/Fund Distribution,403.4,196.8,206.6
+2025-06-04,Equity Brokerage,1288.3,641.4,646.9
+2025-06-04,Margin Lending,972.7,469.3,503.4
+2025-06-04,Derivatives,382.1,120.8,261.4
+2025-06-04,Advisory,45.2,13.0,32.2
+2025-06-04,Bond/Fund Distribution,115.7,40.0,75.7
+2025-06-05,Equity Brokerage,1084.4,309.5,774.9
+2025-06-05,Margin Lending,1018.4,488.2,530.2
+2025-06-05,Derivatives,544.4,317.7,226.7
+2025-06-05,Advisory,107.7,49.1,58.6
+2025-06-05,Bond/Fund Distribution,304.8,121.9,182.9
+2025-06-06,Equity Brokerage,1132.9,695.5,437.3
+2025-06-06,Margin Lending,1104.5,469.2,635.3
+2025-06-06,Derivatives,189.3,81.7,107.6
+2025-06-06,Advisory,183.8,65.6,118.3
+2025-06-06,Bond/Fund Distribution,386.1,231.2,154.8
+2025-06-07,Equity Brokerage,1147.7,345.7,802.0
+2025-06-07,Margin Lending,978.3,379.3,599.0
+2025-06-07,Derivatives,217.5,84.4,133.1
+2025-06-07,Advisory,112.5,66.2,46.3
+2025-06-07,Bond/Fund Distribution,234.2,93.4,140.8
+2025-06-08,Equity Brokerage,1321.1,806.8,514.3
+2025-06-08,Margin Lending,1075.6,491.7,583.8
+2025-06-08,Derivatives,287.1,133.7,153.4
+2025-06-08,Advisory,264.0,162.1,102.0
+2025-06-08,Bond/Fund Distribution,228.1,133.5,94.6
+2025-06-09,Equity Brokerage,1241.6,717.1,524.4
+2025-06-09,Margin Lending,930.7,385.9,544.7
+2025-06-09,Derivatives,389.1,115.1,274.0
+2025-06-09,Advisory,205.1,95.4,109.7
+2025-06-09,Bond/Fund Distribution,252.5,86.8,165.7
+2025-06-10,Equity Brokerage,1174.0,487.1,686.8
+2025-06-10,Margin Lending,965.3,499.3,466.0
+2025-06-10,Derivatives,366.8,206.3,160.5
+2025-06-10,Advisory,79.4,31.7,47.7
+2025-06-10,Bond/Fund Distribution,315.6,99.4,216.2
+2025-06-11,Equity Brokerage,1282.8,664.1,618.7
+2025-06-11,Margin Lending,792.3,284.6,507.7
+2025-06-11,Derivatives,415.8,232.4,183.4
+2025-06-11,Advisory,154.1,59.5,94.7
+2025-06-11,Bond/Fund Distribution,120.5,59.0,61.4
+2025-06-12,Equity Brokerage,1138.9,471.0,667.9
+2025-06-12,Margin Lending,825.2,478.2,347.0
+2025-06-12,Derivatives,395.9,155.8,240.1
+2025-06-12,Advisory,210.3,129.3,81.0
+2025-06-12,Bond/Fund Distribution,271.8,136.2,135.7
+2025-06-13,Equity Brokerage,1131.5,465.6,665.9
+2025-06-13,Margin Lending,952.9,354.4,598.5
+2025-06-13,Derivatives,533.2,228.7,304.5
+2025-06-13,Advisory,329.8,120.6,209.2
+2025-06-13,Bond/Fund Distribution,57.5,29.2,28.3
+2025-06-14,Equity Brokerage,1185.0,511.5,673.5
+2025-06-14,Margin Lending,979.6,373.1,606.4
+2025-06-14,Derivatives,448.4,192.3,256.1
+2025-06-14,Advisory,186.1,80.5,105.6
+2025-06-14,Bond/Fund Distribution,102.0,46.9,55.2
+2025-06-15,Equity Brokerage,1156.3,693.0,463.3
+2025-06-15,Margin Lending,1044.2,471.4,572.8
+2025-06-15,Derivatives,471.3,134.1,337.2
+2025-06-15,Advisory,166.1,74.2,91.8
+2025-06-15,Bond/Fund Distribution,170.3,105.1,65.1
+2025-06-16,Equity Brokerage,1215.6,480.2,735.4
+2025-06-16,Margin Lending,917.2,322.4,594.9
+2025-06-16,Derivatives,479.1,184.9,294.2
+2025-06-16,Advisory,202.1,116.3,85.7
+2025-06-16,Bond/Fund Distribution,300.0,116.0,184.0
+2025-06-17,Equity Brokerage,1040.6,428.7,611.8
+2025-06-17,Margin Lending,994.2,381.5,612.7
+2025-06-17,Derivatives,287.7,115.3,172.4
+2025-06-17,Advisory,166.7,73.7,92.9
+2025-06-17,Bond/Fund Distribution,338.4,125.8,212.7
+2025-06-18,Equity Brokerage,1087.8,370.8,716.9
+2025-06-18,Margin Lending,995.4,612.3,383.1
+2025-06-18,Derivatives,371.4,111.9,259.4
+2025-06-18,Advisory,103.4,47.6,55.8
+2025-06-18,Bond/Fund Distribution,304.5,116.5,188.0
+2025-06-19,Equity Brokerage,1113.2,640.6,472.6
+2025-06-19,Margin Lending,882.1,426.9,455.2
+2025-06-19,Derivatives,248.7,144.0,104.7
+2025-06-19,Advisory,160.4,49.7,110.7
+2025-06-19,Bond/Fund Distribution,255.1,112.6,142.5
+2025-06-20,Equity Brokerage,1305.7,652.9,652.9
+2025-06-20,Margin Lending,917.3,368.3,549.0
+2025-06-20,Derivatives,553.7,319.5,234.2
+2025-06-20,Advisory,89.8,39.3,50.5
+2025-06-20,Bond/Fund Distribution,222.9,85.3,137.7
+2025-06-21,Equity Brokerage,1165.0,648.6,516.3
+2025-06-21,Margin Lending,828.3,265.6,562.7
+2025-06-21,Derivatives,368.1,195.5,172.5
+2025-06-21,Advisory,43.0,24.5,18.5
+2025-06-21,Bond/Fund Distribution,240.3,146.3,94.0
+2025-06-22,Equity Brokerage,1077.3,489.9,587.3
+2025-06-22,Margin Lending,954.1,414.9,539.3
+2025-06-22,Derivatives,344.0,111.2,232.8
+2025-06-22,Advisory,329.2,145.2,184.0
+2025-06-22,Bond/Fund Distribution,237.6,146.0,91.6
+2025-06-23,Equity Brokerage,1214.7,399.6,815.2
+2025-06-23,Margin Lending,830.7,317.7,513.0
+2025-06-23,Derivatives,452.6,270.8,181.8
+2025-06-23,Advisory,22.1,12.0,10.1
+2025-06-23,Bond/Fund Distribution,336.7,105.1,231.6
+2025-06-24,Equity Brokerage,1156.7,603.8,552.9
+2025-06-24,Margin Lending,841.2,348.3,492.9
+2025-06-24,Derivatives,440.1,191.6,248.5
+2025-06-24,Advisory,59.5,21.9,37.6
+2025-06-24,Bond/Fund Distribution,272.0,105.4,166.6
+2025-06-25,Equity Brokerage,1163.0,369.0,794.0
+2025-06-25,Margin Lending,911.8,338.5,573.3
+2025-06-25,Derivatives,345.6,200.5,145.1
+2025-06-25,Advisory,20.0,10.0,10.0
+2025-06-25,Bond/Fund Distribution,262.7,118.3,144.3
+2025-06-26,Equity Brokerage,1233.8,694.6,539.2
+2025-06-26,Margin Lending,792.4,322.4,469.9
+2025-06-26,Derivatives,437.9,142.6,295.3
+2025-06-26,Advisory,94.0,43.1,50.9
+2025-06-26,Bond/Fund Distribution,302.2,160.8,141.4
+2025-06-27,Equity Brokerage,1145.4,612.9,532.5
+2025-06-27,Margin Lending,893.7,331.2,562.5
+2025-06-27,Derivatives,385.2,180.9,204.3
+2025-06-27,Advisory,89.7,25.3,64.4
+2025-06-27,Bond/Fund Distribution,27.2,16.6,10.6
+2025-06-28,Equity Brokerage,1288.8,462.2,826.6
+2025-06-28,Margin Lending,957.8,349.2,608.6
+2025-06-28,Derivatives,347.9,203.3,144.6
+2025-06-28,Advisory,53.2,21.0,32.2
+2025-06-28,Bond/Fund Distribution,281.9,89.0,192.8
+2025-06-29,Equity Brokerage,1070.8,454.9,615.8
+2025-06-29,Margin Lending,977.4,441.8,535.6
+2025-06-29,Derivatives,333.0,196.8,136.2
+2025-06-29,Advisory,160.4,73.3,87.0
+2025-06-29,Bond/Fund Distribution,157.1,75.5,81.6
+2025-06-30,Equity Brokerage,1223.8,399.0,824.7
+2025-06-30,Margin Lending,1006.2,506.4,499.8
+2025-06-30,Derivatives,489.3,277.6,211.7
+2025-06-30,Advisory,167.6,100.0,67.6
+2025-06-30,Bond/Fund Distribution,313.6,127.8,185.8
+2025-07-01,Equity Brokerage,1240.7,588.9,651.8
+2025-07-01,Margin Lending,998.4,382.9,615.6
+2025-07-01,Derivatives,409.0,115.7,293.3
+2025-07-01,Advisory,125.1,64.7,60.4
+2025-07-01,Bond/Fund Distribution,319.9,144.5,175.4
+2025-07-02,Equity Brokerage,1168.1,623.4,544.6
+2025-07-02,Margin Lending,750.6,352.5,398.2
+2025-07-02,Derivatives,401.1,243.5,157.5
+2025-07-02,Advisory,214.7,85.7,129.1
+2025-07-02,Bond/Fund Distribution,139.7,47.0,92.6
+2025-07-03,Equity Brokerage,1076.8,582.4,494.5
+2025-07-03,Margin Lending,1017.0,512.3,504.7
+2025-07-03,Derivatives,296.7,125.9,170.8
+2025-07-03,Advisory,219.7,61.5,158.2
+2025-07-03,Bond/Fund Distribution,173.4,102.2,71.2
+2025-07-04,Equity Brokerage,1190.3,402.7,787.6
+2025-07-04,Margin Lending,740.3,313.7,426.6
+2025-07-04,Derivatives,354.3,118.5,235.8
+2025-07-04,Advisory,45.9,25.2,20.7
+2025-07-04,Bond/Fund Distribution,270.3,122.4,147.9
+2025-07-05,Equity Brokerage,1198.0,688.8,509.2
+2025-07-05,Margin Lending,1000.9,399.4,601.5
+2025-07-05,Derivatives,417.2,213.7,203.6
+2025-07-05,Advisory,180.7,94.2,86.5
+2025-07-05,Bond/Fund Distribution,266.6,123.4,143.1
+2025-07-06,Equity Brokerage,1209.8,393.9,815.9
+2025-07-06,Margin Lending,771.9,472.1,299.8
+2025-07-06,Derivatives,399.9,135.5,264.4
+2025-07-06,Advisory,191.3,76.9,114.4
+2025-07-06,Bond/Fund Distribution,275.7,163.5,112.3
+2025-07-07,Equity Brokerage,1183.8,379.2,804.5
+2025-07-07,Margin Lending,1009.8,597.7,412.1
+2025-07-07,Derivatives,373.5,140.2,233.3
+2025-07-07,Advisory,251.1,106.8,144.3
+2025-07-07,Bond/Fund Distribution,205.7,99.5,106.2
+2025-07-08,Equity Brokerage,1224.8,677.1,547.7
+2025-07-08,Margin Lending,1078.8,659.9,418.9
+2025-07-08,Derivatives,335.0,101.4,233.6
+2025-07-08,Advisory,220.3,115.7,104.6
+2025-07-08,Bond/Fund Distribution,239.0,85.9,153.0
+2025-07-09,Equity Brokerage,1317.2,495.2,822.1
+2025-07-09,Margin Lending,964.1,496.0,468.1
+2025-07-09,Derivatives,421.5,148.7,272.8
+2025-07-09,Advisory,258.9,123.0,135.8
+2025-07-09,Bond/Fund Distribution,281.9,148.2,133.6
+2025-07-10,Equity Brokerage,1189.6,404.6,785.0
+2025-07-10,Margin Lending,834.1,342.7,491.4
+2025-07-10,Derivatives,442.0,131.7,310.3
+2025-07-10,Advisory,122.1,39.8,82.3
+2025-07-10,Bond/Fund Distribution,370.8,202.2,168.6
+2025-07-11,Equity Brokerage,1226.8,743.8,483.0
+2025-07-11,Margin Lending,956.4,374.9,581.5
+2025-07-11,Derivatives,376.9,128.1,248.8
+2025-07-11,Advisory,66.8,32.6,34.2
+2025-07-11,Bond/Fund Distribution,190.6,78.7,112.0
+2025-07-12,Equity Brokerage,1277.2,620.3,656.9
+2025-07-12,Margin Lending,800.1,399.2,400.9
+2025-07-12,Derivatives,388.1,167.6,220.6
+2025-07-12,Advisory,107.6,38.6,69.0
+2025-07-12,Bond/Fund Distribution,225.2,97.4,127.8
+2025-07-13,Equity Brokerage,1203.8,674.7,529.1
+2025-07-13,Margin Lending,1057.2,465.6,591.7
+2025-07-13,Derivatives,321.2,117.3,203.9
+2025-07-13,Advisory,121.7,63.6,58.1
+2025-07-13,Bond/Fund Distribution,179.9,84.7,95.3
+2025-07-14,Equity Brokerage,1326.4,468.5,857.9
+2025-07-14,Margin Lending,924.2,434.6,489.6
+2025-07-14,Derivatives,333.4,130.8,202.6
+2025-07-14,Advisory,97.8,42.8,55.0
+2025-07-14,Bond/Fund Distribution,346.8,126.8,220.0
+2025-07-15,Equity Brokerage,1142.7,497.3,645.4
+2025-07-15,Margin Lending,846.2,378.4,467.8
+2025-07-15,Derivatives,350.8,176.3,174.6
+2025-07-15,Advisory,288.9,164.6,124.2
+2025-07-15,Bond/Fund Distribution,244.8,85.8,159.1
+2025-07-16,Equity Brokerage,1336.5,534.0,802.5
+2025-07-16,Margin Lending,851.6,310.9,540.7
+2025-07-16,Derivatives,297.7,150.8,146.9
+2025-07-16,Advisory,126.3,77.5,48.7
+2025-07-16,Bond/Fund Distribution,257.6,91.7,165.9
+2025-07-17,Equity Brokerage,1185.2,617.2,568.0
+2025-07-17,Margin Lending,977.9,598.0,379.9
+2025-07-17,Derivatives,386.7,159.6,227.1
+2025-07-17,Advisory,207.3,122.3,85.0
+2025-07-17,Bond/Fund Distribution,254.4,136.4,118.0
+2025-07-18,Equity Brokerage,1028.1,481.7,546.4
+2025-07-18,Margin Lending,980.3,423.9,556.4
+2025-07-18,Derivatives,304.5,85.3,219.2
+2025-07-18,Advisory,73.0,43.3,29.8
+2025-07-18,Bond/Fund Distribution,312.5,159.6,152.9
+2025-07-19,Equity Brokerage,1099.7,406.7,693.0
+2025-07-19,Margin Lending,991.1,412.6,578.5
+2025-07-19,Derivatives,456.5,159.8,296.7
+2025-07-19,Advisory,172.9,65.4,107.5
+2025-07-19,Bond/Fund Distribution,315.4,152.8,162.5
+2025-07-20,Equity Brokerage,1190.6,629.8,560.9
+2025-07-20,Margin Lending,1100.5,673.0,427.5
+2025-07-20,Derivatives,372.8,146.6,226.2
+2025-07-20,Advisory,234.3,95.0,139.3
+2025-07-20,Bond/Fund Distribution,334.3,165.2,169.0
+2025-07-21,Equity Brokerage,1070.4,567.0,503.4
+2025-07-21,Margin Lending,991.3,306.3,684.9
+2025-07-21,Derivatives,391.7,127.6,264.1
+2025-07-21,Advisory,241.3,103.2,138.1
+2025-07-21,Bond/Fund Distribution,166.0,53.2,112.8
+2025-07-22,Equity Brokerage,1224.4,476.6,747.8
+2025-07-22,Margin Lending,1025.5,304.7,720.8
+2025-07-22,Derivatives,427.9,136.6,291.3
+2025-07-22,Advisory,241.8,82.4,159.4
+2025-07-22,Bond/Fund Distribution,319.7,146.3,173.4
+2025-07-23,Equity Brokerage,1112.7,578.5,534.2
+2025-07-23,Margin Lending,914.0,372.8,541.2
+2025-07-23,Derivatives,326.8,189.7,137.1
+2025-07-23,Advisory,113.4,37.5,75.9
+2025-07-23,Bond/Fund Distribution,245.8,105.9,139.9
+2025-07-24,Equity Brokerage,1304.2,514.0,790.2
+2025-07-24,Margin Lending,917.7,272.7,644.9
+2025-07-24,Derivatives,277.9,129.1,148.8
+2025-07-24,Advisory,93.4,46.7,46.6
+2025-07-24,Bond/Fund Distribution,408.0,143.6,264.3
+2025-07-25,Equity Brokerage,1325.7,503.0,822.7
+2025-07-25,Margin Lending,899.8,337.5,562.2
+2025-07-25,Derivatives,238.0,91.0,147.0
+2025-07-25,Advisory,39.1,22.9,16.2
+2025-07-25,Bond/Fund Distribution,116.6,32.9,83.7
+2025-07-26,Equity Brokerage,1303.3,559.3,744.1
+2025-07-26,Margin Lending,961.7,418.0,543.8
+2025-07-26,Derivatives,383.4,168.2,215.2
+2025-07-26,Advisory,244.0,137.0,107.0
+2025-07-26,Bond/Fund Distribution,105.9,51.3,54.7
+2025-07-27,Equity Brokerage,1181.7,407.8,773.9
+2025-07-27,Margin Lending,1008.8,406.2,602.6
+2025-07-27,Derivatives,367.0,206.5,160.4
+2025-07-27,Advisory,197.2,83.5,113.7
+2025-07-27,Bond/Fund Distribution,187.2,110.2,77.0
+2025-07-28,Equity Brokerage,1184.9,496.4,688.5
+2025-07-28,Margin Lending,1062.1,555.0,507.1
+2025-07-28,Derivatives,427.7,234.9,192.8
+2025-07-28,Advisory,37.6,13.5,24.1
+2025-07-28,Bond/Fund Distribution,284.3,172.0,112.3
+2025-07-29,Equity Brokerage,1321.6,386.9,934.7
+2025-07-29,Margin Lending,979.6,502.1,477.5
+2025-07-29,Derivatives,329.8,160.5,169.3
+2025-07-29,Advisory,214.8,112.7,102.1
+2025-07-29,Bond/Fund Distribution,275.5,153.7,121.7
+2025-07-30,Equity Brokerage,1154.5,581.4,573.2
+2025-07-30,Margin Lending,1072.1,413.9,658.2
+2025-07-30,Derivatives,358.8,102.5,256.3
+2025-07-30,Advisory,99.7,31.1,68.6
+2025-07-30,Bond/Fund Distribution,265.7,85.7,180.0
+2025-07-31,Equity Brokerage,1285.6,537.6,748.0
+2025-07-31,Margin Lending,854.3,430.5,423.8
+2025-07-31,Derivatives,449.2,259.1,190.1
+2025-07-31,Advisory,166.7,78.6,88.0
+2025-07-31,Bond/Fund Distribution,307.9,136.1,171.8
+2025-08-01,Equity Brokerage,1110.6,571.8,538.8
+2025-08-01,Margin Lending,1027.7,424.9,602.7
+2025-08-01,Derivatives,399.5,176.1,223.4
+2025-08-01,Advisory,100.9,39.2,61.8
+2025-08-01,Bond/Fund Distribution,158.0,86.8,71.2
+2025-08-02,Equity Brokerage,1086.4,624.5,461.9
+2025-08-02,Margin Lending,847.3,348.2,499.1
+2025-08-02,Derivatives,479.3,294.2,185.0
+2025-08-02,Advisory,146.9,74.4,72.4
+2025-08-02,Bond/Fund Distribution,388.4,210.8,177.6
+2025-08-03,Equity Brokerage,1193.2,669.1,524.1
+2025-08-03,Margin Lending,844.8,403.7,441.1
+2025-08-03,Derivatives,376.9,176.3,200.7
+2025-08-03,Advisory,86.0,46.5,39.5
+2025-08-03,Bond/Fund Distribution,310.6,147.6,163.0
+2025-08-04,Equity Brokerage,1240.5,356.8,883.7
+2025-08-04,Margin Lending,1109.6,360.5,749.1
+2025-08-04,Derivatives,247.5,105.9,141.6
+2025-08-04,Advisory,54.0,24.7,29.2
+2025-08-04,Bond/Fund Distribution,233.0,106.3,126.8
+2025-08-05,Equity Brokerage,1157.7,518.0,639.7
+2025-08-05,Margin Lending,981.6,416.5,565.1
+2025-08-05,Derivatives,486.7,185.0,301.7
+2025-08-05,Advisory,113.2,49.0,64.3
+2025-08-05,Bond/Fund Distribution,294.7,121.5,173.2
+2025-08-06,Equity Brokerage,1042.6,470.6,572.1
+2025-08-06,Margin Lending,895.2,459.1,436.1
+2025-08-06,Derivatives,185.8,62.0,123.8
+2025-08-06,Advisory,255.8,139.4,116.4
+2025-08-06,Bond/Fund Distribution,306.0,186.1,120.0
+2025-08-07,Equity Brokerage,1306.5,740.0,566.5
+2025-08-07,Margin Lending,941.0,521.1,419.9
+2025-08-07,Derivatives,249.2,143.6,105.6
+2025-08-07,Advisory,148.7,82.6,66.1
+2025-08-07,Bond/Fund Distribution,178.5,77.4,101.0
+2025-08-08,Equity Brokerage,1209.4,634.0,575.4
+2025-08-08,Margin Lending,1034.6,366.4,668.2
+2025-08-08,Derivatives,445.5,216.4,229.1
+2025-08-08,Advisory,186.5,65.8,120.6
+2025-08-08,Bond/Fund Distribution,299.2,134.9,164.2
+2025-08-09,Equity Brokerage,1294.3,541.1,753.1
+2025-08-09,Margin Lending,1031.2,366.9,664.3
+2025-08-09,Derivatives,362.1,124.6,237.5
+2025-08-09,Advisory,153.9,54.4,99.5
+2025-08-09,Bond/Fund Distribution,305.0,186.2,118.8
+2025-08-10,Equity Brokerage,1139.4,554.0,585.4
+2025-08-10,Margin Lending,1064.8,631.7,433.1
+2025-08-10,Derivatives,457.4,187.4,270.0
+2025-08-10,Advisory,175.8,85.5,90.3
+2025-08-10,Bond/Fund Distribution,325.5,91.9,233.6
+2025-08-11,Equity Brokerage,1166.9,616.2,550.7
+2025-08-11,Margin Lending,879.4,327.9,551.5
+2025-08-11,Derivatives,441.2,129.4,311.8
+2025-08-11,Advisory,185.0,68.5,116.5
+2025-08-11,Bond/Fund Distribution,294.0,150.3,143.6
+2025-08-12,Equity Brokerage,1083.5,592.8,490.7
+2025-08-12,Margin Lending,1006.3,518.4,488.0
+2025-08-12,Derivatives,385.8,154.5,231.2
+2025-08-12,Advisory,223.2,81.1,142.1
+2025-08-12,Bond/Fund Distribution,318.1,177.8,140.3
+2025-08-13,Equity Brokerage,970.9,488.7,482.2
+2025-08-13,Margin Lending,817.5,346.4,471.1
+2025-08-13,Derivatives,517.8,312.7,205.0
+2025-08-13,Advisory,199.9,79.5,120.4
+2025-08-13,Bond/Fund Distribution,64.7,25.0,39.7
+2025-08-14,Equity Brokerage,1099.2,508.2,591.0
+2025-08-14,Margin Lending,871.7,503.2,368.6
+2025-08-14,Derivatives,541.3,238.9,302.4
+2025-08-14,Advisory,253.3,130.9,122.4
+2025-08-14,Bond/Fund Distribution,144.9,79.8,65.0
+2025-08-15,Equity Brokerage,1353.7,470.1,883.6
+2025-08-15,Margin Lending,1051.9,497.9,554.0
+2025-08-15,Derivatives,339.9,150.8,189.1
+2025-08-15,Advisory,196.9,56.2,140.7
+2025-08-15,Bond/Fund Distribution,182.9,53.2,129.7
+2025-08-16,Equity Brokerage,1149.0,413.6,735.4
+2025-08-16,Margin Lending,815.6,493.7,321.9
+2025-08-16,Derivatives,293.3,173.4,120.0
+2025-08-16,Advisory,203.3,119.1,84.2
+2025-08-16,Bond/Fund Distribution,320.0,122.3,197.7
+2025-08-17,Equity Brokerage,1236.0,391.6,844.4
+2025-08-17,Margin Lending,832.7,395.7,437.0
+2025-08-17,Derivatives,396.0,155.8,240.2
+2025-08-17,Advisory,180.2,102.7,77.5
+2025-08-17,Bond/Fund Distribution,250.7,91.4,159.4
+2025-08-18,Equity Brokerage,1276.3,513.2,763.1
+2025-08-18,Margin Lending,983.2,482.0,501.2
+2025-08-18,Derivatives,261.8,118.6,143.2
+2025-08-18,Advisory,80.6,28.3,52.3
+2025-08-18,Bond/Fund Distribution,224.1,97.9,126.1
+2025-08-19,Equity Brokerage,1229.6,438.1,791.5
+2025-08-19,Margin Lending,983.4,295.8,687.6
+2025-08-19,Derivatives,388.1,203.4,184.7
+2025-08-19,Advisory,265.3,102.7,162.6
+2025-08-19,Bond/Fund Distribution,312.0,132.5,179.5
+2025-08-20,Equity Brokerage,1263.0,419.8,843.2
+2025-08-20,Margin Lending,1026.4,439.3,587.1
+2025-08-20,Derivatives,292.1,146.4,145.7
+2025-08-20,Advisory,137.7,68.4,69.3
+2025-08-20,Bond/Fund Distribution,243.7,70.4,173.3
+2025-08-21,Equity Brokerage,1312.0,658.8,653.2
+2025-08-21,Margin Lending,876.3,371.1,505.2
+2025-08-21,Derivatives,467.7,195.9,271.8
+2025-08-21,Advisory,349.6,113.3,236.3
+2025-08-21,Bond/Fund Distribution,333.4,112.2,221.1
+2025-08-22,Equity Brokerage,1072.9,434.5,638.4
+2025-08-22,Margin Lending,956.6,554.9,401.7
+2025-08-22,Derivatives,346.9,204.0,142.9
+2025-08-22,Advisory,112.1,48.4,63.7
+2025-08-22,Bond/Fund Distribution,439.7,141.1,298.5
+2025-08-23,Equity Brokerage,1126.0,427.7,698.4
+2025-08-23,Margin Lending,1152.4,402.0,750.4
+2025-08-23,Derivatives,507.0,311.3,195.7
+2025-08-23,Advisory,236.2,85.1,151.1
+2025-08-23,Bond/Fund Distribution,422.9,225.6,197.3
+2025-08-24,Equity Brokerage,1160.4,416.7,743.7
+2025-08-24,Margin Lending,897.6,449.4,448.3
+2025-08-24,Derivatives,466.5,266.5,200.0
+2025-08-24,Advisory,73.1,45.0,28.1
+2025-08-24,Bond/Fund Distribution,271.5,136.1,135.4
+2025-08-25,Equity Brokerage,1286.0,490.6,795.4
+2025-08-25,Margin Lending,921.6,321.9,599.7
+2025-08-25,Derivatives,303.0,183.5,119.4
+2025-08-25,Advisory,312.7,177.1,135.6
+2025-08-25,Bond/Fund Distribution,216.0,63.6,152.4
+2025-08-26,Equity Brokerage,1168.6,585.1,583.5
+2025-08-26,Margin Lending,1029.0,480.1,549.0
+2025-08-26,Derivatives,233.8,141.5,92.3
+2025-08-26,Advisory,155.0,52.8,102.1
+2025-08-26,Bond/Fund Distribution,300.8,106.1,194.7
+2025-08-27,Equity Brokerage,1114.2,486.6,627.6
+2025-08-27,Margin Lending,983.2,511.8,471.5
+2025-08-27,Derivatives,413.6,163.5,250.2
+2025-08-27,Advisory,207.1,91.0,116.1
+2025-08-27,Bond/Fund Distribution,301.8,128.8,173.0
+2025-08-28,Equity Brokerage,1215.3,716.1,499.2
+2025-08-28,Margin Lending,1025.5,468.5,557.0
+2025-08-28,Derivatives,236.9,113.7,123.2
+2025-08-28,Advisory,123.4,57.9,65.4
+2025-08-28,Bond/Fund Distribution,251.1,72.0,179.1
+2025-08-29,Equity Brokerage,1126.4,629.6,496.8
+2025-08-29,Margin Lending,1120.2,678.8,441.3
+2025-08-29,Derivatives,418.1,219.8,198.3
+2025-08-29,Advisory,115.7,61.4,54.3
+2025-08-29,Bond/Fund Distribution,272.2,127.6,144.6
+2025-08-30,Equity Brokerage,1144.1,550.3,593.9
+2025-08-30,Margin Lending,1004.3,598.7,405.6
+2025-08-30,Derivatives,223.7,107.0,116.7
+2025-08-30,Advisory,20.0,10.0,10.0
+2025-08-30,Bond/Fund Distribution,380.9,200.3,180.6
+2025-08-31,Equity Brokerage,1194.6,506.9,687.7
+2025-08-31,Margin Lending,916.1,467.9,448.2
+2025-08-31,Derivatives,474.9,197.6,277.3
+2025-08-31,Advisory,94.2,30.4,63.7
+2025-08-31,Bond/Fund Distribution,335.8,136.6,199.3
+2025-09-01,Equity Brokerage,1250.1,545.6,704.5
+2025-09-01,Margin Lending,942.0,407.3,534.7
+2025-09-01,Derivatives,382.6,111.7,270.8
+2025-09-01,Advisory,73.9,26.2,47.7
+2025-09-01,Bond/Fund Distribution,252.3,106.3,146.0
+2025-09-02,Equity Brokerage,1122.0,417.5,704.5
+2025-09-02,Margin Lending,1150.2,345.3,804.9
+2025-09-02,Derivatives,207.9,96.9,111.0
+2025-09-02,Advisory,241.5,87.7,153.8
+2025-09-02,Bond/Fund Distribution,281.6,90.1,191.4
+2025-09-03,Equity Brokerage,1171.3,708.3,463.0
+2025-09-03,Margin Lending,1005.5,445.8,559.8
+2025-09-03,Derivatives,461.2,203.1,258.1
+2025-09-03,Advisory,100.4,43.3,57.1
+2025-09-03,Bond/Fund Distribution,313.8,145.4,168.4
+2025-09-04,Equity Brokerage,1309.0,797.8,511.3
+2025-09-04,Margin Lending,830.4,328.4,502.0
+2025-09-04,Derivatives,351.8,215.1,136.7
+2025-09-04,Advisory,151.0,70.5,80.6
+2025-09-04,Bond/Fund Distribution,195.1,119.5,75.6
+2025-09-05,Equity Brokerage,1126.5,659.7,466.7
+2025-09-05,Margin Lending,893.7,343.8,549.9
+2025-09-05,Derivatives,387.7,217.9,169.8
+2025-09-05,Advisory,186.6,107.7,78.9
+2025-09-05,Bond/Fund Distribution,238.8,119.6,119.2
+2025-09-06,Equity Brokerage,1021.1,499.5,521.6
+2025-09-06,Margin Lending,1054.6,581.8,472.7
+2025-09-06,Derivatives,392.2,161.1,231.1
+2025-09-06,Advisory,154.7,55.8,98.9
+2025-09-06,Bond/Fund Distribution,161.2,65.6,95.6
+2025-09-07,Equity Brokerage,1242.6,488.5,754.1
+2025-09-07,Margin Lending,843.0,510.5,332.4
+2025-09-07,Derivatives,293.2,137.3,155.8
+2025-09-07,Advisory,187.3,108.5,78.8
+2025-09-07,Bond/Fund Distribution,287.7,164.9,122.7
+2025-09-08,Equity Brokerage,1265.3,365.7,899.6
+2025-09-08,Margin Lending,1011.4,431.4,580.0
+2025-09-08,Derivatives,179.8,111.3,68.5
+2025-09-08,Advisory,68.4,34.8,33.6
+2025-09-08,Bond/Fund Distribution,67.8,32.3,35.5
+2025-09-09,Equity Brokerage,1209.8,347.6,862.2
+2025-09-09,Margin Lending,796.1,230.0,566.1
+2025-09-09,Derivatives,305.6,111.0,194.6
+2025-09-09,Advisory,244.9,113.4,131.5
+2025-09-09,Bond/Fund Distribution,117.8,37.4,80.5
+2025-09-10,Equity Brokerage,1301.2,436.7,864.5
+2025-09-10,Margin Lending,1061.6,599.1,462.5
+2025-09-10,Derivatives,424.9,122.2,302.6
+2025-09-10,Advisory,113.1,49.4,63.7
+2025-09-10,Bond/Fund Distribution,326.0,164.7,161.2
+2025-09-11,Equity Brokerage,1028.0,342.2,685.8
+2025-09-11,Margin Lending,1002.7,414.8,587.9
+2025-09-11,Derivatives,373.3,206.8,166.6
+2025-09-11,Advisory,119.9,71.9,48.0
+2025-09-11,Bond/Fund Distribution,183.6,103.7,79.9
+2025-09-12,Equity Brokerage,1187.6,362.2,825.4
+2025-09-12,Margin Lending,1063.5,575.4,488.1
+2025-09-12,Derivatives,474.3,269.9,204.3
+2025-09-12,Advisory,210.5,121.3,89.2
+2025-09-12,Bond/Fund Distribution,230.4,80.1,150.3
+2025-09-13,Equity Brokerage,1188.3,389.2,799.1
+2025-09-13,Margin Lending,857.4,529.2,328.2
+2025-09-13,Derivatives,424.5,193.7,230.8
+2025-09-13,Advisory,176.9,89.0,87.9
+2025-09-13,Bond/Fund Distribution,232.9,125.9,107.0
+2025-09-14,Equity Brokerage,1276.6,492.0,784.6
+2025-09-14,Margin Lending,885.5,366.5,519.0
+2025-09-14,Derivatives,530.6,323.2,207.4
+2025-09-14,Advisory,20.0,10.0,10.0
+2025-09-14,Bond/Fund Distribution,181.5,64.8,116.7
+2025-09-15,Equity Brokerage,1199.7,394.8,805.0
+2025-09-15,Margin Lending,1040.9,368.6,672.3
+2025-09-15,Derivatives,455.7,163.2,292.6
+2025-09-15,Advisory,81.8,24.7,57.2
+2025-09-15,Bond/Fund Distribution,331.3,154.3,177.0
+2025-09-16,Equity Brokerage,1347.3,672.2,675.0
+2025-09-16,Margin Lending,863.3,476.1,387.2
+2025-09-16,Derivatives,423.8,241.1,182.7
+2025-09-16,Advisory,206.7,93.4,113.4
+2025-09-16,Bond/Fund Distribution,230.2,138.6,91.5
+2025-09-17,Equity Brokerage,1302.3,634.0,668.3
+2025-09-17,Margin Lending,1009.5,491.7,517.8
+2025-09-17,Derivatives,622.1,379.0,243.2
+2025-09-17,Advisory,41.9,18.8,23.1
+2025-09-17,Bond/Fund Distribution,305.8,154.4,151.4
+2025-09-18,Equity Brokerage,1154.1,601.6,552.5
+2025-09-18,Margin Lending,812.0,486.2,325.8
+2025-09-18,Derivatives,400.2,161.5,238.7
+2025-09-18,Advisory,86.7,49.8,36.9
+2025-09-18,Bond/Fund Distribution,240.1,115.3,124.7
+2025-09-19,Equity Brokerage,1217.2,652.7,564.4
+2025-09-19,Margin Lending,967.3,329.1,638.2
+2025-09-19,Derivatives,414.0,133.6,280.5
+2025-09-19,Advisory,117.3,35.6,81.7
+2025-09-19,Bond/Fund Distribution,243.2,132.2,111.0
+2025-09-20,Equity Brokerage,1182.9,642.5,540.3
+2025-09-20,Margin Lending,1002.6,310.2,692.4
+2025-09-20,Derivatives,498.3,191.5,306.8
+2025-09-20,Advisory,198.8,70.1,128.7
+2025-09-20,Bond/Fund Distribution,259.3,102.2,157.1
+2025-09-21,Equity Brokerage,1131.2,671.9,459.3
+2025-09-21,Margin Lending,944.7,472.9,471.8
+2025-09-21,Derivatives,377.9,175.6,202.3
+2025-09-21,Advisory,154.1,60.4,93.7
+2025-09-21,Bond/Fund Distribution,299.4,130.7,168.7
+2025-09-22,Equity Brokerage,1088.4,418.9,669.5
+2025-09-22,Margin Lending,1041.2,474.1,567.1
+2025-09-22,Derivatives,325.3,177.6,147.7
+2025-09-22,Advisory,208.1,63.2,145.0
+2025-09-22,Bond/Fund Distribution,356.5,167.1,189.4
+2025-09-23,Equity Brokerage,1136.4,405.4,731.0
+2025-09-23,Margin Lending,957.6,478.6,478.9
+2025-09-23,Derivatives,381.2,231.0,150.1
+2025-09-23,Advisory,221.5,112.5,109.1
+2025-09-23,Bond/Fund Distribution,178.3,53.9,124.4
+2025-09-24,Equity Brokerage,1104.6,594.2,510.4
+2025-09-24,Margin Lending,813.7,491.6,322.1
+2025-09-24,Derivatives,319.0,174.8,144.2
+2025-09-24,Advisory,269.9,120.6,149.3
+2025-09-24,Bond/Fund Distribution,205.5,90.5,115.0
+2025-09-25,Equity Brokerage,1176.7,619.0,557.7
+2025-09-25,Margin Lending,1014.6,292.7,721.9
+2025-09-25,Derivatives,281.3,133.7,147.6
+2025-09-25,Advisory,195.8,76.7,119.1
+2025-09-25,Bond/Fund Distribution,231.1,120.2,110.9
+2025-09-26,Equity Brokerage,1164.8,430.4,734.3
+2025-09-26,Margin Lending,1044.2,344.5,699.7
+2025-09-26,Derivatives,315.0,90.8,224.2
+2025-09-26,Advisory,89.9,34.1,55.8
+2025-09-26,Bond/Fund Distribution,238.8,138.0,100.7
+2025-09-27,Equity Brokerage,1223.3,657.3,566.0
+2025-09-27,Margin Lending,1051.6,371.6,679.9
+2025-09-27,Derivatives,360.0,198.7,161.3
+2025-09-27,Advisory,160.4,69.0,91.4
+2025-09-27,Bond/Fund Distribution,206.7,114.2,92.5
+2025-09-28,Equity Brokerage,1202.7,687.3,515.3
+2025-09-28,Margin Lending,1066.8,411.4,655.4
+2025-09-28,Derivatives,516.1,166.9,349.2
+2025-09-28,Advisory,279.0,118.2,160.8
+2025-09-28,Bond/Fund Distribution,338.3,137.6,200.7
+2025-09-29,Equity Brokerage,1204.8,539.8,665.0
+2025-09-29,Margin Lending,853.9,270.2,583.7
+2025-09-29,Derivatives,227.7,121.7,106.1
+2025-09-29,Advisory,190.6,76.7,113.9
+2025-09-29,Bond/Fund Distribution,321.7,172.4,149.2
+2025-09-30,Equity Brokerage,1173.9,416.8,757.0
+2025-09-30,Margin Lending,1060.9,299.7,761.2
+2025-09-30,Derivatives,308.7,178.3,130.4
+2025-09-30,Advisory,145.9,41.8,104.1
+2025-09-30,Bond/Fund Distribution,283.2,97.0,186.2
+2025-10-01,Equity Brokerage,1211.8,418.5,793.2
+2025-10-01,Margin Lending,960.8,376.3,584.5
+2025-10-01,Derivatives,318.1,175.7,142.3
+2025-10-01,Advisory,270.1,124.6,145.5
+2025-10-01,Bond/Fund Distribution,310.3,89.4,220.9
+2025-10-02,Equity Brokerage,1181.4,440.9,740.5
+2025-10-02,Margin Lending,960.2,426.8,533.4
+2025-10-02,Derivatives,342.0,129.6,212.4
+2025-10-02,Advisory,117.5,38.9,78.6
+2025-10-02,Bond/Fund Distribution,225.8,117.6,108.2
+2025-10-03,Equity Brokerage,1306.3,536.7,769.6
+2025-10-03,Margin Lending,787.5,379.4,408.1
+2025-10-03,Derivatives,428.9,198.9,230.0
+2025-10-03,Advisory,182.4,53.3,129.1
+2025-10-03,Bond/Fund Distribution,155.8,59.9,95.9
+2025-10-04,Equity Brokerage,1125.7,430.3,695.4
+2025-10-04,Margin Lending,988.1,591.3,396.9
+2025-10-04,Derivatives,434.5,195.7,238.8
+2025-10-04,Advisory,114.8,61.9,52.9
+2025-10-04,Bond/Fund Distribution,137.3,67.4,69.9
+2025-10-05,Equity Brokerage,1271.2,553.6,717.6
+2025-10-05,Margin Lending,943.8,440.9,502.8
+2025-10-05,Derivatives,399.6,207.5,192.1
+2025-10-05,Advisory,72.5,42.9,29.6
+2025-10-05,Bond/Fund Distribution,281.0,118.7,162.3
+2025-10-06,Equity Brokerage,1198.9,464.5,734.5
+2025-10-06,Margin Lending,890.8,372.6,518.3
+2025-10-06,Derivatives,429.2,222.9,206.2
+2025-10-06,Advisory,74.3,31.6,42.7
+2025-10-06,Bond/Fund Distribution,282.0,162.9,119.1
+2025-10-07,Equity Brokerage,1135.7,484.6,651.2
+2025-10-07,Margin Lending,1014.1,415.9,598.3
+2025-10-07,Derivatives,389.7,181.9,207.7
+2025-10-07,Advisory,139.1,71.1,68.1
+2025-10-07,Bond/Fund Distribution,252.9,96.5,156.3
+2025-10-08,Equity Brokerage,1220.7,510.2,710.4
+2025-10-08,Margin Lending,934.0,497.7,436.3
+2025-10-08,Derivatives,396.4,138.0,258.4
+2025-10-08,Advisory,78.7,37.0,41.7
+2025-10-08,Bond/Fund Distribution,273.6,89.0,184.6
+2025-10-09,Equity Brokerage,1200.5,496.7,703.8
+2025-10-09,Margin Lending,881.4,276.3,605.1
+2025-10-09,Derivatives,492.7,265.8,226.9
+2025-10-09,Advisory,160.5,64.1,96.4
+2025-10-09,Bond/Fund Distribution,147.5,48.5,99.0
+2025-10-10,Equity Brokerage,1055.4,566.5,488.9
+2025-10-10,Margin Lending,856.4,312.5,543.8
+2025-10-10,Derivatives,327.8,185.2,142.6
+2025-10-10,Advisory,140.9,54.5,86.4
+2025-10-10,Bond/Fund Distribution,154.5,92.0,62.5
+2025-10-11,Equity Brokerage,1133.7,504.3,629.4
+2025-10-11,Margin Lending,858.4,393.2,465.2
+2025-10-11,Derivatives,382.8,126.6,256.2
+2025-10-11,Advisory,198.6,89.5,109.1
+2025-10-11,Bond/Fund Distribution,248.5,82.7,165.8
+2025-10-12,Equity Brokerage,1224.1,658.0,566.1
+2025-10-12,Margin Lending,916.1,420.3,495.8
+2025-10-12,Derivatives,180.9,52.3,128.5
+2025-10-12,Advisory,216.9,76.8,140.1
+2025-10-12,Bond/Fund Distribution,387.8,177.3,210.5
+2025-10-13,Equity Brokerage,1208.0,708.5,499.5
+2025-10-13,Margin Lending,888.4,435.9,452.6
+2025-10-13,Derivatives,311.9,165.8,146.1
+2025-10-13,Advisory,92.4,48.8,43.6
+2025-10-13,Bond/Fund Distribution,353.0,153.6,199.5
+2025-10-14,Equity Brokerage,1213.6,595.3,618.4
+2025-10-14,Margin Lending,1091.9,648.9,443.0
+2025-10-14,Derivatives,337.3,175.4,161.9
+2025-10-14,Advisory,61.7,36.6,25.1
+2025-10-14,Bond/Fund Distribution,277.6,145.4,132.2
+2025-10-15,Equity Brokerage,1303.0,441.1,862.0
+2025-10-15,Margin Lending,876.7,298.8,577.9
+2025-10-15,Derivatives,307.0,166.6,140.4
+2025-10-15,Advisory,74.9,45.1,29.8
+2025-10-15,Bond/Fund Distribution,148.0,88.2,59.8
+2025-10-16,Equity Brokerage,1117.7,655.2,462.5
+2025-10-16,Margin Lending,895.0,251.0,644.0
+2025-10-16,Derivatives,450.5,145.0,305.5
+2025-10-16,Advisory,179.0,65.8,113.1
+2025-10-16,Bond/Fund Distribution,250.9,89.5,161.4
+2025-10-17,Equity Brokerage,1152.3,661.3,491.0
+2025-10-17,Margin Lending,1090.6,667.6,422.9
+2025-10-17,Derivatives,425.6,260.4,165.2
+2025-10-17,Advisory,169.2,60.3,108.9
+2025-10-17,Bond/Fund Distribution,374.3,221.2,153.2
+2025-10-18,Equity Brokerage,1205.6,505.3,700.3
+2025-10-18,Margin Lending,890.9,451.8,439.2
+2025-10-18,Derivatives,555.1,281.1,274.0
+2025-10-18,Advisory,111.9,64.4,47.5
+2025-10-18,Bond/Fund Distribution,341.4,110.3,231.0
+2025-10-19,Equity Brokerage,1129.1,480.4,648.6
+2025-10-19,Margin Lending,1200.1,631.9,568.1
+2025-10-19,Derivatives,286.1,172.9,113.2
+2025-10-19,Advisory,246.2,78.4,167.9
+2025-10-19,Bond/Fund Distribution,251.8,137.8,114.0
+2025-10-20,Equity Brokerage,1205.7,416.9,788.8
+2025-10-20,Margin Lending,935.0,372.8,562.3
+2025-10-20,Derivatives,370.2,165.1,205.1
+2025-10-20,Advisory,20.0,10.0,10.0
+2025-10-20,Bond/Fund Distribution,320.6,175.3,145.2
+2025-10-21,Equity Brokerage,1187.1,654.0,533.0
+2025-10-21,Margin Lending,880.9,421.7,459.1
+2025-10-21,Derivatives,346.2,146.7,199.5
+2025-10-21,Advisory,143.7,68.7,74.9
+2025-10-21,Bond/Fund Distribution,339.4,139.9,199.5
+2025-10-22,Equity Brokerage,1203.2,619.4,583.8
+2025-10-22,Margin Lending,937.8,276.0,661.8
+2025-10-22,Derivatives,320.3,116.9,203.4
+2025-10-22,Advisory,161.7,87.2,74.5
+2025-10-22,Bond/Fund Distribution,388.4,175.6,212.7
+2025-10-23,Equity Brokerage,1193.9,702.8,491.1
+2025-10-23,Margin Lending,914.4,423.9,490.5
+2025-10-23,Derivatives,382.2,117.5,264.6
+2025-10-23,Advisory,111.1,51.1,59.9
+2025-10-23,Bond/Fund Distribution,382.6,187.1,195.6
+2025-10-24,Equity Brokerage,1283.0,685.5,597.5
+2025-10-24,Margin Lending,1001.8,512.9,488.9
+2025-10-24,Derivatives,418.4,138.8,279.6
+2025-10-24,Advisory,109.0,62.7,46.4
+2025-10-24,Bond/Fund Distribution,412.9,224.9,188.0
+2025-10-25,Equity Brokerage,1276.2,679.1,597.1
+2025-10-25,Margin Lending,1028.8,409.2,619.6
+2025-10-25,Derivatives,374.2,136.4,237.8
+2025-10-25,Advisory,183.8,90.0,93.9
+2025-10-25,Bond/Fund Distribution,434.8,123.5,311.3
+2025-10-26,Equity Brokerage,1160.2,627.4,532.7
+2025-10-26,Margin Lending,1059.1,466.8,592.3
+2025-10-26,Derivatives,382.5,131.3,251.2
+2025-10-26,Advisory,226.5,101.1,125.5
+2025-10-26,Bond/Fund Distribution,336.2,171.3,164.9
+2025-10-27,Equity Brokerage,1232.7,570.5,662.2
+2025-10-27,Margin Lending,883.5,256.3,627.2
+2025-10-27,Derivatives,398.8,178.3,220.4
+2025-10-27,Advisory,111.7,46.3,65.3
+2025-10-27,Bond/Fund Distribution,311.7,179.0,132.7
+2025-10-28,Equity Brokerage,1184.0,397.9,786.1
+2025-10-28,Margin Lending,928.4,458.4,469.9
+2025-10-28,Derivatives,447.3,243.8,203.5
+2025-10-28,Advisory,57.5,23.5,34.0
+2025-10-28,Bond/Fund Distribution,351.9,111.9,240.1
+2025-10-29,Equity Brokerage,1127.4,546.4,580.9
+2025-10-29,Margin Lending,1116.7,647.6,469.1
+2025-10-29,Derivatives,389.5,229.2,160.4
+2025-10-29,Advisory,134.5,66.9,67.7
+2025-10-29,Bond/Fund Distribution,269.2,148.9,120.3
+2025-10-30,Equity Brokerage,1337.2,808.1,529.1
+2025-10-30,Margin Lending,846.8,370.0,476.8
+2025-10-30,Derivatives,319.6,124.6,195.0
+2025-10-30,Advisory,271.6,161.2,110.4
+2025-10-30,Bond/Fund Distribution,315.0,95.3,219.7
+2025-10-31,Equity Brokerage,1145.7,425.7,720.0
+2025-10-31,Margin Lending,858.2,289.3,568.9
+2025-10-31,Derivatives,321.6,186.3,135.3
+2025-10-31,Advisory,212.9,122.5,90.5
+2025-10-31,Bond/Fund Distribution,264.8,143.7,121.0
+2025-11-01,Equity Brokerage,1240.8,356.7,884.0
+2025-11-01,Margin Lending,1137.2,348.8,788.4
+2025-11-01,Derivatives,245.0,73.2,171.8
+2025-11-01,Advisory,126.9,56.7,70.2
+2025-11-01,Bond/Fund Distribution,324.5,165.6,158.9
+2025-11-02,Equity Brokerage,1142.1,400.3,741.8
+2025-11-02,Margin Lending,885.3,525.1,360.2
+2025-11-02,Derivatives,249.5,123.2,126.4
+2025-11-02,Advisory,259.1,121.3,137.8
+2025-11-02,Bond/Fund Distribution,229.0,118.0,111.0
+2025-11-03,Equity Brokerage,1178.6,363.8,814.8
+2025-11-03,Margin Lending,895.3,482.6,412.7
+2025-11-03,Derivatives,360.9,180.9,180.1
+2025-11-03,Advisory,85.9,51.9,34.0
+2025-11-03,Bond/Fund Distribution,246.4,108.6,137.8
+2025-11-04,Equity Brokerage,1232.8,549.8,683.0
+2025-11-04,Margin Lending,1011.1,607.1,404.0
+2025-11-04,Derivatives,239.2,83.1,156.1
+2025-11-04,Advisory,383.0,162.9,220.1
+2025-11-04,Bond/Fund Distribution,129.7,74.3,55.3
+2025-11-05,Equity Brokerage,1141.5,501.5,640.1
+2025-11-05,Margin Lending,1071.8,529.7,542.1
+2025-11-05,Derivatives,195.2,121.0,74.2
+2025-11-05,Advisory,20.0,10.0,10.0
+2025-11-05,Bond/Fund Distribution,406.3,210.9,195.4
+2025-11-06,Equity Brokerage,1219.0,633.1,585.9
+2025-11-06,Margin Lending,873.4,332.1,541.3
+2025-11-06,Derivatives,429.7,172.1,257.6
+2025-11-06,Advisory,243.7,73.8,169.9
+2025-11-06,Bond/Fund Distribution,395.0,170.6,224.4
+2025-11-07,Equity Brokerage,1065.0,316.5,748.6
+2025-11-07,Margin Lending,1003.7,327.7,676.1
+2025-11-07,Derivatives,430.6,129.5,301.1
+2025-11-07,Advisory,282.0,148.9,133.1
+2025-11-07,Bond/Fund Distribution,220.7,119.7,101.1
+2025-11-08,Equity Brokerage,1198.4,620.7,577.7
+2025-11-08,Margin Lending,1024.2,538.2,486.0
+2025-11-08,Derivatives,334.9,155.5,179.4
+2025-11-08,Advisory,324.6,196.2,128.4
+2025-11-08,Bond/Fund Distribution,142.0,67.0,75.1
+2025-11-09,Equity Brokerage,1098.2,309.1,789.1
+2025-11-09,Margin Lending,1006.7,503.2,503.6
+2025-11-09,Derivatives,315.8,100.9,214.9
+2025-11-09,Advisory,20.0,10.0,10.0
+2025-11-09,Bond/Fund Distribution,188.7,99.8,88.9
+2025-11-10,Equity Brokerage,1204.9,365.7,839.1
+2025-11-10,Margin Lending,877.6,331.6,545.9
+2025-11-10,Derivatives,469.1,279.7,189.4
+2025-11-10,Advisory,189.1,54.9,134.2
+2025-11-10,Bond/Fund Distribution,292.4,145.2,147.2
+2025-11-11,Equity Brokerage,1076.0,489.3,586.7
+2025-11-11,Margin Lending,900.6,332.5,568.0
+2025-11-11,Derivatives,353.4,187.4,166.1
+2025-11-11,Advisory,177.8,51.4,126.4
+2025-11-11,Bond/Fund Distribution,375.6,129.4,246.2
+2025-11-12,Equity Brokerage,1264.1,384.1,879.9
+2025-11-12,Margin Lending,986.2,333.1,653.1
+2025-11-12,Derivatives,369.3,182.4,186.9
+2025-11-12,Advisory,285.0,135.3,149.7
+2025-11-12,Bond/Fund Distribution,310.0,153.2,156.8
+2025-11-13,Equity Brokerage,1281.5,685.5,596.0
+2025-11-13,Margin Lending,845.6,396.4,449.2
+2025-11-13,Derivatives,569.3,333.7,235.6
+2025-11-13,Advisory,184.6,61.5,123.1
+2025-11-13,Bond/Fund Distribution,292.4,95.6,196.8
+2025-11-14,Equity Brokerage,1310.9,446.8,864.2
+2025-11-14,Margin Lending,922.0,299.0,623.0
+2025-11-14,Derivatives,304.9,174.3,130.6
+2025-11-14,Advisory,234.5,75.9,158.6
+2025-11-14,Bond/Fund Distribution,162.4,54.2,108.1
+2025-11-15,Equity Brokerage,1266.6,611.0,655.6
+2025-11-15,Margin Lending,915.6,383.7,531.9
+2025-11-15,Derivatives,212.2,62.8,149.4
+2025-11-15,Advisory,156.0,75.6,80.5
+2025-11-15,Bond/Fund Distribution,352.5,159.1,193.3
+2025-11-16,Equity Brokerage,1223.7,662.2,561.5
+2025-11-16,Margin Lending,846.5,306.0,540.4
+2025-11-16,Derivatives,307.1,166.1,141.0
+2025-11-16,Advisory,125.7,66.2,59.5
+2025-11-16,Bond/Fund Distribution,356.1,170.2,185.9
+2025-11-17,Equity Brokerage,1342.4,725.4,616.9
+2025-11-17,Margin Lending,1071.7,419.8,651.9
+2025-11-17,Derivatives,253.9,76.7,177.2
+2025-11-17,Advisory,195.8,98.4,97.4
+2025-11-17,Bond/Fund Distribution,286.5,106.4,180.1
+2025-11-18,Equity Brokerage,1164.2,358.3,805.9
+2025-11-18,Margin Lending,977.0,545.6,431.3
+2025-11-18,Derivatives,219.4,109.9,109.5
+2025-11-18,Advisory,311.4,147.3,164.1
+2025-11-18,Bond/Fund Distribution,263.0,142.7,120.3
+2025-11-19,Equity Brokerage,1355.8,499.2,856.6
+2025-11-19,Margin Lending,978.4,349.6,628.8
+2025-11-19,Derivatives,312.8,182.6,130.3
+2025-11-19,Advisory,148.6,72.3,76.3
+2025-11-19,Bond/Fund Distribution,291.2,101.6,189.7
+2025-11-20,Equity Brokerage,1092.6,664.2,428.5
+2025-11-20,Margin Lending,952.9,399.7,553.2
+2025-11-20,Derivatives,430.9,217.1,213.9
+2025-11-20,Advisory,239.3,98.3,141.0
+2025-11-20,Bond/Fund Distribution,232.4,75.0,157.4
+2025-11-21,Equity Brokerage,1173.0,708.3,464.7
+2025-11-21,Margin Lending,1109.9,506.9,603.0
+2025-11-21,Derivatives,351.4,107.6,243.8
+2025-11-21,Advisory,162.6,52.9,109.8
+2025-11-21,Bond/Fund Distribution,356.4,197.8,158.6
+2025-11-22,Equity Brokerage,1199.3,407.7,791.6
+2025-11-22,Margin Lending,923.6,446.5,477.1
+2025-11-22,Derivatives,483.2,279.7,203.5
+2025-11-22,Advisory,20.0,10.0,10.0
+2025-11-22,Bond/Fund Distribution,243.2,118.2,125.0
+2025-11-23,Equity Brokerage,1277.0,561.3,715.7
+2025-11-23,Margin Lending,925.0,449.9,475.1
+2025-11-23,Derivatives,312.7,144.0,168.7
+2025-11-23,Advisory,211.8,107.5,104.3
+2025-11-23,Bond/Fund Distribution,373.0,144.4,228.6
+2025-11-24,Equity Brokerage,1333.6,572.3,761.3
+2025-11-24,Margin Lending,863.3,344.5,518.8
+2025-11-24,Derivatives,478.4,250.9,227.5
+2025-11-24,Advisory,33.0,10.0,23.5
+2025-11-24,Bond/Fund Distribution,182.9,93.0,89.9
+2025-11-25,Equity Brokerage,1278.4,659.7,618.7
+2025-11-25,Margin Lending,874.4,454.2,420.2
+2025-11-25,Derivatives,493.4,281.1,212.3
+2025-11-25,Advisory,272.1,162.5,109.5
+2025-11-25,Bond/Fund Distribution,273.6,148.2,125.4
+2025-11-26,Equity Brokerage,1311.1,459.0,852.1
+2025-11-26,Margin Lending,839.4,238.6,600.8
+2025-11-26,Derivatives,342.1,125.6,216.6
+2025-11-26,Advisory,364.5,164.3,200.2
+2025-11-26,Bond/Fund Distribution,162.0,97.7,64.3
+2025-11-27,Equity Brokerage,1230.9,452.4,778.5
+2025-11-27,Margin Lending,897.1,529.7,367.4
+2025-11-27,Derivatives,374.5,199.3,175.2
+2025-11-27,Advisory,164.6,86.4,78.2
+2025-11-27,Bond/Fund Distribution,169.5,73.1,96.4
+2025-11-28,Equity Brokerage,1289.4,613.6,675.8
+2025-11-28,Margin Lending,929.1,402.9,526.2
+2025-11-28,Derivatives,356.6,165.3,191.3
+2025-11-28,Advisory,205.4,83.4,122.0
+2025-11-28,Bond/Fund Distribution,207.8,104.3,103.6
+2025-11-29,Equity Brokerage,1243.6,720.8,522.8
+2025-11-29,Margin Lending,1007.0,375.4,631.6
+2025-11-29,Derivatives,558.7,167.4,391.3
+2025-11-29,Advisory,165.5,78.8,86.6
+2025-11-29,Bond/Fund Distribution,254.2,149.2,105.0
+2025-11-30,Equity Brokerage,1165.7,611.9,553.8
+2025-11-30,Margin Lending,954.1,271.4,682.7
+2025-11-30,Derivatives,464.8,159.1,305.7
+2025-11-30,Advisory,156.6,45.9,110.7
+2025-11-30,Bond/Fund Distribution,281.8,143.2,138.7
+2025-12-01,Equity Brokerage,1145.6,563.0,582.6
+2025-12-01,Margin Lending,905.3,287.1,618.2
+2025-12-01,Derivatives,301.5,179.4,122.0
+2025-12-01,Advisory,190.6,94.0,96.5
+2025-12-01,Bond/Fund Distribution,146.7,80.2,66.5
+2025-12-02,Equity Brokerage,1230.8,368.4,862.3
+2025-12-02,Margin Lending,1000.0,458.1,541.9
+2025-12-02,Derivatives,315.7,117.5,198.2
+2025-12-02,Advisory,227.3,117.8,109.5
+2025-12-02,Bond/Fund Distribution,235.2,70.5,164.7
+2025-12-03,Equity Brokerage,1217.2,412.4,804.8
+2025-12-03,Margin Lending,968.8,571.0,397.8
+2025-12-03,Derivatives,264.4,160.4,104.0
+2025-12-03,Advisory,133.2,78.1,55.1
+2025-12-03,Bond/Fund Distribution,262.5,149.3,113.2
+2025-12-04,Equity Brokerage,1394.2,617.7,776.5
+2025-12-04,Margin Lending,841.2,361.0,480.2
+2025-12-04,Derivatives,261.6,122.6,139.0
+2025-12-04,Advisory,184.2,85.1,99.0
+2025-12-04,Bond/Fund Distribution,264.0,91.7,172.4
+2025-12-05,Equity Brokerage,1180.8,465.3,715.4
+2025-12-05,Margin Lending,884.5,348.3,536.2
+2025-12-05,Derivatives,398.7,116.6,282.2
+2025-12-05,Advisory,212.9,115.8,97.1
+2025-12-05,Bond/Fund Distribution,307.5,147.4,160.1
+2025-12-06,Equity Brokerage,1170.9,672.1,498.8
+2025-12-06,Margin Lending,1030.8,541.8,489.0
+2025-12-06,Derivatives,309.4,102.6,206.8
+2025-12-06,Advisory,28.4,13.4,15.0
+2025-12-06,Bond/Fund Distribution,270.4,160.5,109.9
+2025-12-07,Equity Brokerage,1154.9,600.7,554.3
+2025-12-07,Margin Lending,963.6,383.1,580.4
+2025-12-07,Derivatives,350.2,112.9,237.3
+2025-12-07,Advisory,97.1,35.9,61.2
+2025-12-07,Bond/Fund Distribution,64.9,36.3,28.7
+2025-12-08,Equity Brokerage,1136.5,628.2,508.3
+2025-12-08,Margin Lending,1125.4,321.8,803.6
+2025-12-08,Derivatives,419.0,245.5,173.5
+2025-12-08,Advisory,150.8,82.9,67.9
+2025-12-08,Bond/Fund Distribution,319.6,195.7,123.8
+2025-12-09,Equity Brokerage,1168.6,428.2,740.5
+2025-12-09,Margin Lending,872.9,268.3,604.6
+2025-12-09,Derivatives,411.7,132.7,279.1
+2025-12-09,Advisory,161.9,93.2,68.6
+2025-12-09,Bond/Fund Distribution,134.9,53.3,81.6
+2025-12-10,Equity Brokerage,1108.8,457.1,651.7
+2025-12-10,Margin Lending,982.8,591.3,391.6
+2025-12-10,Derivatives,442.2,152.0,290.2
+2025-12-10,Advisory,55.0,33.0,22.0
+2025-12-10,Bond/Fund Distribution,294.3,142.3,152.0
+2025-12-11,Equity Brokerage,1161.4,537.8,623.7
+2025-12-11,Margin Lending,835.0,312.4,522.6
+2025-12-11,Derivatives,307.1,170.2,136.9
+2025-12-11,Advisory,84.9,41.9,43.0
+2025-12-11,Bond/Fund Distribution,82.2,50.8,31.4
+2025-12-12,Equity Brokerage,1078.6,629.1,449.5
+2025-12-12,Margin Lending,843.1,447.7,395.4
+2025-12-12,Derivatives,404.8,242.1,162.8
+2025-12-12,Advisory,115.5,44.6,70.9
+2025-12-12,Bond/Fund Distribution,142.3,76.4,65.9
+2025-12-13,Equity Brokerage,1096.6,338.3,758.3
+2025-12-13,Margin Lending,881.2,426.7,454.5
+2025-12-13,Derivatives,362.6,180.0,182.6
+2025-12-13,Advisory,347.6,109.8,237.8
+2025-12-13,Bond/Fund Distribution,210.4,82.7,127.6
+2025-12-14,Equity Brokerage,1174.9,381.2,793.6
+2025-12-14,Margin Lending,1008.9,291.7,717.2
+2025-12-14,Derivatives,424.3,187.6,236.7
+2025-12-14,Advisory,21.0,12.9,10.0
+2025-12-14,Bond/Fund Distribution,365.8,193.8,172.1
+2025-12-15,Equity Brokerage,1200.2,553.6,646.5
+2025-12-15,Margin Lending,951.7,269.7,682.0
+2025-12-15,Derivatives,437.4,222.0,215.4
+2025-12-15,Advisory,91.8,28.8,63.0
+2025-12-15,Bond/Fund Distribution,374.3,192.5,181.8
+2025-12-16,Equity Brokerage,1336.8,552.4,784.5
+2025-12-16,Margin Lending,1018.6,553.3,465.3
+2025-12-16,Derivatives,446.5,219.1,227.4
+2025-12-16,Advisory,175.1,69.9,105.3
+2025-12-16,Bond/Fund Distribution,312.6,171.5,141.1
+2025-12-17,Equity Brokerage,1226.0,432.7,793.2
+2025-12-17,Margin Lending,888.8,431.9,456.9
+2025-12-17,Derivatives,408.7,201.9,206.7
+2025-12-17,Advisory,121.0,45.0,76.0
+2025-12-17,Bond/Fund Distribution,290.6,118.1,172.5
+2025-12-18,Equity Brokerage,1261.4,560.9,700.6
+2025-12-18,Margin Lending,872.3,345.5,526.8
+2025-12-18,Derivatives,425.1,222.2,202.9
+2025-12-18,Advisory,64.3,27.7,36.6
+2025-12-18,Bond/Fund Distribution,213.6,123.5,90.1
+2025-12-19,Equity Brokerage,1228.6,453.1,775.5
+2025-12-19,Margin Lending,927.7,362.0,565.7
+2025-12-19,Derivatives,482.0,161.3,320.7
+2025-12-19,Advisory,221.7,93.6,128.0
+2025-12-19,Bond/Fund Distribution,20.0,10.0,10.0
+2025-12-20,Equity Brokerage,1179.9,713.9,465.9
+2025-12-20,Margin Lending,990.8,282.2,708.6
+2025-12-20,Derivatives,330.3,96.8,233.5
+2025-12-20,Advisory,20.0,10.0,10.0
+2025-12-20,Bond/Fund Distribution,382.4,126.1,256.3
+2025-12-21,Equity Brokerage,1293.9,526.1,767.9
+2025-12-21,Margin Lending,854.1,435.0,419.0
+2025-12-21,Derivatives,422.3,221.2,201.1
+2025-12-21,Advisory,210.8,68.9,141.9
+2025-12-21,Bond/Fund Distribution,243.1,90.9,152.2
+2025-12-22,Equity Brokerage,1281.2,547.8,733.3
+2025-12-22,Margin Lending,898.1,529.5,368.7
+2025-12-22,Derivatives,254.1,86.6,167.4
+2025-12-22,Advisory,259.8,85.7,174.1
+2025-12-22,Bond/Fund Distribution,117.1,67.9,49.3
+2025-12-23,Equity Brokerage,1127.1,360.9,766.3
+2025-12-23,Margin Lending,1043.1,380.3,662.8
+2025-12-23,Derivatives,361.3,173.0,188.3
+2025-12-23,Advisory,389.4,168.1,221.3
+2025-12-23,Bond/Fund Distribution,253.9,133.7,120.2
+2025-12-24,Equity Brokerage,1275.5,446.9,828.6
+2025-12-24,Margin Lending,941.4,533.0,408.4
+2025-12-24,Derivatives,357.2,152.9,204.3
+2025-12-24,Advisory,58.6,33.6,25.1
+2025-12-24,Bond/Fund Distribution,219.3,77.0,142.3
+2025-12-25,Equity Brokerage,1195.3,733.5,461.8
+2025-12-25,Margin Lending,1013.4,320.6,692.8
+2025-12-25,Derivatives,370.5,190.5,180.0
+2025-12-25,Advisory,101.4,47.3,54.1
+2025-12-25,Bond/Fund Distribution,215.8,76.5,139.2
+2025-12-26,Equity Brokerage,1170.3,511.5,658.8
+2025-12-26,Margin Lending,815.2,390.3,424.9
+2025-12-26,Derivatives,504.8,270.0,234.8
+2025-12-26,Advisory,127.0,36.3,90.8
+2025-12-26,Bond/Fund Distribution,252.6,147.9,104.8
+2025-12-27,Equity Brokerage,1273.6,576.9,696.7
+2025-12-27,Margin Lending,945.1,464.8,480.3
+2025-12-27,Derivatives,332.3,119.2,213.2
+2025-12-27,Advisory,151.0,49.3,101.7
+2025-12-27,Bond/Fund Distribution,369.7,139.1,230.6
+2025-12-28,Equity Brokerage,1159.9,641.6,518.3
+2025-12-28,Margin Lending,1017.4,586.6,430.7
+2025-12-28,Derivatives,416.8,206.3,210.5
+2025-12-28,Advisory,88.4,52.7,35.7
+2025-12-28,Bond/Fund Distribution,195.0,110.2,84.7
+2025-12-29,Equity Brokerage,1222.9,431.6,791.3
+2025-12-29,Margin Lending,891.7,420.7,471.0
+2025-12-29,Derivatives,310.0,142.1,167.9
+2025-12-29,Advisory,213.3,100.1,113.3
+2025-12-29,Bond/Fund Distribution,285.6,83.8,201.7
+2025-12-30,Equity Brokerage,1187.1,705.3,481.8
+2025-12-30,Margin Lending,1007.7,498.3,509.4
+2025-12-30,Derivatives,234.1,88.7,145.4
+2025-12-30,Advisory,164.1,46.2,117.9
+2025-12-30,Bond/Fund Distribution,55.8,25.8,30.0
+2025-12-31,Equity Brokerage,1334.4,815.0,519.4
+2025-12-31,Margin Lending,925.3,315.0,610.3
+2025-12-31,Derivatives,355.1,200.6,154.5
+2025-12-31,Advisory,111.3,62.0,49.3
+2025-12-31,Bond/Fund Distribution,214.1,92.6,121.5
+2026-01-01,Equity Brokerage,1108.2,564.1,544.1
+2026-01-01,Margin Lending,964.7,503.1,461.7
+2026-01-01,Derivatives,497.9,304.6,193.3
+2026-01-01,Advisory,258.1,155.6,102.5
+2026-01-01,Bond/Fund Distribution,256.8,141.0,115.8
+2026-01-02,Equity Brokerage,1356.9,538.5,818.3
+2026-01-02,Margin Lending,1035.8,553.9,482.0
+2026-01-02,Derivatives,296.9,157.9,139.0
+2026-01-02,Advisory,101.2,61.1,40.0
+2026-01-02,Bond/Fund Distribution,230.2,102.7,127.5
+2026-01-03,Equity Brokerage,1231.9,636.3,595.5
+2026-01-03,Margin Lending,997.1,607.7,389.4
+2026-01-03,Derivatives,400.9,230.7,170.2
+2026-01-03,Advisory,24.9,10.5,14.4
+2026-01-03,Bond/Fund Distribution,304.3,86.6,217.7
+2026-01-04,Equity Brokerage,1336.6,417.0,919.5
+2026-01-04,Margin Lending,1002.5,502.8,499.7
+2026-01-04,Derivatives,548.5,323.6,224.9
+2026-01-04,Advisory,50.0,23.8,26.3
+2026-01-04,Bond/Fund Distribution,261.0,122.2,138.8
+2026-01-05,Equity Brokerage,1328.5,679.3,649.2
+2026-01-05,Margin Lending,721.0,375.7,345.3
+2026-01-05,Derivatives,403.7,133.9,269.8
+2026-01-05,Advisory,20.0,10.0,10.0
+2026-01-05,Bond/Fund Distribution,171.4,77.9,93.5
+2026-01-06,Equity Brokerage,1208.1,443.4,764.7
+2026-01-06,Margin Lending,1030.7,319.5,711.2
+2026-01-06,Derivatives,414.7,175.4,239.3
+2026-01-06,Advisory,183.6,73.0,110.6
+2026-01-06,Bond/Fund Distribution,269.6,101.2,168.4
+2026-01-07,Equity Brokerage,1170.7,493.7,677.0
+2026-01-07,Margin Lending,948.2,503.2,445.0
+2026-01-07,Derivatives,320.9,93.3,227.6
+2026-01-07,Advisory,158.1,62.4,95.6
+2026-01-07,Bond/Fund Distribution,309.3,104.1,205.2
+2026-01-08,Equity Brokerage,1181.2,567.1,614.1
+2026-01-08,Margin Lending,998.4,509.1,489.3
+2026-01-08,Derivatives,457.2,178.6,278.6
+2026-01-08,Advisory,170.3,50.4,119.9
+2026-01-08,Bond/Fund Distribution,305.6,171.4,134.1
+2026-01-09,Equity Brokerage,1324.8,638.3,686.5
+2026-01-09,Margin Lending,929.3,305.4,623.9
+2026-01-09,Derivatives,461.7,138.7,323.0
+2026-01-09,Advisory,147.2,71.2,76.0
+2026-01-09,Bond/Fund Distribution,241.5,145.3,96.2
+2026-01-10,Equity Brokerage,1134.6,566.0,568.6
+2026-01-10,Margin Lending,1036.6,401.1,635.6
+2026-01-10,Derivatives,384.5,223.5,161.1
+2026-01-10,Advisory,165.1,90.1,75.0
+2026-01-10,Bond/Fund Distribution,91.9,27.8,64.1
+2026-01-11,Equity Brokerage,1219.6,531.8,687.8
+2026-01-11,Margin Lending,913.6,349.3,564.2
+2026-01-11,Derivatives,250.8,135.5,115.3
+2026-01-11,Advisory,199.4,111.6,87.8
+2026-01-11,Bond/Fund Distribution,192.5,116.5,76.0
+2026-01-12,Equity Brokerage,1131.1,342.8,788.3
+2026-01-12,Margin Lending,975.4,602.3,373.2
+2026-01-12,Derivatives,359.3,174.4,184.9
+2026-01-12,Advisory,146.7,63.8,82.9
+2026-01-12,Bond/Fund Distribution,153.8,88.1,65.7
+2026-01-13,Equity Brokerage,1225.2,712.1,513.1
+2026-01-13,Margin Lending,971.7,565.5,406.3
+2026-01-13,Derivatives,383.0,211.1,171.9
+2026-01-13,Advisory,302.7,105.4,197.4
+2026-01-13,Bond/Fund Distribution,231.6,129.5,102.1
+2026-01-14,Equity Brokerage,1216.4,490.6,725.8
+2026-01-14,Margin Lending,932.0,447.9,484.0
+2026-01-14,Derivatives,496.0,229.3,266.7
+2026-01-14,Advisory,134.2,58.5,75.7
+2026-01-14,Bond/Fund Distribution,370.4,191.8,178.5
+2026-01-15,Equity Brokerage,1166.2,388.6,777.6
+2026-01-15,Margin Lending,910.8,516.1,394.8
+2026-01-15,Derivatives,405.7,180.3,225.4
+2026-01-15,Advisory,348.3,185.5,162.8
+2026-01-15,Bond/Fund Distribution,256.7,105.1,151.5
+2026-01-16,Equity Brokerage,1288.1,797.3,490.8
+2026-01-16,Margin Lending,795.4,396.8,398.6
+2026-01-16,Derivatives,389.1,120.2,268.9
+2026-01-16,Advisory,126.7,65.2,61.5
+2026-01-16,Bond/Fund Distribution,275.2,103.4,171.8
+2026-01-17,Equity Brokerage,1205.0,705.4,499.5
+2026-01-17,Margin Lending,948.7,277.0,671.7
+2026-01-17,Derivatives,206.3,91.4,114.9
+2026-01-17,Advisory,211.3,77.0,134.4
+2026-01-17,Bond/Fund Distribution,212.0,112.8,99.3
+2026-01-18,Equity Brokerage,1256.6,356.9,899.6
+2026-01-18,Margin Lending,887.1,460.7,426.5
+2026-01-18,Derivatives,352.1,203.3,148.8
+2026-01-18,Advisory,99.6,59.7,39.9
+2026-01-18,Bond/Fund Distribution,278.9,135.7,143.3
+2026-01-19,Equity Brokerage,1299.9,759.5,540.5
+2026-01-19,Margin Lending,980.3,587.1,393.1
+2026-01-19,Derivatives,372.8,222.1,150.7
+2026-01-19,Advisory,163.6,99.3,64.3
+2026-01-19,Bond/Fund Distribution,311.8,91.8,220.1
+2026-01-20,Equity Brokerage,1272.4,573.8,698.6
+2026-01-20,Margin Lending,912.9,553.6,359.2
+2026-01-20,Derivatives,335.8,188.7,147.0
+2026-01-20,Advisory,86.8,32.9,53.9
+2026-01-20,Bond/Fund Distribution,327.5,94.7,232.8
+2026-01-21,Equity Brokerage,1206.9,639.3,567.6
+2026-01-21,Margin Lending,1010.3,485.1,525.3
+2026-01-21,Derivatives,425.3,175.5,249.8
+2026-01-21,Advisory,204.4,70.7,133.7
+2026-01-21,Bond/Fund Distribution,204.6,70.8,133.9
+2026-01-22,Equity Brokerage,1221.0,628.5,592.5
+2026-01-22,Margin Lending,998.7,325.0,673.6
+2026-01-22,Derivatives,374.8,109.8,264.9
+2026-01-22,Advisory,32.9,16.5,16.5
+2026-01-22,Bond/Fund Distribution,239.6,130.1,109.5
+2026-01-23,Equity Brokerage,1180.5,620.0,560.5
+2026-01-23,Margin Lending,892.5,260.1,632.4
+2026-01-23,Derivatives,260.8,104.2,156.6
+2026-01-23,Advisory,20.0,10.0,10.0
+2026-01-23,Bond/Fund Distribution,345.7,127.1,218.7
+2026-01-24,Equity Brokerage,1177.7,416.2,761.5
+2026-01-24,Margin Lending,1002.4,490.5,511.9
+2026-01-24,Derivatives,305.2,97.2,208.1
+2026-01-24,Advisory,103.3,50.9,52.4
+2026-01-24,Bond/Fund Distribution,130.7,64.5,66.2
+2026-01-25,Equity Brokerage,1195.8,376.6,819.2
+2026-01-25,Margin Lending,1099.2,502.6,596.6
+2026-01-25,Derivatives,326.3,127.9,198.4
+2026-01-25,Advisory,72.3,24.4,47.8
+2026-01-25,Bond/Fund Distribution,304.1,126.8,177.3
+2026-01-26,Equity Brokerage,1240.5,540.9,699.5
+2026-01-26,Margin Lending,932.2,271.9,660.3
+2026-01-26,Derivatives,334.4,180.4,154.0
+2026-01-26,Advisory,144.3,71.4,72.9
+2026-01-26,Bond/Fund Distribution,402.8,119.0,283.8
+2026-01-27,Equity Brokerage,1286.1,596.9,689.2
+2026-01-27,Margin Lending,954.3,575.4,379.0
+2026-01-27,Derivatives,416.0,252.8,163.1
+2026-01-27,Advisory,135.5,70.8,64.7
+2026-01-27,Bond/Fund Distribution,184.3,87.1,97.3
+2026-01-28,Equity Brokerage,1258.6,686.2,572.4
+2026-01-28,Margin Lending,820.7,412.2,408.5
+2026-01-28,Derivatives,374.2,211.3,162.9
+2026-01-28,Advisory,179.4,101.9,77.5
+2026-01-28,Bond/Fund Distribution,255.4,101.9,153.5
+2026-01-29,Equity Brokerage,1217.2,557.4,659.7
+2026-01-29,Margin Lending,999.0,564.7,434.3
+2026-01-29,Derivatives,425.0,260.6,164.5
+2026-01-29,Advisory,290.2,150.0,140.2
+2026-01-29,Bond/Fund Distribution,253.8,101.4,152.4
+2026-01-30,Equity Brokerage,1075.9,497.3,578.6
+2026-01-30,Margin Lending,882.2,380.8,501.3
+2026-01-30,Derivatives,399.1,236.1,163.0
+2026-01-30,Advisory,135.3,52.6,82.7
+2026-01-30,Bond/Fund Distribution,85.3,31.3,54.1
+2026-01-31,Equity Brokerage,1232.9,597.1,635.7
+2026-01-31,Margin Lending,931.5,263.2,668.3
+2026-01-31,Derivatives,332.8,97.1,235.7
+2026-01-31,Advisory,61.8,29.2,32.6
+2026-01-31,Bond/Fund Distribution,262.8,131.9,130.9
+2026-02-01,Equity Brokerage,1201.7,509.6,692.0
+2026-02-01,Margin Lending,1031.6,563.7,467.9
+2026-02-01,Derivatives,408.5,167.2,241.3
+2026-02-01,Advisory,206.0,92.3,113.7
+2026-02-01,Bond/Fund Distribution,324.4,124.1,200.3
+2026-02-02,Equity Brokerage,1295.8,448.2,847.6
+2026-02-02,Margin Lending,912.5,347.3,565.2
+2026-02-02,Derivatives,362.3,108.8,253.5
+2026-02-02,Advisory,197.4,75.1,122.3
+2026-02-02,Bond/Fund Distribution,222.7,99.8,122.8
+2026-02-03,Equity Brokerage,1152.5,418.7,733.8
+2026-02-03,Margin Lending,991.6,541.1,450.5
+2026-02-03,Derivatives,336.4,189.9,146.5
+2026-02-03,Advisory,223.2,90.7,132.6
+2026-02-03,Bond/Fund Distribution,234.6,77.5,157.1
+2026-02-04,Equity Brokerage,1230.4,430.6,799.9
+2026-02-04,Margin Lending,1127.8,584.0,543.8
+2026-02-04,Derivatives,414.3,140.4,274.0
+2026-02-04,Advisory,254.3,103.3,151.0
+2026-02-04,Bond/Fund Distribution,393.7,223.3,170.4
+2026-02-05,Equity Brokerage,1213.9,701.5,512.4
+2026-02-05,Margin Lending,910.8,273.7,637.1
+2026-02-05,Derivatives,380.0,164.1,215.9
+2026-02-05,Advisory,177.8,62.5,115.3
+2026-02-05,Bond/Fund Distribution,353.4,115.6,237.8
+2026-02-06,Equity Brokerage,1239.3,708.3,531.0
+2026-02-06,Margin Lending,1098.8,435.4,663.4
+2026-02-06,Derivatives,375.9,200.5,175.4
+2026-02-06,Advisory,197.8,60.3,137.5
+2026-02-06,Bond/Fund Distribution,192.8,64.3,128.4
+2026-02-07,Equity Brokerage,1121.4,431.4,690.1
+2026-02-07,Margin Lending,933.0,556.9,376.1
+2026-02-07,Derivatives,407.8,225.0,182.8
+2026-02-07,Advisory,188.0,91.3,96.7
+2026-02-07,Bond/Fund Distribution,204.9,63.5,141.4
+2026-02-08,Equity Brokerage,1309.9,503.5,806.4
+2026-02-08,Margin Lending,926.4,265.7,660.7
+2026-02-08,Derivatives,248.9,136.1,112.8
+2026-02-08,Advisory,151.5,49.6,101.9
+2026-02-08,Bond/Fund Distribution,288.7,153.6,135.1
+2026-02-09,Equity Brokerage,1296.6,446.5,850.1
+2026-02-09,Margin Lending,1069.5,636.7,432.8
+2026-02-09,Derivatives,490.4,169.1,321.3
+2026-02-09,Advisory,109.1,39.1,70.0
+2026-02-09,Bond/Fund Distribution,270.5,148.3,122.2
+2026-02-10,Equity Brokerage,1259.5,475.7,783.8
+2026-02-10,Margin Lending,850.9,472.4,378.5
+2026-02-10,Derivatives,312.3,98.1,214.3
+2026-02-10,Advisory,144.6,55.2,89.4
+2026-02-10,Bond/Fund Distribution,233.9,112.0,121.8
+2026-02-11,Equity Brokerage,1289.8,672.5,617.3
+2026-02-11,Margin Lending,895.8,365.2,530.6
+2026-02-11,Derivatives,426.8,259.4,167.4
+2026-02-11,Advisory,35.4,14.9,20.5
+2026-02-11,Bond/Fund Distribution,250.0,78.3,171.7
+2026-02-12,Equity Brokerage,1160.6,422.8,737.8
+2026-02-12,Margin Lending,864.6,371.5,493.1
+2026-02-12,Derivatives,373.5,137.6,235.9
+2026-02-12,Advisory,306.3,97.2,209.0
+2026-02-12,Bond/Fund Distribution,195.0,107.9,87.1
+2026-02-13,Equity Brokerage,1213.3,610.8,602.5
+2026-02-13,Margin Lending,1028.6,439.9,588.7
+2026-02-13,Derivatives,272.2,106.3,165.9
+2026-02-13,Advisory,347.1,159.6,187.5
+2026-02-13,Bond/Fund Distribution,289.7,116.6,173.1
+2026-02-14,Equity Brokerage,1161.8,637.5,524.3
+2026-02-14,Margin Lending,968.3,523.4,444.9
+2026-02-14,Derivatives,420.9,174.8,246.0
+2026-02-14,Advisory,194.7,62.2,132.5
+2026-02-14,Bond/Fund Distribution,152.5,54.1,98.4
+2026-02-15,Equity Brokerage,1331.0,389.5,941.6
+2026-02-15,Margin Lending,1021.9,382.5,639.4
+2026-02-15,Derivatives,317.2,132.7,184.6
+2026-02-15,Advisory,127.6,41.6,86.0
+2026-02-15,Bond/Fund Distribution,189.6,77.9,111.7
+2026-02-16,Equity Brokerage,1176.6,661.4,515.3
+2026-02-16,Margin Lending,1040.3,296.3,744.0
+2026-02-16,Derivatives,401.6,185.2,216.4
+2026-02-16,Advisory,225.3,99.5,125.8
+2026-02-16,Bond/Fund Distribution,251.9,83.5,168.5
+2026-02-17,Equity Brokerage,1258.5,737.9,520.6
+2026-02-17,Margin Lending,919.3,411.7,507.6
+2026-02-17,Derivatives,336.2,198.7,137.5
+2026-02-17,Advisory,187.0,55.6,131.4
+2026-02-17,Bond/Fund Distribution,272.7,109.7,163.0
+2026-02-18,Equity Brokerage,1284.2,399.7,884.5
+2026-02-18,Margin Lending,922.7,437.9,484.9
+2026-02-18,Derivatives,418.9,192.1,226.8
+2026-02-18,Advisory,106.2,39.8,66.4
+2026-02-18,Bond/Fund Distribution,287.3,101.6,185.7
+2026-02-19,Equity Brokerage,1255.1,508.9,746.1
+2026-02-19,Margin Lending,969.0,428.5,540.5
+2026-02-19,Derivatives,289.7,81.6,208.0
+2026-02-19,Advisory,84.7,31.0,53.7
+2026-02-19,Bond/Fund Distribution,290.2,84.0,206.2
+2026-02-20,Equity Brokerage,1222.0,694.2,527.8
+2026-02-20,Margin Lending,980.1,285.2,694.9
+2026-02-20,Derivatives,371.6,209.1,162.5
+2026-02-20,Advisory,324.8,140.8,183.9
+2026-02-20,Bond/Fund Distribution,246.4,84.8,161.6
+2026-02-21,Equity Brokerage,1345.8,515.3,830.4
+2026-02-21,Margin Lending,956.8,296.3,660.4
+2026-02-21,Derivatives,490.7,260.7,230.0
+2026-02-21,Advisory,115.7,56.7,58.9
+2026-02-21,Bond/Fund Distribution,229.8,79.0,150.8
+2026-02-22,Equity Brokerage,1190.9,447.6,743.3
+2026-02-22,Margin Lending,1126.5,481.2,645.3
+2026-02-22,Derivatives,348.0,180.7,167.3
+2026-02-22,Advisory,220.9,85.8,135.1
+2026-02-22,Bond/Fund Distribution,284.2,83.9,200.3
+2026-02-23,Equity Brokerage,1315.7,658.4,657.2
+2026-02-23,Margin Lending,999.9,504.6,495.3
+2026-02-23,Derivatives,420.2,219.5,200.7
+2026-02-23,Advisory,252.0,104.8,147.2
+2026-02-23,Bond/Fund Distribution,292.3,133.2,159.1
+2026-02-24,Equity Brokerage,1263.8,763.1,500.7
+2026-02-24,Margin Lending,961.7,297.4,664.4
+2026-02-24,Derivatives,384.6,200.7,183.9
+2026-02-24,Advisory,120.4,70.8,49.6
+2026-02-24,Bond/Fund Distribution,227.0,111.3,115.7
+2026-02-25,Equity Brokerage,1191.0,539.9,651.0
+2026-02-25,Margin Lending,848.4,427.0,421.5
+2026-02-25,Derivatives,536.7,319.9,216.8
+2026-02-25,Advisory,144.1,51.9,92.2
+2026-02-25,Bond/Fund Distribution,218.3,73.8,144.5
+2026-02-26,Equity Brokerage,1120.3,577.7,542.6
+2026-02-26,Margin Lending,924.1,490.9,433.2
+2026-02-26,Derivatives,224.6,93.7,130.8
+2026-02-26,Advisory,169.7,70.4,99.2
+2026-02-26,Bond/Fund Distribution,263.9,103.5,160.4
+2026-02-27,Equity Brokerage,1180.8,461.1,719.6
+2026-02-27,Margin Lending,1022.9,309.0,713.9
+2026-02-27,Derivatives,352.7,197.1,155.6
+2026-02-27,Advisory,198.0,99.9,98.1
+2026-02-27,Bond/Fund Distribution,144.8,41.3,103.5
+2026-02-28,Equity Brokerage,1141.9,624.4,517.5
+2026-02-28,Margin Lending,1021.3,333.4,687.9
+2026-02-28,Derivatives,362.9,137.6,225.3
+2026-02-28,Advisory,30.2,10.0,21.6
+2026-02-28,Bond/Fund Distribution,341.6,167.1,174.5
+2026-03-01,Equity Brokerage,1192.5,408.6,783.9
+2026-03-01,Margin Lending,1017.1,543.8,473.3
+2026-03-01,Derivatives,559.7,213.2,346.4
+2026-03-01,Advisory,302.6,184.8,117.8
+2026-03-01,Bond/Fund Distribution,116.7,44.8,71.8
+2026-03-02,Equity Brokerage,1245.8,536.0,709.8
+2026-03-02,Margin Lending,919.6,434.3,485.3
+2026-03-02,Derivatives,222.3,76.9,145.5
+2026-03-02,Advisory,146.7,62.9,83.7
+2026-03-02,Bond/Fund Distribution,179.7,62.5,117.2
+2026-03-03,Equity Brokerage,1093.0,634.2,458.8
+2026-03-03,Margin Lending,1025.0,438.1,586.9
+2026-03-03,Derivatives,326.7,161.6,165.2
+2026-03-03,Advisory,185.9,67.3,118.6
+2026-03-03,Bond/Fund Distribution,329.5,134.6,194.9
+2026-03-04,Equity Brokerage,1199.7,494.8,704.9
+2026-03-04,Margin Lending,917.9,548.4,369.5
+2026-03-04,Derivatives,493.6,230.4,263.2
+2026-03-04,Advisory,242.3,127.0,115.3
+2026-03-04,Bond/Fund Distribution,207.7,75.2,132.5
+2026-03-05,Equity Brokerage,1231.1,430.1,801.1
+2026-03-05,Margin Lending,1025.2,374.4,650.8
+2026-03-05,Derivatives,391.7,219.5,172.2
+2026-03-05,Advisory,92.7,26.1,66.6
+2026-03-05,Bond/Fund Distribution,143.0,81.1,61.9
+2026-03-06,Equity Brokerage,1170.5,636.4,534.1
+2026-03-06,Margin Lending,967.8,355.2,612.6
+2026-03-06,Derivatives,392.5,194.8,197.7
+2026-03-06,Advisory,110.8,32.1,78.7
+2026-03-06,Bond/Fund Distribution,255.7,147.4,108.3
+2026-03-07,Equity Brokerage,1212.7,471.2,741.5
+2026-03-07,Margin Lending,932.8,304.4,628.4
+2026-03-07,Derivatives,435.0,201.3,233.7
+2026-03-07,Advisory,69.5,19.6,49.9
+2026-03-07,Bond/Fund Distribution,453.0,192.7,260.3
+2026-03-08,Equity Brokerage,1084.2,529.5,554.8
+2026-03-08,Margin Lending,1048.0,533.7,514.3
+2026-03-08,Derivatives,352.3,104.1,248.2
+2026-03-08,Advisory,313.5,139.2,174.3
+2026-03-08,Bond/Fund Distribution,171.7,103.3,68.5
+2026-03-09,Equity Brokerage,1270.0,526.2,743.8
+2026-03-09,Margin Lending,999.5,428.8,570.6
+2026-03-09,Derivatives,347.2,141.3,205.9
+2026-03-09,Advisory,297.3,148.3,149.0
+2026-03-09,Bond/Fund Distribution,232.9,98.5,134.4
+2026-03-10,Equity Brokerage,1141.7,647.7,494.0
+2026-03-10,Margin Lending,1015.2,509.5,505.7
+2026-03-10,Derivatives,365.0,177.0,188.0
+2026-03-10,Advisory,96.8,57.1,39.7
+2026-03-10,Bond/Fund Distribution,279.2,97.0,182.2
+2026-03-11,Equity Brokerage,1104.7,599.6,505.1
+2026-03-11,Margin Lending,860.3,419.1,441.2
+2026-03-11,Derivatives,477.5,165.2,312.3
+2026-03-11,Advisory,181.5,51.6,129.9
+2026-03-11,Bond/Fund Distribution,211.8,78.7,133.1
+2026-03-12,Equity Brokerage,1126.0,642.8,483.3
+2026-03-12,Margin Lending,874.8,449.2,425.6
+2026-03-12,Derivatives,236.6,113.5,123.2
+2026-03-12,Advisory,85.1,26.7,58.4
+2026-03-12,Bond/Fund Distribution,243.6,149.5,94.1
+2026-03-13,Equity Brokerage,1185.3,510.6,674.7
+2026-03-13,Margin Lending,1037.1,335.7,701.4
+2026-03-13,Derivatives,436.6,175.4,261.2
+2026-03-13,Advisory,151.6,61.1,90.5
+2026-03-13,Bond/Fund Distribution,259.5,109.0,150.4
+2026-03-14,Equity Brokerage,1199.1,669.6,529.5
+2026-03-14,Margin Lending,900.1,537.7,362.5
+2026-03-14,Derivatives,266.5,98.1,168.5
+2026-03-14,Advisory,163.8,91.3,72.5
+2026-03-14,Bond/Fund Distribution,230.7,120.1,110.5
+2026-03-15,Equity Brokerage,1120.3,407.8,712.6
+2026-03-15,Margin Lending,849.7,467.9,381.8
+2026-03-15,Derivatives,307.1,186.0,121.1
+2026-03-15,Advisory,105.7,59.1,46.7
+2026-03-15,Bond/Fund Distribution,268.5,79.2,189.3
+2026-03-16,Equity Brokerage,1106.3,592.6,513.7
+2026-03-16,Margin Lending,978.1,549.5,428.6
+2026-03-16,Derivatives,451.9,251.2,200.7
+2026-03-16,Advisory,117.4,46.5,70.9
+2026-03-16,Bond/Fund Distribution,273.6,157.9,115.7
+2026-03-17,Equity Brokerage,1325.9,633.9,691.9
+2026-03-17,Margin Lending,737.7,303.0,434.8
+2026-03-17,Derivatives,470.1,256.8,213.3
+2026-03-17,Advisory,217.2,117.7,99.6
+2026-03-17,Bond/Fund Distribution,208.9,124.0,84.9
+2026-03-18,Equity Brokerage,1149.7,405.0,744.7
+2026-03-18,Margin Lending,916.6,302.4,614.3
+2026-03-18,Derivatives,452.3,246.9,205.3
+2026-03-18,Advisory,170.1,84.8,85.3
+2026-03-18,Bond/Fund Distribution,450.9,189.4,261.5
+2026-03-19,Equity Brokerage,1172.2,496.4,675.8
+2026-03-19,Margin Lending,986.4,348.7,637.7
+2026-03-19,Derivatives,443.4,225.0,218.3
+2026-03-19,Advisory,207.2,124.9,82.3
+2026-03-19,Bond/Fund Distribution,317.6,94.1,223.4
+2026-03-20,Equity Brokerage,1432.3,539.6,892.7
+2026-03-20,Margin Lending,934.4,517.1,417.2
+2026-03-20,Derivatives,580.1,186.3,393.9
+2026-03-20,Advisory,115.4,60.1,55.2
+2026-03-20,Bond/Fund Distribution,281.4,128.2,153.2
+2026-03-21,Equity Brokerage,1226.9,499.3,727.6
+2026-03-21,Margin Lending,921.6,494.5,427.1
+2026-03-21,Derivatives,303.3,124.0,179.3
+2026-03-21,Advisory,20.0,10.0,10.0
+2026-03-21,Bond/Fund Distribution,242.2,147.9,94.3
+2026-03-22,Equity Brokerage,1220.5,664.7,555.8
+2026-03-22,Margin Lending,1022.0,441.8,580.2
+2026-03-22,Derivatives,280.5,94.4,186.1
+2026-03-22,Advisory,61.1,21.3,39.7
+2026-03-22,Bond/Fund Distribution,276.0,164.9,111.2
+2026-03-23,Equity Brokerage,1318.4,625.8,692.6
+2026-03-23,Margin Lending,841.8,311.9,530.0
+2026-03-23,Derivatives,349.0,207.9,141.1
+2026-03-23,Advisory,250.3,76.4,173.8
+2026-03-23,Bond/Fund Distribution,161.7,96.6,65.1
+2026-03-24,Equity Brokerage,1164.9,455.0,709.9
+2026-03-24,Margin Lending,1031.0,313.3,717.7
+2026-03-24,Derivatives,476.1,282.5,193.5
+2026-03-24,Advisory,192.4,59.7,132.8
+2026-03-24,Bond/Fund Distribution,178.5,100.1,78.4
+2026-03-25,Equity Brokerage,1208.0,356.9,851.2
+2026-03-25,Margin Lending,1047.5,354.6,692.9
+2026-03-25,Derivatives,353.4,180.9,172.5
+2026-03-25,Advisory,123.9,36.9,87.0
+2026-03-25,Bond/Fund Distribution,331.8,147.0,184.8
+2026-03-26,Equity Brokerage,1219.5,749.3,470.2
+2026-03-26,Margin Lending,886.4,455.2,431.2
+2026-03-26,Derivatives,345.5,143.5,202.0
+2026-03-26,Advisory,219.0,70.0,149.0
+2026-03-26,Bond/Fund Distribution,264.7,135.8,128.9
+2026-03-27,Equity Brokerage,1323.5,419.4,904.1
+2026-03-27,Margin Lending,995.3,569.7,425.5
+2026-03-27,Derivatives,394.4,235.8,158.6
+2026-03-27,Advisory,208.6,101.5,107.1
+2026-03-27,Bond/Fund Distribution,358.4,158.9,199.5
+2026-03-28,Equity Brokerage,1296.7,448.3,848.4
+2026-03-28,Margin Lending,986.1,431.9,554.1
+2026-03-28,Derivatives,389.0,148.3,240.7
+2026-03-28,Advisory,139.1,67.8,71.2
+2026-03-28,Bond/Fund Distribution,304.4,104.0,200.4
+2026-03-29,Equity Brokerage,1319.3,510.2,809.1
+2026-03-29,Margin Lending,1019.3,486.3,533.0
+2026-03-29,Derivatives,533.2,225.0,308.2
+2026-03-29,Advisory,59.7,34.6,25.1
+2026-03-29,Bond/Fund Distribution,385.2,207.4,177.8
+2026-03-30,Equity Brokerage,1291.0,614.1,676.9
+2026-03-30,Margin Lending,1047.5,602.4,445.1
+2026-03-30,Derivatives,469.0,184.0,285.0
+2026-03-30,Advisory,278.3,118.4,159.9
+2026-03-30,Bond/Fund Distribution,238.0,76.4,161.6
+2026-03-31,Equity Brokerage,1317.7,563.5,754.3
+2026-03-31,Margin Lending,887.9,386.3,501.6
+2026-03-31,Derivatives,360.0,170.6,189.5
+2026-03-31,Advisory,210.3,89.3,121.0
+2026-03-31,Bond/Fund Distribution,303.0,185.9,117.1
+2026-04-01,Equity Brokerage,1278.3,489.1,789.2
+2026-04-01,Margin Lending,977.6,557.8,419.8
+2026-04-01,Derivatives,429.4,124.1,305.3
+2026-04-01,Advisory,256.4,130.4,126.0
+2026-04-01,Bond/Fund Distribution,261.3,99.1,162.2
+2026-04-02,Equity Brokerage,1054.0,628.4,425.6
+2026-04-02,Margin Lending,996.9,312.3,684.6
+2026-04-02,Derivatives,376.9,216.8,160.1
+2026-04-02,Advisory,226.6,131.7,95.0
+2026-04-02,Bond/Fund Distribution,325.1,115.7,209.4
+2026-04-03,Equity Brokerage,1281.1,458.1,823.0
+2026-04-03,Margin Lending,979.5,367.6,611.9
+2026-04-03,Derivatives,396.2,200.6,195.6
+2026-04-03,Advisory,198.7,70.1,128.6
+2026-04-03,Bond/Fund Distribution,333.4,169.1,164.3
+2026-04-04,Equity Brokerage,1342.4,829.5,512.9
+2026-04-04,Margin Lending,920.4,260.7,659.7
+2026-04-04,Derivatives,509.5,220.0,289.6
+2026-04-04,Advisory,69.7,27.4,42.3
+2026-04-04,Bond/Fund Distribution,273.2,139.1,134.1
+2026-04-05,Equity Brokerage,1309.9,708.1,601.8
+2026-04-05,Margin Lending,883.4,280.7,602.7
+2026-04-05,Derivatives,426.8,237.8,189.1
+2026-04-05,Advisory,184.3,80.5,103.8
+2026-04-05,Bond/Fund Distribution,269.2,92.0,177.2
+2026-04-06,Equity Brokerage,1215.8,467.8,748.1
+2026-04-06,Margin Lending,924.3,544.5,379.8
+2026-04-06,Derivatives,397.9,167.1,230.9
+2026-04-06,Advisory,113.8,51.4,62.4
+2026-04-06,Bond/Fund Distribution,259.7,95.8,164.0
+2026-04-07,Equity Brokerage,1280.0,443.5,836.6
+2026-04-07,Margin Lending,891.4,417.3,474.1
+2026-04-07,Derivatives,431.2,138.1,293.0
+2026-04-07,Advisory,170.3,79.8,90.4
+2026-04-07,Bond/Fund Distribution,223.6,63.9,159.8
+2026-04-08,Equity Brokerage,1288.6,712.8,575.8
+2026-04-08,Margin Lending,905.4,500.8,404.5
+2026-04-08,Derivatives,354.1,177.4,176.7
+2026-04-08,Advisory,128.0,42.6,85.4
+2026-04-08,Bond/Fund Distribution,256.8,77.0,179.8
+2026-04-09,Equity Brokerage,1238.4,377.7,860.7
+2026-04-09,Margin Lending,805.1,257.2,547.9
+2026-04-09,Derivatives,331.8,145.9,185.8
+2026-04-09,Advisory,202.3,58.4,143.9
+2026-04-09,Bond/Fund Distribution,213.2,93.6,119.6
+2026-04-10,Equity Brokerage,1229.1,732.3,496.7
+2026-04-10,Margin Lending,968.8,362.2,606.6
+2026-04-10,Derivatives,480.9,220.9,260.0
+2026-04-10,Advisory,30.2,14.7,15.5
+2026-04-10,Bond/Fund Distribution,354.0,109.9,244.2
+2026-04-11,Equity Brokerage,1250.7,720.2,530.6
+2026-04-11,Margin Lending,966.1,363.8,602.3
+2026-04-11,Derivatives,363.1,187.3,175.8
+2026-04-11,Advisory,244.2,88.2,156.0
+2026-04-11,Bond/Fund Distribution,308.5,117.2,191.3
+2026-04-12,Equity Brokerage,1287.1,718.1,569.0
+2026-04-12,Margin Lending,904.7,269.3,635.4
+2026-04-12,Derivatives,383.6,145.7,237.9
+2026-04-12,Advisory,159.9,88.2,71.7
+2026-04-12,Bond/Fund Distribution,271.8,119.3,152.6
+2026-04-13,Equity Brokerage,1192.5,492.3,700.2
+2026-04-13,Margin Lending,1070.5,651.5,419.0
+2026-04-13,Derivatives,501.1,234.8,266.3
+2026-04-13,Advisory,246.4,102.9,143.5
+2026-04-13,Bond/Fund Distribution,333.6,147.5,186.1
+2026-04-14,Equity Brokerage,1233.0,659.2,573.9
+2026-04-14,Margin Lending,920.2,556.9,363.3
+2026-04-14,Derivatives,264.2,126.4,137.9
+2026-04-14,Advisory,130.4,45.7,84.7
+2026-04-14,Bond/Fund Distribution,353.9,191.7,162.2
+2026-04-15,Equity Brokerage,1301.0,692.1,608.9
+2026-04-15,Margin Lending,912.0,548.9,363.0
+2026-04-15,Derivatives,224.9,93.8,131.1
+2026-04-15,Advisory,109.3,36.0,73.2
+2026-04-15,Bond/Fund Distribution,248.7,105.6,143.1
+2026-04-16,Equity Brokerage,1312.7,567.1,745.5
+2026-04-16,Margin Lending,991.5,507.3,484.2
+2026-04-16,Derivatives,256.3,108.3,148.0
+2026-04-16,Advisory,48.3,29.4,18.9
+2026-04-16,Bond/Fund Distribution,94.5,42.4,52.0
+2026-04-17,Equity Brokerage,1246.0,520.6,725.4
+2026-04-17,Margin Lending,913.0,272.2,640.8
+2026-04-17,Derivatives,462.2,199.8,262.4
+2026-04-17,Advisory,113.3,44.6,68.7
+2026-04-17,Bond/Fund Distribution,259.6,106.4,153.2
+2026-04-18,Equity Brokerage,1131.6,473.0,658.6
+2026-04-18,Margin Lending,1061.0,472.1,588.9
+2026-04-18,Derivatives,426.8,191.3,235.5
+2026-04-18,Advisory,197.3,57.1,140.2
+2026-04-18,Bond/Fund Distribution,197.3,57.4,139.9
+2026-04-19,Equity Brokerage,1206.6,445.7,760.9
+2026-04-19,Margin Lending,864.3,468.6,395.7
+2026-04-19,Derivatives,355.2,192.7,162.5
+2026-04-19,Advisory,36.6,13.0,23.6
+2026-04-19,Bond/Fund Distribution,296.6,138.4,158.2
+2026-04-20,Equity Brokerage,1257.0,466.3,790.7
+2026-04-20,Margin Lending,1035.8,305.7,730.1
+2026-04-20,Derivatives,519.9,277.9,242.1
+2026-04-20,Advisory,200.0,111.8,88.3
+2026-04-20,Bond/Fund Distribution,198.9,83.6,115.3
+2026-04-21,Equity Brokerage,1238.6,450.1,788.6
+2026-04-21,Margin Lending,854.7,419.6,435.1
+2026-04-21,Derivatives,430.4,186.5,243.9
+2026-04-21,Advisory,116.9,61.0,55.9
+2026-04-21,Bond/Fund Distribution,361.4,172.3,189.1
+2026-04-22,Equity Brokerage,1200.6,476.0,724.6
+2026-04-22,Margin Lending,966.4,576.7,389.7
+2026-04-22,Derivatives,309.5,163.2,146.3
+2026-04-22,Advisory,230.8,85.7,145.1
+2026-04-22,Bond/Fund Distribution,233.3,118.7,114.6
+2026-04-23,Equity Brokerage,1161.6,403.3,758.2
+2026-04-23,Margin Lending,949.8,406.2,543.5
+2026-04-23,Derivatives,466.4,248.4,218.0
+2026-04-23,Advisory,45.8,17.7,28.1
+2026-04-23,Bond/Fund Distribution,348.3,119.1,229.2
+2026-04-24,Equity Brokerage,1401.5,562.9,838.5
+2026-04-24,Margin Lending,1050.1,543.1,507.0
+2026-04-24,Derivatives,248.4,88.0,160.4
+2026-04-24,Advisory,106.1,51.3,54.8
+2026-04-24,Bond/Fund Distribution,232.5,75.0,157.5
+2026-04-25,Equity Brokerage,1178.0,353.2,824.9
+2026-04-25,Margin Lending,883.6,519.0,364.6
+2026-04-25,Derivatives,275.7,136.6,139.1
+2026-04-25,Advisory,128.5,54.1,74.4
+2026-04-25,Bond/Fund Distribution,289.6,87.2,202.5
+2026-04-26,Equity Brokerage,1334.3,443.8,890.5
+2026-04-26,Margin Lending,1016.0,476.6,539.4
+2026-04-26,Derivatives,345.7,106.9,238.8
+2026-04-26,Advisory,304.8,169.1,135.7
+2026-04-26,Bond/Fund Distribution,412.0,230.8,181.2
+2026-04-27,Equity Brokerage,1308.5,471.2,837.2
+2026-04-27,Margin Lending,872.5,330.0,542.5
+2026-04-27,Derivatives,289.9,99.9,190.0
+2026-04-27,Advisory,178.1,75.8,102.3
+2026-04-27,Bond/Fund Distribution,416.4,205.3,211.2
+2026-04-28,Equity Brokerage,1214.5,617.3,597.2
+2026-04-28,Margin Lending,1029.0,422.0,607.0
+2026-04-28,Derivatives,387.2,171.6,215.6
+2026-04-28,Advisory,153.4,58.2,95.2
+2026-04-28,Bond/Fund Distribution,267.1,112.4,154.7
+2026-04-29,Equity Brokerage,1367.3,616.6,750.7
+2026-04-29,Margin Lending,1115.8,525.0,590.7
+2026-04-29,Derivatives,407.9,119.0,288.8
+2026-04-29,Advisory,218.5,101.3,117.1
+2026-04-29,Bond/Fund Distribution,256.8,154.0,102.9

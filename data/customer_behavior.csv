@@ -1,0 +1,1001 @@
+customer_id,branch,rm,aum_bil_vnd,monthly_trading_value_mil_vnd,margin_balance_bil_vnd,product_usage,last_active_date,lifecycle
+C0001,Hanoi HQ,RM_07,0.42,210.92,0.15,Fund|Margin,2026-04-14,Active
+C0002,Da Nang,RM_03,0.45,217.31,0.04,Margin|Bond,2026-04-27,Active
+C0003,Hai Phong,RM_10,0.56,99.91,0.16,Margin,2026-04-22,Active
+C0004,Online,RM_18,0.4,339.23,0.02,Margin|Derivative|Bond,2026-04-10,Dormant
+C0005,Hai Phong,RM_04,1.27,55.12,0.24,Equity|Bond,2026-04-26,Dormant
+C0006,Ho Chi Minh,RM_14,0.29,442.3,0.07,Fund|Equity,2026-04-17,Active
+C0007,Hanoi HQ,RM_25,1.02,17.2,0.06,Bond,2026-04-01,Active
+C0008,Can Tho,RM_11,1.37,44.13,0.49,Advisory|Derivative,2026-04-14,Active
+C0009,Ho Chi Minh,RM_02,0.57,51.31,0.17,Margin|Fund,2026-04-11,VIP
+C0010,Da Nang,RM_03,1.04,649.58,0.36,Derivative,2026-04-18,New
+C0011,Hanoi HQ,RM_07,10.08,38.74,3.15,Advisory|Margin|Fund,2026-04-28,Active
+C0012,Hanoi HQ,RM_19,1.2,427.73,0.47,Derivative|Equity,2026-04-01,Dormant
+C0013,Hanoi HQ,RM_07,0.56,198.65,0.16,Advisory,2026-04-30,Active
+C0014,Online,RM_30,0.49,87.05,0.07,Bond|Derivative,2026-03-10,Active
+C0015,Online,RM_12,0.71,18.98,0.1,Derivative,2026-04-24,New
+C0016,Can Tho,RM_05,2.49,24.91,0.76,Equity|Margin,2026-04-17,Active
+C0017,Online,RM_06,2.94,25.6,0.84,Advisory,2026-04-17,New
+C0018,Ho Chi Minh,RM_20,0.24,56.48,0.08,Advisory|Margin|Bond,2026-04-01,Dormant
+C0019,Can Tho,RM_11,0.33,83.95,0.14,Bond|Derivative|Equity,2026-03-24,Active
+C0020,Ho Chi Minh,RM_02,1.97,141.48,0.17,Equity|Advisory|Margin,2026-04-25,Dormant
+C0021,Ho Chi Minh,RM_20,0.91,303.88,0.0,Advisory|Bond|Fund,2026-04-29,Active
+C0022,Da Nang,RM_03,0.22,246.34,0.07,Derivative,2026-04-26,New
+C0023,Hanoi HQ,RM_19,0.19,264.26,0.05,Fund|Equity|Margin,2026-02-20,Active
+C0024,Hai Phong,RM_28,1.69,184.61,0.18,Bond|Derivative|Margin,2026-04-18,Active
+C0025,Online,RM_06,0.64,270.12,0.28,Margin,2026-03-02,Active
+C0026,Online,RM_18,1.47,132.45,0.46,Equity|Derivative,2026-04-15,Dormant
+C0027,Can Tho,RM_17,1.13,846.67,0.15,Bond|Advisory,2026-04-21,Active
+C0028,Hanoi HQ,RM_13,0.42,103.96,0.17,Derivative|Fund,2026-04-30,VIP
+C0029,Hai Phong,RM_22,0.48,130.67,0.01,Advisory|Margin,2026-03-30,Active
+C0030,Online,RM_12,0.69,211.68,0.26,Advisory|Margin,2026-04-27,Active
+C0031,Online,RM_30,0.65,70.08,0.13,Bond|Fund,2026-04-06,Active
+C0032,Online,RM_12,0.22,82.81,0.02,Margin|Bond,2026-04-25,Active
+C0033,Can Tho,RM_29,1.06,735.81,0.29,Fund|Advisory,2026-04-21,New
+C0034,Can Tho,RM_05,0.55,61.57,0.24,Fund|Advisory,2026-04-27,Active
+C0035,Can Tho,RM_23,0.52,213.06,0.0,Equity,2026-03-13,New
+C0036,Da Nang,RM_27,1.33,372.51,0.34,Margin,2026-04-28,VIP
+C0037,Hai Phong,RM_10,0.37,46.04,0.04,Derivative,2026-04-22,Active
+C0038,Can Tho,RM_29,0.4,304.62,0.02,Margin,2026-04-09,VIP
+C0039,Hai Phong,RM_04,1.26,54.78,0.46,Margin|Bond,2026-02-06,Active
+C0040,Hanoi HQ,RM_25,0.39,27.34,0.09,Margin,2026-04-18,New
+C0041,Can Tho,RM_29,1.0,103.68,0.43,Fund|Margin|Equity,2026-04-15,Active
+C0042,Hai Phong,RM_04,4.44,186.71,1.93,Bond|Advisory,2026-04-10,Active
+C0043,Ho Chi Minh,RM_08,0.45,154.43,0.02,Margin,2026-02-12,VIP
+C0044,Hai Phong,RM_04,2.73,41.87,0.59,Fund|Equity|Advisory,2026-04-22,Active
+C0045,Hanoi HQ,RM_13,0.71,87.09,0.02,Fund,2026-04-28,VIP
+C0046,Hai Phong,RM_28,1.44,76.95,0.15,Fund,2026-03-02,Active
+C0047,Can Tho,RM_11,0.61,163.72,0.19,Fund|Derivative|Bond,2026-04-29,VIP
+C0048,Hai Phong,RM_22,1.73,146.37,0.04,Derivative|Bond,2026-04-25,Active
+C0049,Ho Chi Minh,RM_08,2.03,16.34,0.07,Margin|Bond|Fund,2026-02-24,Dormant
+C0050,Hai Phong,RM_28,0.38,76.75,0.01,Advisory|Bond|Fund,2026-03-11,Dormant
+C0051,Da Nang,RM_27,2.35,71.41,1.05,Fund,2026-04-28,Active
+C0052,Hanoi HQ,RM_01,0.06,44.39,0.01,Margin|Advisory,2026-04-29,VIP
+C0053,Da Nang,RM_21,3.57,231.75,1.22,Fund,2026-04-22,Active
+C0054,Hai Phong,RM_04,1.47,34.72,0.41,Equity|Bond|Fund,2026-04-23,Dormant
+C0055,Online,RM_18,0.86,425.41,0.22,Fund,2026-03-24,Dormant
+C0056,Hanoi HQ,RM_07,2.09,17.29,0.37,Bond|Derivative|Advisory,2026-04-20,Active
+C0057,Hai Phong,RM_28,0.9,15.06,0.28,Bond|Derivative,2026-04-02,Active
+C0058,Ho Chi Minh,RM_02,2.22,24.51,0.24,Margin,2026-04-29,Dormant
+C0059,Da Nang,RM_27,0.27,208.29,0.02,Bond,2026-04-30,New
+C0060,Hanoi HQ,RM_01,0.08,210.34,0.03,Advisory|Fund,2026-04-28,Active
+C0061,Hai Phong,RM_22,1.7,60.47,0.57,Equity|Derivative|Bond,2026-04-27,Active
+C0062,Hanoi HQ,RM_13,1.08,50.48,0.41,Fund,2026-04-06,Active
+C0063,Hanoi HQ,RM_25,0.33,225.49,0.08,Advisory|Bond,2026-03-28,Active
+C0064,Hai Phong,RM_04,2.77,28.39,0.6,Derivative|Advisory,2026-04-15,Active
+C0065,Online,RM_06,0.91,301.33,0.1,Bond|Margin,2026-04-18,Active
+C0066,Online,RM_06,0.38,70.01,0.03,Advisory|Margin|Fund,2026-04-24,Active
+C0067,Online,RM_24,0.57,44.09,0.25,Bond|Derivative,2026-03-25,Dormant
+C0068,Ho Chi Minh,RM_02,5.58,710.57,0.7,Derivative|Advisory,2026-04-04,Active
+C0069,Da Nang,RM_15,1.94,277.3,0.08,Margin|Equity|Advisory,2026-04-18,Active
+C0070,Online,RM_24,0.4,276.1,0.12,Fund|Equity|Derivative,2026-04-05,Dormant
+C0071,Hai Phong,RM_28,0.86,132.0,0.07,Margin|Equity,2026-04-29,Active
+C0072,Hai Phong,RM_28,0.53,84.23,0.19,Bond|Margin,2026-04-11,Active
+C0073,Ho Chi Minh,RM_08,4.26,77.19,1.72,Margin,2026-04-13,Active
+C0074,Ho Chi Minh,RM_14,0.07,578.37,0.01,Bond|Advisory,2026-04-07,Active
+C0075,Can Tho,RM_29,0.46,46.98,0.05,Advisory|Bond,2026-04-06,Active
+C0076,Hai Phong,RM_22,2.62,73.36,0.18,Advisory,2026-04-26,Active
+C0077,Ho Chi Minh,RM_26,0.33,30.43,0.03,Equity|Fund,2026-03-18,Dormant
+C0078,Ho Chi Minh,RM_08,8.35,137.91,0.07,Fund,2026-03-24,New
+C0079,Hanoi HQ,RM_19,0.87,133.57,0.36,Equity|Bond,2026-04-20,Active
+C0080,Hanoi HQ,RM_25,0.21,35.7,0.02,Fund|Bond|Margin,2026-04-14,Active
+C0081,Ho Chi Minh,RM_26,0.26,19.38,0.06,Fund|Equity,2026-03-16,Active
+C0082,Da Nang,RM_27,0.23,101.55,0.02,Margin|Bond,2026-04-18,Active
+C0083,Ho Chi Minh,RM_26,0.55,35.42,0.02,Fund,2026-01-17,Active
+C0084,Hanoi HQ,RM_19,0.46,11.56,0.13,Fund|Derivative|Bond,2026-04-22,Active
+C0085,Hai Phong,RM_22,0.09,30.56,0.02,Equity,2026-04-27,Dormant
+C0086,Ho Chi Minh,RM_02,0.5,110.82,0.04,Derivative,2026-04-08,Active
+C0087,Can Tho,RM_29,0.13,363.53,0.03,Equity|Derivative|Advisory,2026-03-22,Dormant
+C0088,Can Tho,RM_11,0.55,37.38,0.08,Margin|Fund,2026-04-29,Active
+C0089,Hai Phong,RM_28,1.23,159.59,0.34,Equity|Advisory|Fund,2026-04-23,Dormant
+C0090,Can Tho,RM_05,2.52,11.0,0.49,Bond|Margin,2026-04-24,Active
+C0091,Da Nang,RM_27,0.81,141.15,0.16,Derivative|Bond,2026-04-30,Active
+C0092,Hai Phong,RM_22,0.2,133.67,0.02,Bond|Advisory,2026-04-30,New
+C0093,Can Tho,RM_05,2.03,201.21,0.19,Fund,2026-04-30,Active
+C0094,Online,RM_12,0.66,1498.54,0.17,Equity,2026-03-29,VIP
+C0095,Hanoi HQ,RM_01,0.87,52.12,0.1,Derivative|Margin|Advisory,2026-04-22,Active
+C0096,Ho Chi Minh,RM_02,1.22,105.04,0.07,Equity|Margin,2026-04-19,New
+C0097,Online,RM_30,0.45,1499.38,0.07,Fund,2026-04-23,Active
+C0098,Da Nang,RM_03,0.53,57.96,0.19,Advisory,2026-03-03,New
+C0099,Hai Phong,RM_16,1.06,234.19,0.38,Bond|Fund,2026-04-11,Active
+C0100,Ho Chi Minh,RM_26,0.84,78.55,0.02,Bond,2026-04-15,New
+C0101,Da Nang,RM_21,0.32,235.51,0.02,Equity,2026-04-21,Active
+C0102,Hanoi HQ,RM_07,0.8,71.95,0.08,Fund|Equity,2026-04-28,Active
+C0103,Hanoi HQ,RM_07,1.09,14.32,0.39,Advisory|Bond,2026-04-24,New
+C0104,Hai Phong,RM_10,0.47,32.44,0.2,Advisory|Bond,2026-04-29,New
+C0105,Online,RM_12,1.82,168.97,0.8,Bond,2026-04-04,New
+C0106,Ho Chi Minh,RM_14,1.59,72.74,0.51,Margin,2026-04-14,Active
+C0107,Online,RM_12,1.27,22.17,0.56,Fund|Bond|Equity,2026-03-23,VIP
+C0108,Da Nang,RM_27,2.26,83.08,0.23,Derivative|Fund,2026-03-30,New
+C0109,Ho Chi Minh,RM_26,0.38,442.49,0.01,Derivative,2026-02-27,Active
+C0110,Hai Phong,RM_10,0.12,3899.48,0.05,Margin|Bond|Equity,2026-03-21,New
+C0111,Hai Phong,RM_04,0.31,143.4,0.12,Fund,2026-04-25,New
+C0112,Da Nang,RM_15,1.4,1091.94,0.05,Fund|Derivative|Margin,2026-04-21,New
+C0113,Hai Phong,RM_28,0.76,371.67,0.31,Advisory|Margin,2026-04-15,Active
+C0114,Hai Phong,RM_16,1.84,190.25,0.72,Fund|Bond|Margin,2026-04-08,Active
+C0115,Online,RM_06,0.88,100.48,0.38,Derivative|Equity|Bond,2026-04-19,Active
+C0116,Online,RM_18,1.1,185.85,0.25,Margin,2026-04-30,New
+C0117,Ho Chi Minh,RM_02,1.38,1292.16,0.48,Bond|Derivative,2026-04-28,Active
+C0118,Da Nang,RM_15,0.86,187.51,0.03,Bond,2026-04-24,New
+C0119,Online,RM_24,0.41,181.17,0.14,Fund|Advisory|Margin,2026-04-30,Active
+C0120,Ho Chi Minh,RM_14,1.43,113.48,0.07,Fund|Equity|Margin,2026-03-27,Active
+C0121,Hai Phong,RM_22,1.11,156.35,0.43,Margin|Advisory|Fund,2026-03-01,Active
+C0122,Online,RM_06,0.36,57.31,0.0,Derivative|Equity,2026-04-12,Dormant
+C0123,Da Nang,RM_21,0.62,32.43,0.15,Bond,2026-04-30,Active
+C0124,Da Nang,RM_15,0.26,113.27,0.01,Derivative,2026-04-10,Active
+C0125,Da Nang,RM_21,0.17,1039.35,0.07,Fund,2026-04-28,Active
+C0126,Can Tho,RM_11,1.59,191.04,0.56,Advisory|Margin,2026-04-30,Active
+C0127,Hai Phong,RM_16,0.17,108.4,0.03,Advisory|Bond,2026-04-04,Dormant
+C0128,Online,RM_30,0.27,87.82,0.07,Fund|Derivative,2026-04-09,Active
+C0129,Da Nang,RM_03,0.89,315.08,0.25,Equity,2026-04-13,Dormant
+C0130,Online,RM_30,0.52,1701.43,0.15,Derivative|Equity,2026-04-16,Active
+C0131,Hai Phong,RM_10,3.91,72.11,1.04,Fund,2026-04-12,Active
+C0132,Hanoi HQ,RM_13,1.22,63.65,0.36,Fund|Equity,2026-04-18,VIP
+C0133,Da Nang,RM_09,0.31,117.87,0.06,Bond|Derivative,2026-04-26,Active
+C0134,Can Tho,RM_29,1.06,372.03,0.35,Derivative|Margin,2026-04-04,New
+C0135,Ho Chi Minh,RM_02,2.13,114.68,0.86,Derivative|Equity,2026-04-21,Active
+C0136,Hanoi HQ,RM_13,2.52,104.06,0.27,Equity|Bond,2026-04-04,Active
+C0137,Can Tho,RM_05,0.65,53.25,0.03,Advisory|Derivative,2026-04-21,Active
+C0138,Hanoi HQ,RM_25,0.2,428.98,0.07,Equity,2026-04-28,Active
+C0139,Can Tho,RM_29,1.96,69.5,0.38,Advisory|Bond|Margin,2026-04-25,Active
+C0140,Can Tho,RM_11,1.69,459.09,0.36,Derivative|Margin|Equity,2026-03-28,Active
+C0141,Ho Chi Minh,RM_02,0.52,72.85,0.01,Margin|Fund|Bond,2026-04-12,New
+C0142,Hanoi HQ,RM_19,1.81,175.15,0.37,Derivative|Equity,2026-04-17,Active
+C0143,Online,RM_18,1.34,37.55,0.58,Fund,2026-04-29,Active
+C0144,Can Tho,RM_23,0.69,148.52,0.01,Derivative|Margin,2026-04-25,Dormant
+C0145,Hanoi HQ,RM_01,1.37,34.03,0.24,Equity|Bond,2026-04-12,New
+C0146,Da Nang,RM_09,0.52,150.1,0.07,Equity|Advisory,2026-04-28,Dormant
+C0147,Hanoi HQ,RM_13,0.54,543.36,0.2,Fund|Margin,2026-04-28,Active
+C0148,Da Nang,RM_15,0.3,660.04,0.06,Advisory,2026-04-26,Active
+C0149,Ho Chi Minh,RM_14,2.58,257.75,0.58,Bond|Margin,2026-04-16,New
+C0150,Can Tho,RM_05,3.07,16.09,0.74,Derivative|Equity|Bond,2026-04-14,New
+C0151,Can Tho,RM_23,1.81,100.36,0.06,Advisory|Margin|Derivative,2026-03-06,Active
+C0152,Ho Chi Minh,RM_14,0.13,107.37,0.02,Equity|Derivative|Margin,2026-04-24,Active
+C0153,Ho Chi Minh,RM_02,0.4,20.88,0.02,Derivative|Advisory|Equity,2026-04-27,Active
+C0154,Online,RM_24,0.41,213.93,0.17,Bond|Margin,2026-04-21,New
+C0155,Hanoi HQ,RM_13,2.42,182.52,0.96,Bond,2026-04-26,Dormant
+C0156,Hai Phong,RM_16,0.14,180.74,0.02,Derivative|Fund|Bond,2026-04-07,Active
+C0157,Can Tho,RM_23,0.22,168.22,0.07,Fund|Bond|Advisory,2026-03-26,Active
+C0158,Hanoi HQ,RM_07,0.16,160.62,0.03,Derivative|Advisory,2026-04-14,Active
+C0159,Da Nang,RM_03,0.11,13.64,0.04,Equity|Advisory,2026-04-30,Dormant
+C0160,Hanoi HQ,RM_13,0.24,54.71,0.04,Bond,2026-04-29,Active
+C0161,Da Nang,RM_21,1.36,21.59,0.42,Equity|Fund,2026-04-26,Active
+C0162,Ho Chi Minh,RM_02,0.1,59.9,0.03,Margin,2026-04-29,Active
+C0163,Hai Phong,RM_10,0.65,44.26,0.22,Equity|Margin|Fund,2026-04-23,New
+C0164,Ho Chi Minh,RM_20,0.78,282.19,0.3,Equity|Derivative,2026-04-17,Active
+C0165,Hai Phong,RM_16,0.21,122.96,0.01,Fund|Bond|Equity,2026-04-28,Active
+C0166,Hanoi HQ,RM_25,0.12,209.2,0.02,Fund|Equity,2026-04-20,VIP
+C0167,Can Tho,RM_05,0.74,7.92,0.13,Equity,2026-04-17,Active
+C0168,Hanoi HQ,RM_07,0.44,92.25,0.08,Equity|Advisory,2026-04-27,Dormant
+C0169,Ho Chi Minh,RM_02,0.71,294.13,0.19,Advisory,2026-04-04,Active
+C0170,Da Nang,RM_21,0.68,37.62,0.16,Margin,2026-04-26,Active
+C0171,Online,RM_18,1.5,72.21,0.0,Margin|Equity,2026-04-30,Active
+C0172,Hai Phong,RM_10,0.67,23.48,0.23,Margin|Fund|Derivative,2026-04-13,Active
+C0173,Online,RM_30,0.34,64.59,0.1,Fund|Margin|Advisory,2026-04-13,Active
+C0174,Online,RM_06,0.25,95.07,0.1,Equity,2026-04-20,Active
+C0175,Can Tho,RM_29,0.41,6.92,0.0,Advisory|Bond,2026-04-25,Dormant
+C0176,Hanoi HQ,RM_13,0.71,226.27,0.04,Margin|Equity|Bond,2026-04-16,Active
+C0177,Hai Phong,RM_04,0.49,220.02,0.14,Bond,2026-04-01,VIP
+C0178,Can Tho,RM_17,2.27,34.87,0.45,Bond|Derivative,2026-04-25,Active
+C0179,Ho Chi Minh,RM_02,0.28,11.09,0.03,Margin|Advisory|Fund,2026-03-22,Active
+C0180,Hanoi HQ,RM_13,2.16,225.29,0.1,Advisory,2026-04-30,Active
+C0181,Hai Phong,RM_28,0.25,16.91,0.06,Derivative|Margin,2026-03-30,Active
+C0182,Hanoi HQ,RM_25,0.59,105.15,0.25,Fund|Derivative|Bond,2026-04-19,New
+C0183,Hanoi HQ,RM_13,3.34,209.16,1.22,Bond|Derivative|Advisory,2026-04-11,New
+C0184,Ho Chi Minh,RM_08,0.13,14.04,0.04,Equity|Margin,2026-03-10,New
+C0185,Da Nang,RM_21,1.71,63.0,0.66,Bond,2026-03-28,VIP
+C0186,Ho Chi Minh,RM_14,1.76,268.37,0.52,Fund|Derivative,2026-04-27,New
+C0187,Online,RM_18,1.0,56.48,0.04,Advisory|Derivative|Margin,2026-03-01,Active
+C0188,Hanoi HQ,RM_01,0.11,130.42,0.03,Margin|Bond|Derivative,2026-04-09,Active
+C0189,Ho Chi Minh,RM_26,0.59,46.94,0.21,Fund|Equity,2026-04-26,Active
+C0190,Da Nang,RM_09,0.63,121.59,0.22,Fund,2026-04-30,Active
+C0191,Hai Phong,RM_16,0.46,48.53,0.18,Equity|Bond|Margin,2026-01-20,Active
+C0192,Ho Chi Minh,RM_26,0.18,17.25,0.05,Margin|Bond,2026-04-30,New
+C0193,Can Tho,RM_23,0.75,390.46,0.24,Equity|Bond,2026-04-29,Active
+C0194,Online,RM_18,0.53,128.59,0.08,Equity|Bond|Margin,2026-04-12,Active
+C0195,Hai Phong,RM_04,0.05,288.74,0.0,Derivative|Fund|Advisory,2026-04-23,Dormant
+C0196,Da Nang,RM_15,0.26,919.65,0.07,Margin|Equity|Derivative,2026-04-03,VIP
+C0197,Can Tho,RM_05,0.44,34.91,0.07,Fund,2026-04-30,Active
+C0198,Da Nang,RM_21,0.4,28.6,0.08,Equity,2026-04-19,New
+C0199,Hanoi HQ,RM_07,0.55,39.85,0.23,Equity,2026-04-19,Active
+C0200,Da Nang,RM_03,1.76,55.84,0.77,Fund|Bond|Advisory,2026-04-22,Active
+C0201,Hai Phong,RM_04,0.06,316.38,0.01,Equity|Margin,2026-03-20,Dormant
+C0202,Hai Phong,RM_10,1.18,220.39,0.33,Equity,2026-04-18,Active
+C0203,Can Tho,RM_17,1.15,115.04,0.32,Fund,2026-04-23,New
+C0204,Hai Phong,RM_22,2.0,2239.46,0.1,Fund|Derivative,2026-03-26,Active
+C0205,Online,RM_06,1.26,74.13,0.24,Advisory|Bond,2026-04-28,Active
+C0206,Can Tho,RM_29,0.31,360.63,0.11,Advisory|Equity|Derivative,2026-04-28,Active
+C0207,Hanoi HQ,RM_07,0.82,386.42,0.28,Bond|Equity|Margin,2026-04-05,Dormant
+C0208,Ho Chi Minh,RM_08,1.75,109.82,0.42,Advisory|Derivative,2026-04-18,Active
+C0209,Hanoi HQ,RM_19,0.43,68.1,0.02,Margin,2026-04-23,Active
+C0210,Hai Phong,RM_16,0.76,342.76,0.15,Equity|Margin,2026-04-16,Active
+C0211,Online,RM_06,0.52,76.74,0.04,Equity|Bond|Advisory,2026-03-21,New
+C0212,Da Nang,RM_09,0.74,565.63,0.32,Bond|Fund|Equity,2026-04-21,Active
+C0213,Online,RM_06,1.07,51.16,0.04,Fund|Advisory,2026-04-30,Dormant
+C0214,Ho Chi Minh,RM_20,0.95,267.69,0.13,Equity|Advisory,2026-04-25,Active
+C0215,Hai Phong,RM_28,0.41,76.15,0.06,Fund|Derivative,2026-04-20,Dormant
+C0216,Can Tho,RM_11,0.45,249.03,0.01,Advisory|Equity,2026-04-06,Active
+C0217,Ho Chi Minh,RM_20,1.3,70.96,0.16,Margin|Fund,2026-04-12,Active
+C0218,Ho Chi Minh,RM_20,1.49,249.31,0.45,Margin,2026-04-25,New
+C0219,Online,RM_24,0.19,63.26,0.03,Margin|Derivative|Equity,2026-04-28,Active
+C0220,Ho Chi Minh,RM_14,0.58,190.25,0.22,Fund|Derivative|Equity,2026-04-24,New
+C0221,Hanoi HQ,RM_07,1.97,1149.44,0.56,Bond|Margin|Advisory,2026-04-17,New
+C0222,Hanoi HQ,RM_01,0.11,86.37,0.03,Derivative|Margin|Bond,2026-04-24,Dormant
+C0223,Ho Chi Minh,RM_02,1.87,785.38,0.75,Advisory|Bond|Margin,2026-04-27,Active
+C0224,Ho Chi Minh,RM_14,0.78,429.47,0.02,Margin|Bond|Advisory,2026-03-29,Dormant
+C0225,Hai Phong,RM_04,0.43,155.97,0.18,Derivative|Fund|Advisory,2026-04-19,Active
+C0226,Hanoi HQ,RM_19,3.03,88.75,0.87,Equity|Advisory,2026-04-10,VIP
+C0227,Ho Chi Minh,RM_02,1.03,117.06,0.12,Bond|Derivative,2026-04-21,Active
+C0228,Da Nang,RM_27,0.47,55.86,0.21,Derivative,2026-04-23,Active
+C0229,Hanoi HQ,RM_13,2.31,136.69,0.05,Bond,2026-03-29,Active
+C0230,Can Tho,RM_11,0.4,306.0,0.15,Advisory|Margin|Bond,2026-04-17,VIP
+C0231,Hanoi HQ,RM_13,3.18,54.83,1.26,Margin,2026-04-10,Active
+C0232,Hai Phong,RM_28,0.45,140.61,0.05,Equity|Bond|Advisory,2026-04-29,Active
+C0233,Hai Phong,RM_04,0.3,85.36,0.06,Derivative,2026-04-05,Dormant
+C0234,Can Tho,RM_29,0.24,564.82,0.06,Fund|Margin,2026-04-30,Active
+C0235,Online,RM_06,0.77,52.73,0.05,Margin|Advisory,2026-04-30,Active
+C0236,Ho Chi Minh,RM_26,0.61,23.36,0.22,Fund,2026-04-29,Active
+C0237,Da Nang,RM_21,0.94,380.24,0.1,Margin|Derivative|Equity,2026-04-22,New
+C0238,Can Tho,RM_11,0.12,433.92,0.03,Derivative,2026-04-08,New
+C0239,Hanoi HQ,RM_01,0.28,74.54,0.0,Fund|Equity|Derivative,2026-04-12,New
+C0240,Can Tho,RM_05,2.46,135.2,0.64,Bond|Advisory|Margin,2026-04-16,Active
+C0241,Online,RM_24,1.25,120.49,0.22,Equity|Fund,2026-04-30,Active
+C0242,Can Tho,RM_29,0.12,80.96,0.05,Equity|Margin,2026-04-28,Active
+C0243,Hai Phong,RM_28,0.31,132.82,0.08,Margin,2026-04-28,Active
+C0244,Ho Chi Minh,RM_02,0.43,56.85,0.16,Fund|Advisory,2026-04-23,Active
+C0245,Online,RM_12,1.37,68.37,0.33,Fund|Margin|Advisory,2026-04-27,Active
+C0246,Hanoi HQ,RM_19,1.47,306.47,0.2,Fund|Margin,2026-04-23,New
+C0247,Can Tho,RM_17,1.22,161.27,0.07,Fund|Equity,2026-04-14,Active
+C0248,Hanoi HQ,RM_07,0.95,82.02,0.12,Advisory|Fund,2026-03-24,New
+C0249,Ho Chi Minh,RM_20,0.93,378.03,0.16,Margin,2026-04-24,Active
+C0250,Hanoi HQ,RM_19,0.65,342.12,0.13,Margin|Equity|Advisory,2026-04-14,New
+C0251,Hanoi HQ,RM_13,2.32,95.54,0.93,Margin|Derivative,2026-04-29,Active
+C0252,Can Tho,RM_23,0.71,78.03,0.22,Bond|Equity,2026-04-07,Active
+C0253,Ho Chi Minh,RM_02,2.44,46.05,0.58,Advisory|Equity|Derivative,2026-04-02,New
+C0254,Online,RM_30,1.21,262.88,0.08,Advisory,2026-04-05,Active
+C0255,Ho Chi Minh,RM_08,3.37,55.63,0.43,Equity|Margin|Fund,2026-04-10,Dormant
+C0256,Hanoi HQ,RM_13,0.35,173.17,0.13,Bond|Equity,2026-04-26,Active
+C0257,Hai Phong,RM_28,0.55,370.54,0.07,Margin|Fund|Equity,2026-04-28,Active
+C0258,Da Nang,RM_09,0.48,26.14,0.16,Equity|Bond|Fund,2026-04-27,Active
+C0259,Online,RM_18,1.62,41.0,0.6,Margin|Derivative,2026-04-01,Active
+C0260,Online,RM_12,0.12,116.0,0.01,Margin|Derivative|Bond,2026-04-13,New
+C0261,Ho Chi Minh,RM_26,1.47,332.88,0.39,Bond|Margin,2026-03-21,Active
+C0262,Can Tho,RM_11,0.61,141.04,0.16,Fund|Margin,2026-03-25,Active
+C0263,Online,RM_12,0.34,174.23,0.01,Derivative|Advisory|Fund,2026-04-16,Active
+C0264,Hanoi HQ,RM_13,0.41,48.0,0.02,Margin,2026-04-10,Active
+C0265,Hai Phong,RM_10,0.72,41.16,0.12,Derivative|Advisory|Equity,2026-03-25,Dormant
+C0266,Hanoi HQ,RM_13,2.49,84.13,0.95,Derivative,2026-04-26,Active
+C0267,Can Tho,RM_23,0.15,294.17,0.01,Advisory|Derivative,2026-04-12,Active
+C0268,Hai Phong,RM_22,0.32,141.77,0.01,Derivative,2026-04-11,Active
+C0269,Hanoi HQ,RM_13,0.16,34.37,0.0,Derivative|Margin,2026-04-28,Active
+C0270,Hai Phong,RM_22,1.81,42.15,0.71,Derivative|Margin,2026-04-30,Active
+C0271,Can Tho,RM_17,1.12,122.25,0.06,Bond|Fund|Derivative,2026-04-30,Active
+C0272,Da Nang,RM_21,2.51,48.37,0.25,Advisory|Margin|Bond,2026-04-12,Dormant
+C0273,Da Nang,RM_09,2.56,145.79,0.7,Margin,2026-04-24,Active
+C0274,Ho Chi Minh,RM_02,0.39,1690.2,0.01,Bond|Advisory,2026-04-10,VIP
+C0275,Hai Phong,RM_28,0.37,239.17,0.12,Fund,2026-04-13,Active
+C0276,Hanoi HQ,RM_13,1.19,419.33,0.21,Derivative|Fund|Margin,2026-04-10,Active
+C0277,Hanoi HQ,RM_25,1.01,236.61,0.03,Derivative,2026-04-28,Active
+C0278,Online,RM_18,2.04,50.41,0.33,Equity|Bond,2026-03-08,Active
+C0279,Online,RM_30,2.15,146.13,0.46,Derivative,2026-03-20,Active
+C0280,Online,RM_12,0.15,198.92,0.03,Equity|Bond|Fund,2026-04-14,Dormant
+C0281,Can Tho,RM_29,0.74,224.48,0.33,Derivative,2026-04-05,Active
+C0282,Can Tho,RM_17,0.91,31.85,0.32,Bond,2026-04-18,Dormant
+C0283,Hai Phong,RM_10,0.44,200.33,0.1,Margin|Advisory,2026-04-01,Dormant
+C0284,Hanoi HQ,RM_13,0.51,58.69,0.09,Margin|Fund|Bond,2026-03-16,Active
+C0285,Ho Chi Minh,RM_20,0.93,141.17,0.4,Bond|Derivative,2026-04-15,Active
+C0286,Online,RM_18,0.22,267.29,0.02,Advisory|Fund|Equity,2026-03-16,Active
+C0287,Hanoi HQ,RM_01,0.9,97.14,0.11,Fund,2026-03-07,Active
+C0288,Hanoi HQ,RM_19,0.58,35.26,0.24,Equity,2026-03-28,Active
+C0289,Ho Chi Minh,RM_20,0.38,50.03,0.05,Advisory|Derivative,2026-04-14,Dormant
+C0290,Hanoi HQ,RM_01,2.57,79.74,0.97,Equity|Advisory,2026-04-23,Dormant
+C0291,Can Tho,RM_23,0.61,248.95,0.15,Bond,2026-04-17,Active
+C0292,Ho Chi Minh,RM_08,0.35,38.82,0.05,Bond|Equity|Margin,2026-04-26,Active
+C0293,Da Nang,RM_15,3.19,70.48,0.87,Fund,2026-03-21,Active
+C0294,Da Nang,RM_27,1.47,52.37,0.36,Equity|Derivative|Bond,2026-04-28,Active
+C0295,Da Nang,RM_09,1.57,25.78,0.34,Derivative|Margin|Fund,2026-04-22,Active
+C0296,Hanoi HQ,RM_25,0.22,98.04,0.02,Fund|Derivative,2026-04-29,Active
+C0297,Ho Chi Minh,RM_02,0.42,216.7,0.07,Fund,2026-04-23,Active
+C0298,Hanoi HQ,RM_13,0.72,249.66,0.12,Advisory|Margin,2026-04-27,Active
+C0299,Hanoi HQ,RM_01,0.68,197.31,0.07,Bond|Margin|Fund,2026-04-09,New
+C0300,Hanoi HQ,RM_01,0.6,14.03,0.03,Margin|Equity,2026-03-03,Dormant
+C0301,Ho Chi Minh,RM_20,2.08,618.58,0.3,Fund,2026-03-31,Active
+C0302,Ho Chi Minh,RM_20,0.5,140.08,0.12,Advisory|Margin|Equity,2026-04-24,Active
+C0303,Hanoi HQ,RM_25,0.94,339.48,0.1,Fund|Derivative,2026-04-23,New
+C0304,Da Nang,RM_15,0.85,114.42,0.3,Derivative|Equity|Margin,2026-04-07,New
+C0305,Can Tho,RM_29,1.11,99.44,0.46,Fund|Bond,2026-04-30,Active
+C0306,Hai Phong,RM_28,3.29,60.93,1.04,Margin|Advisory|Derivative,2026-04-21,Active
+C0307,Hanoi HQ,RM_25,1.52,536.88,0.38,Fund|Margin,2026-04-09,New
+C0308,Da Nang,RM_09,0.88,48.93,0.25,Equity|Fund,2026-04-12,Active
+C0309,Hai Phong,RM_10,5.08,64.72,1.33,Derivative|Bond|Advisory,2026-04-17,New
+C0310,Hai Phong,RM_10,0.2,208.99,0.08,Advisory|Bond,2026-04-30,Active
+C0311,Can Tho,RM_17,1.35,100.02,0.33,Advisory|Bond,2026-03-11,Active
+C0312,Online,RM_06,0.71,98.76,0.03,Advisory|Margin|Derivative,2026-04-06,Active
+C0313,Da Nang,RM_09,0.94,22.37,0.28,Advisory,2026-04-09,Dormant
+C0314,Hanoi HQ,RM_01,0.36,45.92,0.04,Derivative,2026-04-29,Active
+C0315,Online,RM_18,0.17,34.46,0.07,Advisory|Equity|Fund,2026-04-22,Active
+C0316,Da Nang,RM_27,0.34,124.74,0.06,Fund|Margin,2026-03-16,Active
+C0317,Hai Phong,RM_22,0.48,535.59,0.19,Derivative|Equity,2026-04-12,Active
+C0318,Online,RM_18,0.42,307.98,0.08,Fund|Equity,2026-04-30,Active
+C0319,Ho Chi Minh,RM_14,0.7,101.03,0.29,Bond,2026-04-28,Dormant
+C0320,Hanoi HQ,RM_13,0.59,482.61,0.21,Advisory|Bond|Fund,2026-04-30,New
+C0321,Online,RM_24,0.37,361.61,0.15,Bond|Derivative,2026-03-07,Active
+C0322,Can Tho,RM_17,0.58,46.9,0.14,Fund|Advisory,2026-04-18,Active
+C0323,Hai Phong,RM_16,0.49,688.48,0.13,Margin,2026-04-27,Active
+C0324,Ho Chi Minh,RM_08,0.8,410.47,0.28,Derivative|Fund,2026-04-24,Dormant
+C0325,Ho Chi Minh,RM_14,0.99,45.37,0.26,Advisory|Equity,2026-04-28,Active
+C0326,Hanoi HQ,RM_19,2.4,50.18,0.62,Derivative,2026-02-12,Active
+C0327,Hai Phong,RM_10,0.72,28.72,0.13,Margin|Bond,2026-03-25,New
+C0328,Can Tho,RM_29,1.03,113.87,0.24,Fund|Advisory,2026-04-28,VIP
+C0329,Hanoi HQ,RM_01,0.69,51.57,0.17,Bond|Advisory,2026-04-13,Active
+C0330,Can Tho,RM_29,1.04,173.59,0.23,Equity,2026-04-23,Active
+C0331,Da Nang,RM_15,0.33,111.57,0.06,Derivative|Advisory|Equity,2026-04-01,VIP
+C0332,Hai Phong,RM_28,1.04,124.22,0.21,Advisory|Equity,2026-04-18,Active
+C0333,Da Nang,RM_03,0.21,23.72,0.01,Derivative|Equity|Margin,2026-04-22,Active
+C0334,Da Nang,RM_27,2.2,76.66,0.83,Advisory|Derivative|Bond,2026-04-22,New
+C0335,Ho Chi Minh,RM_08,3.04,10.53,0.71,Margin|Advisory,2026-04-23,Active
+C0336,Can Tho,RM_29,3.51,35.63,0.55,Fund|Derivative,2026-04-22,Dormant
+C0337,Da Nang,RM_21,0.26,185.34,0.05,Margin|Advisory,2026-04-08,Dormant
+C0338,Online,RM_30,0.74,322.79,0.06,Derivative|Equity,2026-04-29,Active
+C0339,Can Tho,RM_17,1.83,35.73,0.22,Bond|Fund,2026-03-11,Active
+C0340,Ho Chi Minh,RM_26,1.78,29.06,0.66,Bond,2026-04-29,Active
+C0341,Hai Phong,RM_28,0.6,23.3,0.07,Equity|Bond|Margin,2026-04-21,Active
+C0342,Hanoi HQ,RM_25,1.42,86.75,0.63,Advisory|Fund,2026-03-30,VIP
+C0343,Da Nang,RM_27,1.54,234.68,0.6,Fund|Margin|Bond,2026-01-12,Dormant
+C0344,Da Nang,RM_21,1.01,577.66,0.14,Derivative|Fund|Bond,2026-04-11,Active
+C0345,Ho Chi Minh,RM_26,5.41,368.92,2.11,Margin,2026-04-15,Active
+C0346,Hai Phong,RM_10,0.91,36.79,0.23,Derivative|Fund|Equity,2026-03-25,Active
+C0347,Hanoi HQ,RM_19,0.54,4.77,0.21,Margin|Advisory,2026-04-19,Active
+C0348,Can Tho,RM_23,0.89,245.21,0.02,Fund,2026-04-12,Active
+C0349,Hai Phong,RM_04,0.19,77.98,0.0,Equity,2026-04-15,New
+C0350,Da Nang,RM_27,1.69,207.31,0.61,Advisory|Bond|Equity,2026-03-03,Active
+C0351,Can Tho,RM_17,1.07,95.54,0.28,Bond|Margin|Equity,2026-04-14,Active
+C0352,Can Tho,RM_17,1.84,159.47,0.73,Margin|Equity|Fund,2026-04-11,Dormant
+C0353,Da Nang,RM_09,0.93,294.97,0.41,Margin|Equity|Bond,2026-04-19,VIP
+C0354,Can Tho,RM_17,1.5,169.25,0.21,Bond|Equity,2026-04-16,Active
+C0355,Online,RM_06,2.48,7.34,1.1,Advisory|Equity|Fund,2026-04-27,Active
+C0356,Hai Phong,RM_04,0.46,146.07,0.04,Derivative|Equity|Fund,2026-04-01,Active
+C0357,Online,RM_30,0.92,37.16,0.21,Derivative|Equity|Bond,2026-04-28,Active
+C0358,Hai Phong,RM_10,0.22,9.3,0.07,Advisory|Derivative|Margin,2026-04-15,New
+C0359,Can Tho,RM_23,0.55,303.13,0.05,Equity,2026-04-18,Active
+C0360,Da Nang,RM_03,0.53,156.16,0.17,Margin|Bond,2026-04-21,Active
+C0361,Hanoi HQ,RM_13,0.51,2293.03,0.15,Advisory|Margin|Bond,2026-04-26,Active
+C0362,Online,RM_24,0.4,47.63,0.04,Equity|Fund,2026-04-27,Active
+C0363,Online,RM_06,2.45,68.03,0.4,Fund,2026-04-29,VIP
+C0364,Da Nang,RM_09,0.83,19.09,0.19,Bond,2026-04-14,Active
+C0365,Can Tho,RM_17,0.63,32.53,0.1,Fund|Advisory,2026-04-29,Active
+C0366,Da Nang,RM_27,0.97,97.36,0.2,Bond,2026-04-19,Active
+C0367,Hanoi HQ,RM_07,0.61,233.35,0.19,Margin|Equity|Bond,2026-04-19,Active
+C0368,Ho Chi Minh,RM_20,0.5,1110.85,0.17,Bond|Margin,2026-04-28,VIP
+C0369,Online,RM_12,0.69,75.03,0.07,Fund,2026-04-30,Active
+C0370,Can Tho,RM_11,0.46,476.92,0.16,Derivative,2026-04-28,Dormant
+C0371,Online,RM_24,0.38,99.65,0.0,Margin|Derivative,2026-03-30,Active
+C0372,Da Nang,RM_21,0.79,157.9,0.33,Equity,2026-04-25,Dormant
+C0373,Can Tho,RM_23,0.85,1941.77,0.13,Advisory|Bond,2026-03-18,Active
+C0374,Hai Phong,RM_28,0.4,92.94,0.08,Advisory|Bond,2026-04-25,Active
+C0375,Da Nang,RM_27,0.24,166.12,0.11,Equity|Advisory,2026-04-20,Active
+C0376,Ho Chi Minh,RM_26,0.19,306.03,0.02,Advisory|Derivative|Equity,2026-04-24,Active
+C0377,Da Nang,RM_09,0.28,817.78,0.05,Bond|Advisory|Derivative,2026-03-23,Active
+C0378,Ho Chi Minh,RM_26,2.0,164.8,0.74,Derivative,2026-04-27,Dormant
+C0379,Ho Chi Minh,RM_14,0.18,1064.75,0.01,Margin,2026-04-28,Active
+C0380,Online,RM_18,4.82,152.36,0.89,Advisory,2026-04-16,Active
+C0381,Can Tho,RM_23,0.35,91.04,0.09,Derivative|Advisory|Bond,2026-04-26,Dormant
+C0382,Online,RM_12,0.13,227.0,0.05,Derivative|Margin,2026-03-31,Active
+C0383,Da Nang,RM_15,0.74,71.53,0.07,Derivative,2026-02-08,Dormant
+C0384,Da Nang,RM_15,0.66,514.33,0.1,Bond|Derivative|Fund,2026-04-22,New
+C0385,Can Tho,RM_17,1.45,91.96,0.37,Margin,2026-04-27,Active
+C0386,Online,RM_24,0.88,196.1,0.21,Bond,2026-04-30,Active
+C0387,Online,RM_18,1.24,94.83,0.47,Margin|Equity|Fund,2026-04-26,Active
+C0388,Ho Chi Minh,RM_20,0.08,421.03,0.03,Advisory,2026-03-31,New
+C0389,Hai Phong,RM_04,4.1,46.62,1.22,Equity|Margin|Bond,2026-04-29,Dormant
+C0390,Online,RM_30,0.47,66.19,0.11,Margin|Fund|Equity,2026-04-08,Active
+C0391,Ho Chi Minh,RM_08,0.69,59.23,0.12,Equity|Bond|Fund,2026-04-24,Active
+C0392,Can Tho,RM_29,0.23,11.67,0.09,Fund|Bond,2026-04-11,Active
+C0393,Can Tho,RM_23,0.04,122.37,0.0,Equity,2026-04-16,Dormant
+C0394,Da Nang,RM_03,1.24,298.28,0.39,Fund,2026-04-23,Dormant
+C0395,Hai Phong,RM_22,0.53,41.21,0.15,Derivative|Margin,2026-04-20,Active
+C0396,Can Tho,RM_17,0.28,60.23,0.01,Bond,2026-03-22,Active
+C0397,Da Nang,RM_15,1.07,157.77,0.04,Derivative|Fund|Bond,2026-04-22,Active
+C0398,Hai Phong,RM_10,0.5,68.48,0.19,Advisory|Fund,2026-03-15,Active
+C0399,Da Nang,RM_21,0.36,377.71,0.04,Advisory,2026-04-09,Active
+C0400,Ho Chi Minh,RM_08,0.57,282.19,0.14,Margin,2026-04-30,Active
+C0401,Hai Phong,RM_04,0.65,44.62,0.1,Fund|Derivative,2026-03-25,Active
+C0402,Can Tho,RM_05,0.64,836.4,0.2,Advisory,2026-04-16,Dormant
+C0403,Can Tho,RM_29,0.46,55.73,0.07,Advisory|Bond,2026-04-21,Active
+C0404,Hanoi HQ,RM_13,0.2,30.78,0.03,Margin|Equity|Derivative,2026-04-28,Active
+C0405,Hai Phong,RM_04,1.16,1180.73,0.04,Bond|Fund,2026-04-30,VIP
+C0406,Hanoi HQ,RM_19,0.46,38.34,0.16,Advisory|Equity|Margin,2026-04-18,Active
+C0407,Ho Chi Minh,RM_02,3.38,403.83,0.76,Margin|Advisory|Equity,2026-04-12,Active
+C0408,Hai Phong,RM_04,1.26,1731.43,0.14,Advisory|Margin|Derivative,2026-04-19,Active
+C0409,Hai Phong,RM_10,1.78,196.53,0.26,Fund,2026-04-10,New
+C0410,Ho Chi Minh,RM_20,1.81,51.52,0.18,Bond,2026-04-09,New
+C0411,Hai Phong,RM_16,0.5,88.48,0.16,Bond|Fund,2026-04-28,New
+C0412,Hai Phong,RM_10,0.6,83.98,0.01,Advisory,2026-04-13,Active
+C0413,Hanoi HQ,RM_25,0.87,335.69,0.22,Equity|Bond,2026-04-18,Dormant
+C0414,Online,RM_12,0.83,103.44,0.37,Bond|Margin|Equity,2026-04-07,Active
+C0415,Hai Phong,RM_04,2.67,904.28,0.3,Advisory|Margin|Bond,2026-04-05,Active
+C0416,Ho Chi Minh,RM_14,0.29,434.64,0.09,Bond|Margin|Derivative,2026-04-16,Dormant
+C0417,Ho Chi Minh,RM_02,1.43,84.64,0.42,Margin|Fund,2026-04-24,Active
+C0418,Hanoi HQ,RM_19,2.74,153.51,0.47,Margin,2026-04-11,Active
+C0419,Can Tho,RM_23,0.68,171.59,0.03,Fund|Derivative,2026-04-29,Active
+C0420,Can Tho,RM_17,2.28,115.12,0.61,Margin,2026-04-09,New
+C0421,Ho Chi Minh,RM_20,2.04,294.77,0.8,Margin|Fund,2026-04-18,New
+C0422,Hai Phong,RM_22,0.67,13.98,0.24,Fund|Equity,2026-04-26,Active
+C0423,Da Nang,RM_09,0.88,44.26,0.22,Equity|Fund,2026-04-26,Active
+C0424,Online,RM_06,0.31,36.49,0.09,Advisory|Margin|Equity,2026-03-20,Active
+C0425,Ho Chi Minh,RM_26,0.36,429.75,0.15,Bond,2026-04-17,Active
+C0426,Ho Chi Minh,RM_20,0.28,717.52,0.09,Margin|Advisory|Derivative,2026-04-20,Active
+C0427,Can Tho,RM_11,0.66,173.57,0.02,Fund|Derivative,2026-04-23,Active
+C0428,Online,RM_30,0.98,115.71,0.0,Equity,2026-04-13,Dormant
+C0429,Hai Phong,RM_10,0.38,187.94,0.03,Equity,2026-04-27,Active
+C0430,Online,RM_12,0.24,80.63,0.08,Derivative|Advisory,2026-04-26,Dormant
+C0431,Da Nang,RM_03,0.52,67.96,0.07,Advisory|Fund|Derivative,2026-04-17,Active
+C0432,Da Nang,RM_27,5.2,26.05,0.19,Advisory|Bond,2026-03-11,Active
+C0433,Online,RM_12,0.57,254.12,0.08,Advisory,2026-04-27,Active
+C0434,Online,RM_06,2.57,192.98,0.54,Bond|Fund,2026-04-21,Dormant
+C0435,Hai Phong,RM_22,0.15,425.27,0.06,Fund,2026-04-30,Active
+C0436,Hanoi HQ,RM_07,0.42,101.77,0.11,Advisory|Fund,2026-03-20,Dormant
+C0437,Hai Phong,RM_04,0.38,48.69,0.09,Derivative|Advisory,2026-04-29,New
+C0438,Da Nang,RM_27,0.76,225.64,0.21,Bond|Fund|Derivative,2026-04-26,New
+C0439,Can Tho,RM_23,0.36,327.37,0.14,Margin|Equity,2026-04-16,Active
+C0440,Can Tho,RM_29,0.42,103.03,0.08,Equity|Derivative|Advisory,2026-04-18,New
+C0441,Da Nang,RM_03,0.82,53.33,0.21,Margin|Fund,2026-03-24,Active
+C0442,Ho Chi Minh,RM_02,0.86,27.5,0.25,Fund|Bond|Margin,2026-04-30,VIP
+C0443,Hai Phong,RM_28,0.76,37.26,0.08,Fund|Margin|Equity,2026-04-23,Dormant
+C0444,Can Tho,RM_11,0.33,133.86,0.0,Advisory|Margin|Derivative,2026-04-11,Active
+C0445,Ho Chi Minh,RM_02,1.23,127.38,0.06,Bond,2026-04-18,Active
+C0446,Hai Phong,RM_10,0.18,2195.2,0.07,Margin|Advisory,2026-04-29,Active
+C0447,Ho Chi Minh,RM_14,7.27,98.28,2.42,Equity|Derivative,2026-04-13,Active
+C0448,Da Nang,RM_27,1.07,9.64,0.03,Fund,2026-04-27,Active
+C0449,Online,RM_06,1.2,7.71,0.54,Advisory|Equity|Bond,2026-04-28,Active
+C0450,Ho Chi Minh,RM_26,0.4,32.89,0.12,Fund|Equity|Margin,2026-04-19,Active
+C0451,Da Nang,RM_21,9.46,26.86,2.43,Equity|Fund|Derivative,2026-04-26,Active
+C0452,Online,RM_06,2.37,48.55,0.44,Fund,2026-04-27,Active
+C0453,Can Tho,RM_17,0.29,223.41,0.04,Bond|Advisory|Fund,2026-04-21,Active
+C0454,Ho Chi Minh,RM_02,0.3,111.77,0.08,Advisory,2026-04-16,Active
+C0455,Can Tho,RM_17,0.91,390.04,0.36,Advisory|Derivative|Margin,2026-04-14,Active
+C0456,Hai Phong,RM_10,0.41,50.17,0.04,Bond|Fund,2026-04-25,Active
+C0457,Da Nang,RM_09,0.78,28.84,0.07,Margin,2026-04-25,Active
+C0458,Hai Phong,RM_04,0.3,31.61,0.08,Advisory,2026-04-08,Dormant
+C0459,Hai Phong,RM_10,0.31,251.23,0.02,Fund|Bond|Derivative,2026-04-12,Active
+C0460,Can Tho,RM_29,0.12,37.34,0.05,Equity|Advisory|Derivative,2026-04-30,Dormant
+C0461,Da Nang,RM_21,0.61,184.91,0.21,Advisory,2026-04-04,Active
+C0462,Hanoi HQ,RM_25,1.23,712.83,0.11,Equity|Fund,2026-04-18,Active
+C0463,Hanoi HQ,RM_19,1.65,125.8,0.6,Margin|Advisory|Derivative,2026-03-30,Active
+C0464,Hanoi HQ,RM_19,0.64,197.96,0.1,Equity|Derivative|Margin,2026-04-29,Active
+C0465,Hanoi HQ,RM_19,0.5,263.35,0.19,Bond|Derivative,2026-03-26,Dormant
+C0466,Online,RM_30,0.73,12.05,0.21,Derivative|Equity|Bond,2026-04-18,Dormant
+C0467,Ho Chi Minh,RM_14,0.32,106.09,0.1,Advisory|Equity|Margin,2026-04-26,Dormant
+C0468,Hanoi HQ,RM_13,2.03,312.32,0.62,Margin|Equity|Advisory,2026-04-25,VIP
+C0469,Hai Phong,RM_16,0.51,379.74,0.04,Derivative,2026-03-29,Active
+C0470,Can Tho,RM_17,2.59,101.25,0.97,Equity|Derivative,2026-04-08,Active
+C0471,Can Tho,RM_17,0.33,75.06,0.09,Equity|Fund,2026-04-24,Active
+C0472,Da Nang,RM_15,1.96,53.62,0.35,Bond|Margin,2026-04-28,Active
+C0473,Online,RM_12,0.2,134.73,0.02,Advisory|Bond|Fund,2026-04-19,Active
+C0474,Ho Chi Minh,RM_02,0.9,64.49,0.24,Fund,2026-04-21,Dormant
+C0475,Ho Chi Minh,RM_26,0.31,186.42,0.04,Advisory,2026-04-30,Active
+C0476,Hai Phong,RM_16,2.2,14.08,0.47,Advisory|Derivative,2026-03-26,Active
+C0477,Ho Chi Minh,RM_02,0.84,87.12,0.35,Equity,2026-04-20,Active
+C0478,Hai Phong,RM_10,0.65,72.63,0.23,Fund,2026-04-23,Active
+C0479,Hai Phong,RM_22,0.96,116.74,0.21,Bond|Fund,2026-02-11,Dormant
+C0480,Can Tho,RM_11,0.93,18.11,0.36,Equity|Fund,2026-04-23,VIP
+C0481,Hai Phong,RM_22,0.33,51.87,0.01,Advisory|Derivative|Margin,2026-04-27,Active
+C0482,Can Tho,RM_11,0.71,327.7,0.11,Fund|Equity|Derivative,2026-04-28,Active
+C0483,Can Tho,RM_23,1.15,65.29,0.06,Advisory|Derivative|Bond,2026-04-12,Active
+C0484,Ho Chi Minh,RM_20,0.66,28.92,0.22,Bond|Advisory|Equity,2026-04-28,Dormant
+C0485,Can Tho,RM_11,0.76,156.29,0.17,Equity,2026-03-24,Active
+C0486,Can Tho,RM_05,1.17,366.93,0.22,Equity|Fund|Bond,2026-04-11,Active
+C0487,Hanoi HQ,RM_01,0.49,104.42,0.04,Equity,2026-04-22,New
+C0488,Can Tho,RM_23,0.47,1558.72,0.1,Advisory|Bond|Fund,2026-04-04,Dormant
+C0489,Da Nang,RM_03,1.24,320.05,0.52,Bond,2026-03-31,Active
+C0490,Ho Chi Minh,RM_26,2.5,181.68,0.43,Fund|Derivative,2026-04-28,Active
+C0491,Da Nang,RM_27,0.3,235.53,0.06,Derivative|Advisory|Equity,2026-04-19,Active
+C0492,Hai Phong,RM_28,0.5,101.3,0.14,Advisory|Bond,2026-04-26,Active
+C0493,Online,RM_24,0.25,113.8,0.03,Derivative,2026-03-15,Active
+C0494,Can Tho,RM_29,3.39,1702.97,0.3,Bond,2026-04-27,Active
+C0495,Hai Phong,RM_04,1.87,156.3,0.04,Equity|Margin|Advisory,2026-04-25,Dormant
+C0496,Hanoi HQ,RM_25,0.24,314.59,0.07,Fund|Derivative|Bond,2026-03-30,Active
+C0497,Online,RM_12,0.42,386.85,0.08,Bond|Derivative|Margin,2026-03-28,Active
+C0498,Hai Phong,RM_04,1.11,181.65,0.2,Derivative|Bond,2026-04-30,Active
+C0499,Hai Phong,RM_16,5.92,90.26,0.58,Bond|Derivative,2026-04-28,Active
+C0500,Ho Chi Minh,RM_20,0.07,261.69,0.02,Derivative,2026-04-01,Active
+C0501,Online,RM_30,0.26,101.83,0.02,Advisory|Derivative,2026-04-30,Active
+C0502,Online,RM_30,1.1,59.6,0.42,Equity|Bond|Derivative,2026-03-11,Active
+C0503,Online,RM_12,0.41,148.52,0.17,Equity|Margin|Fund,2026-04-28,Dormant
+C0504,Online,RM_06,1.14,78.63,0.04,Fund,2026-04-23,Active
+C0505,Da Nang,RM_09,0.23,212.11,0.02,Advisory,2026-04-30,Active
+C0506,Can Tho,RM_23,0.76,278.72,0.09,Fund|Derivative,2026-04-30,Active
+C0507,Online,RM_12,2.03,364.13,0.82,Derivative|Bond|Advisory,2026-04-15,Active
+C0508,Can Tho,RM_29,2.21,628.5,0.6,Advisory|Derivative,2026-04-18,Dormant
+C0509,Ho Chi Minh,RM_08,0.42,517.17,0.09,Equity|Bond,2026-03-27,Dormant
+C0510,Online,RM_24,0.16,49.57,0.05,Equity,2026-03-29,New
+C0511,Can Tho,RM_17,0.4,144.08,0.06,Bond,2026-04-10,Active
+C0512,Da Nang,RM_27,1.46,286.42,0.3,Advisory|Fund,2026-03-28,Active
+C0513,Hai Phong,RM_10,0.27,148.86,0.0,Fund|Bond,2026-04-30,New
+C0514,Can Tho,RM_05,0.68,65.18,0.18,Bond|Fund,2026-04-15,Active
+C0515,Can Tho,RM_17,0.96,365.84,0.3,Equity|Fund|Bond,2026-04-24,Active
+C0516,Hai Phong,RM_22,0.28,96.15,0.02,Margin|Fund,2026-04-16,Dormant
+C0517,Da Nang,RM_27,0.94,75.73,0.38,Bond|Equity,2026-04-06,Active
+C0518,Ho Chi Minh,RM_26,0.48,337.95,0.01,Fund,2026-04-06,Active
+C0519,Da Nang,RM_09,0.49,51.43,0.04,Bond|Advisory|Equity,2026-03-18,Active
+C0520,Ho Chi Minh,RM_26,0.14,83.61,0.03,Margin,2026-03-28,Active
+C0521,Online,RM_12,2.69,93.48,1.07,Derivative,2026-04-29,VIP
+C0522,Ho Chi Minh,RM_02,0.24,570.8,0.1,Advisory,2026-04-25,New
+C0523,Da Nang,RM_15,0.63,129.54,0.11,Derivative|Bond,2026-04-25,Active
+C0524,Hai Phong,RM_04,3.08,515.8,1.18,Fund|Bond,2026-04-06,Active
+C0525,Hanoi HQ,RM_13,0.32,39.91,0.13,Fund|Derivative,2026-04-26,Active
+C0526,Da Nang,RM_27,0.9,382.33,0.27,Margin|Derivative,2026-04-30,Active
+C0527,Can Tho,RM_23,0.55,133.33,0.09,Fund|Derivative|Equity,2026-02-20,Active
+C0528,Hanoi HQ,RM_25,1.06,168.56,0.22,Derivative|Advisory,2026-04-19,Dormant
+C0529,Online,RM_18,0.34,115.18,0.08,Advisory|Equity|Derivative,2026-04-21,New
+C0530,Can Tho,RM_23,0.73,202.82,0.1,Equity,2026-04-19,Active
+C0531,Ho Chi Minh,RM_20,0.62,628.64,0.06,Fund|Derivative|Bond,2026-04-27,Active
+C0532,Da Nang,RM_09,4.44,82.05,1.96,Advisory,2026-04-30,Active
+C0533,Can Tho,RM_17,0.66,35.37,0.18,Derivative|Advisory|Equity,2026-04-20,Active
+C0534,Hanoi HQ,RM_01,2.91,171.29,1.29,Fund|Margin|Bond,2026-04-25,Active
+C0535,Hai Phong,RM_28,0.04,224.26,0.0,Fund,2026-03-04,Active
+C0536,Hanoi HQ,RM_13,0.81,60.07,0.03,Fund|Margin|Equity,2026-04-27,Active
+C0537,Can Tho,RM_23,0.33,649.6,0.04,Fund,2026-04-23,Active
+C0538,Hai Phong,RM_22,0.53,122.94,0.06,Fund|Advisory|Margin,2026-04-20,VIP
+C0539,Hanoi HQ,RM_07,0.07,303.0,0.01,Margin,2026-02-21,Active
+C0540,Online,RM_24,0.84,1001.87,0.37,Margin,2026-04-13,Dormant
+C0541,Hai Phong,RM_28,0.86,11.88,0.31,Bond,2026-04-23,Active
+C0542,Da Nang,RM_27,0.45,71.37,0.1,Derivative|Equity|Advisory,2026-03-28,Active
+C0543,Online,RM_12,1.58,108.21,0.47,Fund|Margin,2026-04-22,Active
+C0544,Hanoi HQ,RM_19,1.55,86.8,0.67,Advisory|Derivative,2026-04-20,New
+C0545,Online,RM_24,1.09,61.67,0.02,Equity|Advisory,2026-03-08,Active
+C0546,Da Nang,RM_15,0.97,125.83,0.11,Margin|Equity|Derivative,2026-04-10,Active
+C0547,Online,RM_06,1.01,118.94,0.13,Fund|Bond|Derivative,2026-04-21,Active
+C0548,Hai Phong,RM_22,0.34,176.16,0.01,Bond,2026-04-19,Active
+C0549,Ho Chi Minh,RM_20,0.47,26.64,0.15,Margin|Equity|Bond,2026-04-26,Dormant
+C0550,Hanoi HQ,RM_25,2.14,40.52,0.35,Bond,2026-04-25,Active
+C0551,Can Tho,RM_17,0.41,57.88,0.12,Derivative,2026-01-31,Active
+C0552,Da Nang,RM_15,2.26,1869.16,0.47,Fund|Margin,2026-04-21,Active
+C0553,Hanoi HQ,RM_07,0.87,29.27,0.28,Fund|Margin|Equity,2026-04-20,Dormant
+C0554,Ho Chi Minh,RM_20,0.23,47.22,0.05,Fund,2026-04-28,New
+C0555,Online,RM_06,1.33,86.03,0.37,Bond,2026-04-20,Dormant
+C0556,Can Tho,RM_05,0.8,83.78,0.03,Fund|Equity|Derivative,2026-04-20,Active
+C0557,Hai Phong,RM_22,0.51,2162.62,0.12,Margin|Advisory|Bond,2026-04-11,Active
+C0558,Can Tho,RM_29,0.48,60.7,0.08,Advisory|Equity,2026-03-10,Active
+C0559,Can Tho,RM_29,0.58,156.18,0.11,Advisory,2026-04-19,New
+C0560,Hanoi HQ,RM_01,1.18,389.01,0.34,Advisory|Margin|Bond,2026-04-28,Active
+C0561,Hanoi HQ,RM_19,2.41,174.52,0.93,Bond|Equity,2026-04-19,New
+C0562,Online,RM_06,2.05,214.44,0.69,Bond|Derivative|Equity,2026-04-09,Active
+C0563,Hai Phong,RM_16,0.8,70.34,0.31,Advisory|Equity|Fund,2026-03-22,Dormant
+C0564,Ho Chi Minh,RM_26,0.25,151.7,0.1,Equity,2026-04-23,Dormant
+C0565,Online,RM_24,0.1,51.78,0.03,Bond|Fund,2026-04-29,Active
+C0566,Hanoi HQ,RM_07,2.29,165.79,0.02,Margin|Bond,2026-04-30,Active
+C0567,Da Nang,RM_27,1.53,557.21,0.4,Derivative,2026-04-06,Active
+C0568,Ho Chi Minh,RM_02,1.69,189.41,0.73,Fund,2026-04-13,Active
+C0569,Da Nang,RM_21,1.47,351.28,0.55,Margin,2026-04-29,Active
+C0570,Da Nang,RM_21,0.78,72.02,0.06,Bond|Derivative|Margin,2026-04-08,Active
+C0571,Hai Phong,RM_10,0.73,712.57,0.3,Fund,2026-04-28,Active
+C0572,Hanoi HQ,RM_19,0.14,86.82,0.05,Derivative|Advisory|Fund,2026-04-27,VIP
+C0573,Online,RM_18,0.27,227.6,0.06,Margin|Derivative|Bond,2026-04-19,Active
+C0574,Hanoi HQ,RM_19,0.48,174.68,0.03,Bond,2026-04-12,Active
+C0575,Da Nang,RM_09,0.2,59.79,0.02,Bond|Advisory|Fund,2026-04-29,Active
+C0576,Hanoi HQ,RM_19,1.19,45.52,0.36,Equity|Derivative|Fund,2026-02-19,Active
+C0577,Da Nang,RM_09,0.82,131.65,0.14,Margin|Derivative|Equity,2026-04-13,New
+C0578,Hai Phong,RM_10,1.37,27.45,0.29,Fund|Bond,2026-03-24,Active
+C0579,Online,RM_06,3.09,24.92,0.2,Equity|Fund|Margin,2026-03-30,Active
+C0580,Online,RM_06,1.6,63.87,0.72,Bond|Margin|Derivative,2026-04-26,Active
+C0581,Online,RM_12,0.44,98.13,0.14,Advisory|Equity,2026-04-17,Active
+C0582,Da Nang,RM_09,0.22,886.33,0.02,Bond|Fund|Derivative,2026-02-12,Active
+C0583,Online,RM_12,0.37,277.33,0.05,Derivative|Equity,2026-04-19,Active
+C0584,Can Tho,RM_05,0.24,119.65,0.06,Bond|Fund|Derivative,2026-04-24,Active
+C0585,Ho Chi Minh,RM_26,0.27,300.19,0.11,Equity|Advisory,2026-04-27,Active
+C0586,Can Tho,RM_29,0.77,12.97,0.06,Equity,2026-03-04,Active
+C0587,Can Tho,RM_23,0.84,211.75,0.17,Advisory|Fund,2026-04-17,Active
+C0588,Hanoi HQ,RM_19,0.23,75.38,0.04,Bond,2026-04-20,Active
+C0589,Hai Phong,RM_28,0.4,1020.0,0.09,Fund|Advisory,2026-04-26,Active
+C0590,Can Tho,RM_17,1.63,137.82,0.59,Advisory|Derivative,2026-04-20,Active
+C0591,Can Tho,RM_29,1.44,67.63,0.3,Equity|Margin|Fund,2026-04-18,New
+C0592,Hanoi HQ,RM_13,0.19,99.1,0.03,Advisory|Fund,2026-04-30,Active
+C0593,Online,RM_06,0.52,109.46,0.2,Fund,2026-04-23,Active
+C0594,Can Tho,RM_05,1.16,117.01,0.0,Bond,2026-04-21,VIP
+C0595,Da Nang,RM_03,0.84,120.99,0.3,Advisory|Derivative,2026-03-28,Dormant
+C0596,Hanoi HQ,RM_19,1.87,213.59,0.12,Fund|Margin,2026-04-27,Active
+C0597,Da Nang,RM_09,0.28,171.12,0.01,Margin|Bond|Equity,2026-03-28,Dormant
+C0598,Ho Chi Minh,RM_08,0.23,59.32,0.08,Margin|Bond,2026-04-26,Active
+C0599,Da Nang,RM_27,0.82,32.76,0.21,Margin,2026-04-12,Active
+C0600,Ho Chi Minh,RM_02,0.82,65.03,0.13,Advisory,2026-03-06,Active
+C0601,Hanoi HQ,RM_25,3.56,122.21,0.78,Margin,2026-04-28,Active
+C0602,Hanoi HQ,RM_25,0.91,56.9,0.31,Fund|Advisory|Margin,2026-04-15,Active
+C0603,Ho Chi Minh,RM_20,0.03,137.83,0.01,Equity|Bond,2026-04-28,Active
+C0604,Hanoi HQ,RM_13,0.81,145.96,0.03,Equity|Advisory,2026-04-20,Active
+C0605,Hai Phong,RM_04,0.55,69.89,0.08,Fund|Advisory,2026-04-05,Active
+C0606,Hai Phong,RM_16,0.26,103.89,0.05,Margin|Bond|Fund,2026-03-27,Active
+C0607,Can Tho,RM_11,0.76,240.71,0.14,Equity|Fund|Advisory,2026-03-28,New
+C0608,Ho Chi Minh,RM_08,0.13,40.78,0.03,Derivative|Margin|Equity,2026-04-15,Active
+C0609,Hai Phong,RM_04,0.9,85.01,0.07,Equity,2026-04-20,Active
+C0610,Da Nang,RM_21,0.66,181.03,0.08,Bond|Advisory|Derivative,2026-04-25,Active
+C0611,Online,RM_06,3.02,75.42,0.46,Advisory|Equity,2026-04-16,Dormant
+C0612,Ho Chi Minh,RM_14,0.27,221.69,0.1,Bond|Advisory|Equity,2026-04-20,Active
+C0613,Ho Chi Minh,RM_26,0.68,156.0,0.28,Fund|Advisory,2026-04-16,New
+C0614,Hai Phong,RM_22,0.5,140.38,0.03,Derivative|Margin|Advisory,2026-04-30,Active
+C0615,Hanoi HQ,RM_19,0.45,51.93,0.08,Equity|Advisory,2026-04-05,New
+C0616,Hai Phong,RM_04,0.38,173.46,0.14,Fund|Margin,2026-04-17,Active
+C0617,Online,RM_18,0.67,79.42,0.3,Margin|Equity|Advisory,2026-04-27,Active
+C0618,Can Tho,RM_11,1.64,118.0,0.01,Derivative,2026-04-07,VIP
+C0619,Can Tho,RM_05,0.19,364.37,0.04,Equity,2026-04-25,Active
+C0620,Hai Phong,RM_04,0.11,283.91,0.04,Bond|Equity|Derivative,2026-04-18,New
+C0621,Online,RM_06,0.34,75.84,0.02,Equity|Derivative,2026-04-09,Active
+C0622,Online,RM_12,0.76,348.37,0.09,Equity|Derivative,2026-04-04,Active
+C0623,Ho Chi Minh,RM_08,0.25,118.35,0.05,Derivative,2026-04-23,Active
+C0624,Da Nang,RM_15,0.22,17.75,0.08,Equity|Bond|Fund,2026-04-22,New
+C0625,Online,RM_12,2.74,15.45,1.12,Equity|Derivative|Bond,2026-04-16,Active
+C0626,Ho Chi Minh,RM_08,3.82,167.38,1.3,Derivative,2026-04-14,Active
+C0627,Hanoi HQ,RM_07,0.44,39.51,0.0,Margin|Derivative|Advisory,2026-04-21,VIP
+C0628,Hai Phong,RM_16,0.73,462.89,0.32,Fund,2026-04-29,Active
+C0629,Hai Phong,RM_10,4.16,375.61,0.48,Margin|Derivative|Equity,2026-04-22,Active
+C0630,Hanoi HQ,RM_01,0.29,249.95,0.07,Bond|Fund,2026-03-25,Active
+C0631,Online,RM_18,0.64,168.08,0.25,Bond|Equity,2026-03-23,Active
+C0632,Hanoi HQ,RM_07,3.34,109.44,0.57,Equity|Derivative|Bond,2026-04-20,Dormant
+C0633,Hanoi HQ,RM_01,5.58,164.64,0.68,Bond,2026-04-25,New
+C0634,Online,RM_06,0.88,1662.05,0.22,Advisory|Bond,2026-04-22,Active
+C0635,Hai Phong,RM_10,0.99,849.96,0.23,Derivative|Bond|Margin,2026-04-25,Active
+C0636,Hanoi HQ,RM_13,2.23,575.57,0.81,Fund|Margin|Equity,2026-03-30,Active
+C0637,Da Nang,RM_27,1.1,66.89,0.22,Derivative,2026-04-20,Active
+C0638,Hanoi HQ,RM_25,0.15,94.93,0.03,Derivative|Bond|Advisory,2026-04-20,Active
+C0639,Hai Phong,RM_16,0.97,1084.79,0.31,Fund,2026-04-15,Active
+C0640,Hanoi HQ,RM_25,1.6,165.37,0.53,Equity|Fund,2026-04-18,New
+C0641,Can Tho,RM_17,1.63,545.13,0.1,Equity|Margin,2026-04-20,Dormant
+C0642,Can Tho,RM_17,2.96,154.42,0.78,Bond|Margin|Fund,2026-03-03,New
+C0643,Online,RM_12,0.41,65.88,0.02,Equity,2026-04-24,New
+C0644,Online,RM_06,0.3,148.14,0.1,Bond,2026-04-22,Dormant
+C0645,Online,RM_24,0.32,117.36,0.09,Fund|Derivative|Advisory,2026-04-11,Active
+C0646,Hai Phong,RM_22,0.79,75.04,0.19,Advisory,2026-02-27,New
+C0647,Hai Phong,RM_22,1.35,88.21,0.12,Advisory|Derivative|Equity,2026-04-13,Active
+C0648,Online,RM_30,0.34,128.94,0.14,Derivative|Equity|Fund,2026-04-04,Active
+C0649,Da Nang,RM_15,0.75,290.22,0.04,Fund,2026-04-17,Active
+C0650,Da Nang,RM_15,0.7,25.53,0.3,Bond|Margin|Derivative,2026-04-22,Active
+C0651,Can Tho,RM_23,0.52,42.68,0.01,Advisory,2026-04-26,New
+C0652,Online,RM_12,0.2,339.63,0.05,Fund|Advisory|Equity,2026-04-25,New
+C0653,Can Tho,RM_11,0.15,126.44,0.06,Advisory|Fund|Derivative,2026-04-07,Active
+C0654,Ho Chi Minh,RM_02,0.79,154.34,0.32,Bond|Fund|Margin,2026-04-07,Dormant
+C0655,Online,RM_24,0.24,56.45,0.1,Fund|Equity|Margin,2026-03-25,Active
+C0656,Online,RM_06,0.7,17.36,0.03,Fund|Equity|Bond,2026-04-16,Active
+C0657,Can Tho,RM_05,0.66,121.77,0.23,Bond|Margin|Advisory,2026-04-08,Active
+C0658,Hai Phong,RM_22,0.16,741.35,0.05,Bond|Advisory,2026-04-27,Active
+C0659,Ho Chi Minh,RM_26,0.64,121.72,0.02,Margin,2026-03-23,Active
+C0660,Ho Chi Minh,RM_02,0.5,151.36,0.15,Bond|Fund|Margin,2026-04-21,Active
+C0661,Ho Chi Minh,RM_14,0.3,22.42,0.11,Margin|Bond|Equity,2026-04-06,Active
+C0662,Can Tho,RM_17,1.4,130.01,0.13,Equity|Fund,2026-04-17,Dormant
+C0663,Can Tho,RM_11,0.4,139.83,0.12,Advisory,2026-04-17,Active
+C0664,Hai Phong,RM_16,6.17,175.02,2.17,Bond|Equity,2026-04-04,Active
+C0665,Online,RM_18,0.35,748.6,0.02,Bond|Derivative,2026-04-11,Active
+C0666,Can Tho,RM_29,0.65,47.36,0.22,Margin|Equity|Derivative,2026-04-02,Active
+C0667,Ho Chi Minh,RM_20,0.31,232.69,0.13,Bond|Derivative|Equity,2026-04-20,Active
+C0668,Ho Chi Minh,RM_20,0.16,68.76,0.02,Derivative|Bond|Advisory,2026-04-28,Active
+C0669,Ho Chi Minh,RM_20,0.38,352.56,0.01,Derivative|Bond,2026-03-13,Active
+C0670,Online,RM_24,0.94,458.95,0.26,Equity|Bond,2026-04-17,Dormant
+C0671,Can Tho,RM_11,0.48,283.21,0.15,Advisory|Derivative|Bond,2026-04-30,New
+C0672,Da Nang,RM_27,0.5,505.89,0.06,Derivative|Advisory,2026-04-24,Active
+C0673,Can Tho,RM_17,3.49,197.72,0.6,Bond|Margin,2026-04-24,Active
+C0674,Hai Phong,RM_04,0.36,33.22,0.08,Derivative|Equity,2026-04-20,Active
+C0675,Hai Phong,RM_16,0.16,81.7,0.02,Advisory,2026-04-04,New
+C0676,Online,RM_30,0.75,81.94,0.29,Advisory|Fund,2026-04-19,Active
+C0677,Hanoi HQ,RM_13,0.86,41.38,0.33,Advisory,2026-04-19,VIP
+C0678,Can Tho,RM_05,1.16,17.51,0.16,Advisory|Margin|Derivative,2026-04-29,Active
+C0679,Da Nang,RM_09,0.26,40.88,0.02,Bond|Fund|Derivative,2026-04-27,VIP
+C0680,Hai Phong,RM_04,0.17,254.69,0.02,Equity|Margin,2026-04-18,Active
+C0681,Can Tho,RM_05,0.94,116.42,0.02,Fund|Margin|Advisory,2026-04-23,Dormant
+C0682,Da Nang,RM_09,0.1,578.02,0.01,Margin,2026-04-28,Active
+C0683,Can Tho,RM_23,0.39,86.71,0.09,Derivative|Equity|Bond,2026-04-29,Active
+C0684,Can Tho,RM_17,0.44,686.99,0.07,Fund,2026-04-24,Active
+C0685,Hai Phong,RM_04,1.5,127.73,0.4,Equity|Derivative,2026-04-01,Active
+C0686,Ho Chi Minh,RM_02,0.74,54.68,0.04,Equity|Bond,2026-03-03,Active
+C0687,Hanoi HQ,RM_19,2.79,22.66,0.2,Derivative,2026-02-28,New
+C0688,Da Nang,RM_09,1.87,70.95,0.26,Equity|Derivative,2026-04-18,Active
+C0689,Hanoi HQ,RM_19,2.16,23.58,0.27,Derivative|Advisory|Fund,2026-03-18,Active
+C0690,Hai Phong,RM_04,0.31,21.18,0.02,Margin,2026-04-15,Active
+C0691,Ho Chi Minh,RM_02,0.59,409.48,0.05,Margin|Bond,2026-04-27,New
+C0692,Hai Phong,RM_04,1.43,112.83,0.6,Fund,2026-04-26,Active
+C0693,Can Tho,RM_29,0.61,246.16,0.13,Equity|Bond,2026-03-21,Active
+C0694,Can Tho,RM_29,0.19,286.34,0.0,Fund,2026-04-26,Active
+C0695,Can Tho,RM_05,0.21,639.09,0.07,Margin|Equity,2026-04-10,Dormant
+C0696,Hai Phong,RM_28,0.47,135.16,0.08,Fund,2026-04-12,Active
+C0697,Online,RM_24,0.7,247.18,0.1,Fund|Bond,2026-04-04,Active
+C0698,Hai Phong,RM_16,0.79,62.72,0.27,Fund,2026-04-28,Active
+C0699,Ho Chi Minh,RM_08,0.67,44.54,0.27,Fund|Advisory|Margin,2026-04-12,Active
+C0700,Hai Phong,RM_22,1.23,105.21,0.35,Bond|Fund,2026-04-24,Active
+C0701,Ho Chi Minh,RM_20,0.83,52.06,0.24,Advisory|Bond|Margin,2026-03-27,New
+C0702,Ho Chi Minh,RM_02,4.4,129.35,0.7,Fund,2026-04-23,Dormant
+C0703,Can Tho,RM_29,0.33,50.48,0.01,Fund|Advisory,2026-03-14,Dormant
+C0704,Hanoi HQ,RM_01,1.2,238.34,0.19,Advisory|Bond|Equity,2026-04-22,New
+C0705,Da Nang,RM_09,0.31,61.05,0.07,Equity,2026-03-25,Active
+C0706,Online,RM_06,0.3,399.98,0.12,Equity|Advisory|Margin,2026-04-09,Active
+C0707,Hai Phong,RM_04,1.54,27.4,0.32,Advisory|Bond,2026-03-26,Active
+C0708,Online,RM_12,0.85,2101.32,0.01,Derivative|Margin|Advisory,2026-03-13,Active
+C0709,Hanoi HQ,RM_25,2.54,96.01,0.35,Bond,2026-04-19,Active
+C0710,Hanoi HQ,RM_01,0.28,9.38,0.0,Equity|Advisory,2026-04-24,Active
+C0711,Da Nang,RM_03,0.52,121.56,0.0,Fund,2026-02-25,Dormant
+C0712,Ho Chi Minh,RM_26,0.31,456.3,0.11,Derivative|Margin,2026-04-20,Active
+C0713,Hai Phong,RM_22,0.42,90.48,0.02,Derivative,2026-03-15,Dormant
+C0714,Online,RM_18,0.2,315.77,0.09,Advisory|Equity,2026-04-24,Active
+C0715,Da Nang,RM_09,1.18,83.65,0.22,Derivative|Equity|Fund,2026-04-08,Active
+C0716,Online,RM_24,0.24,31.76,0.0,Equity|Bond|Margin,2026-04-09,Active
+C0717,Ho Chi Minh,RM_26,0.33,115.43,0.04,Equity|Bond|Fund,2026-04-23,Active
+C0718,Hai Phong,RM_22,1.34,185.38,0.38,Advisory,2026-04-11,Active
+C0719,Ho Chi Minh,RM_20,0.82,70.72,0.23,Margin|Fund,2026-03-22,Active
+C0720,Da Nang,RM_21,0.53,217.38,0.19,Bond|Margin|Derivative,2026-04-17,Active
+C0721,Ho Chi Minh,RM_26,0.72,412.04,0.14,Derivative,2026-04-14,Dormant
+C0722,Hanoi HQ,RM_19,2.87,57.16,0.13,Bond|Equity,2026-04-19,Active
+C0723,Online,RM_12,0.48,49.79,0.11,Bond|Advisory|Fund,2026-04-19,Active
+C0724,Da Nang,RM_03,0.98,72.91,0.33,Margin|Advisory|Bond,2026-04-01,Dormant
+C0725,Online,RM_18,1.59,530.73,0.63,Fund,2026-04-29,Active
+C0726,Hanoi HQ,RM_19,2.54,69.2,0.52,Margin,2026-04-27,New
+C0727,Can Tho,RM_17,0.49,52.71,0.2,Derivative,2026-02-25,Active
+C0728,Hai Phong,RM_16,1.33,82.61,0.22,Fund|Derivative,2026-04-28,Dormant
+C0729,Hai Phong,RM_16,0.79,38.27,0.1,Advisory|Bond|Derivative,2026-04-30,Dormant
+C0730,Online,RM_18,0.87,240.22,0.16,Advisory|Bond|Fund,2026-04-25,Active
+C0731,Hanoi HQ,RM_01,0.46,31.44,0.1,Equity,2026-04-23,New
+C0732,Hai Phong,RM_16,0.89,64.55,0.17,Fund,2026-04-05,Dormant
+C0733,Can Tho,RM_05,0.74,23.86,0.18,Bond|Derivative|Margin,2026-04-24,New
+C0734,Hanoi HQ,RM_01,0.69,30.82,0.11,Margin,2026-04-12,New
+C0735,Ho Chi Minh,RM_20,1.73,40.29,0.37,Fund,2026-04-21,Active
+C0736,Ho Chi Minh,RM_20,0.81,84.25,0.16,Bond|Advisory,2026-03-08,Active
+C0737,Online,RM_30,1.31,276.48,0.39,Margin|Fund,2026-04-26,New
+C0738,Da Nang,RM_21,1.69,29.44,0.41,Fund|Margin,2026-03-10,Active
+C0739,Online,RM_06,4.61,89.71,1.95,Advisory,2026-04-23,New
+C0740,Hanoi HQ,RM_19,0.97,92.06,0.31,Bond|Fund|Advisory,2026-04-20,Active
+C0741,Hanoi HQ,RM_13,0.27,124.5,0.09,Derivative|Bond|Fund,2026-04-17,New
+C0742,Da Nang,RM_03,0.19,53.88,0.06,Fund|Derivative,2026-04-10,Active
+C0743,Can Tho,RM_11,1.27,85.0,0.01,Advisory|Margin|Bond,2026-04-23,Active
+C0744,Da Nang,RM_27,1.84,23.83,0.12,Equity|Margin,2026-04-19,Active
+C0745,Online,RM_24,1.04,32.08,0.2,Advisory,2026-04-20,Active
+C0746,Can Tho,RM_29,0.59,99.94,0.16,Margin|Equity,2026-04-20,Active
+C0747,Can Tho,RM_17,1.01,243.49,0.1,Margin|Derivative,2026-04-27,Active
+C0748,Can Tho,RM_29,0.81,142.68,0.16,Margin,2026-04-05,Active
+C0749,Da Nang,RM_21,0.47,200.5,0.19,Margin|Fund,2026-04-19,Active
+C0750,Hanoi HQ,RM_01,0.67,148.56,0.3,Fund,2026-03-28,Dormant
+C0751,Online,RM_12,2.38,674.42,0.36,Fund|Bond,2026-03-31,New
+C0752,Hanoi HQ,RM_13,0.1,56.95,0.01,Bond|Fund|Margin,2026-04-20,Dormant
+C0753,Online,RM_24,2.55,187.01,0.13,Derivative,2026-04-21,Active
+C0754,Can Tho,RM_17,1.38,35.71,0.34,Advisory,2026-03-29,Dormant
+C0755,Hai Phong,RM_04,1.21,83.42,0.3,Equity,2026-04-27,Active
+C0756,Hai Phong,RM_10,1.53,56.74,0.04,Equity,2026-04-22,Active
+C0757,Ho Chi Minh,RM_02,2.51,1392.89,0.72,Fund|Margin|Advisory,2026-04-25,Active
+C0758,Da Nang,RM_21,0.4,431.38,0.07,Advisory,2026-04-21,VIP
+C0759,Hai Phong,RM_10,0.69,219.37,0.07,Fund|Advisory|Equity,2026-03-10,Active
+C0760,Hanoi HQ,RM_25,0.75,26.35,0.18,Margin|Equity,2026-04-01,Active
+C0761,Can Tho,RM_29,0.65,78.92,0.16,Margin|Derivative,2026-04-28,Dormant
+C0762,Ho Chi Minh,RM_20,0.34,549.73,0.11,Bond|Margin|Derivative,2026-04-10,Active
+C0763,Can Tho,RM_29,0.33,125.15,0.03,Fund|Bond|Derivative,2026-03-29,Dormant
+C0764,Ho Chi Minh,RM_08,1.85,31.16,0.15,Fund,2026-04-15,Active
+C0765,Da Nang,RM_15,0.24,59.77,0.03,Derivative,2026-04-27,New
+C0766,Can Tho,RM_05,0.68,195.52,0.26,Derivative,2026-04-15,Active
+C0767,Online,RM_12,0.54,36.6,0.03,Fund,2026-04-15,Active
+C0768,Can Tho,RM_23,0.85,37.39,0.34,Fund,2026-02-24,Active
+C0769,Hai Phong,RM_22,0.39,38.8,0.1,Margin,2026-04-29,Active
+C0770,Hai Phong,RM_04,1.0,63.57,0.07,Bond|Fund|Margin,2026-03-27,Active
+C0771,Hanoi HQ,RM_19,2.87,367.43,1.12,Equity,2026-04-23,Active
+C0772,Can Tho,RM_29,0.26,43.81,0.11,Equity|Fund|Advisory,2026-04-27,Active
+C0773,Can Tho,RM_17,3.11,289.75,0.8,Margin|Equity|Derivative,2026-04-06,Active
+C0774,Can Tho,RM_11,3.99,51.24,0.62,Fund,2026-04-25,Active
+C0775,Hai Phong,RM_04,0.4,405.05,0.0,Bond|Fund|Margin,2026-04-19,Active
+C0776,Hai Phong,RM_22,0.39,135.76,0.03,Fund|Margin,2026-04-09,Active
+C0777,Hanoi HQ,RM_01,0.62,45.89,0.26,Derivative|Margin,2026-04-16,Active
+C0778,Online,RM_06,1.47,2481.93,0.48,Derivative,2026-04-15,Active
+C0779,Ho Chi Minh,RM_20,0.3,385.54,0.09,Advisory,2026-04-27,Active
+C0780,Ho Chi Minh,RM_14,1.26,81.94,0.5,Margin|Advisory|Equity,2026-04-27,VIP
+C0781,Online,RM_18,0.32,24.14,0.01,Fund|Bond,2026-04-08,Active
+C0782,Ho Chi Minh,RM_26,1.54,48.85,0.44,Equity,2026-04-06,Active
+C0783,Online,RM_12,0.09,101.9,0.04,Derivative,2026-04-30,Active
+C0784,Da Nang,RM_27,0.33,45.91,0.01,Advisory,2026-04-28,VIP
+C0785,Hai Phong,RM_28,0.47,242.23,0.0,Derivative,2026-04-26,Active
+C0786,Can Tho,RM_05,4.35,472.65,1.28,Fund|Derivative|Bond,2026-04-29,Active
+C0787,Da Nang,RM_21,0.56,28.6,0.1,Margin|Equity,2026-04-21,Active
+C0788,Hai Phong,RM_22,0.29,642.05,0.11,Equity|Fund,2026-04-15,Dormant
+C0789,Hanoi HQ,RM_19,0.2,271.59,0.08,Derivative,2026-04-18,Active
+C0790,Can Tho,RM_11,0.17,368.43,0.07,Derivative|Advisory,2026-04-27,Active
+C0791,Hanoi HQ,RM_07,7.16,933.27,2.11,Advisory,2026-04-22,Active
+C0792,Da Nang,RM_03,0.45,28.49,0.06,Advisory,2026-04-21,Active
+C0793,Da Nang,RM_03,1.15,285.29,0.25,Advisory|Derivative|Fund,2026-04-25,Active
+C0794,Online,RM_12,0.66,94.95,0.09,Margin|Equity|Fund,2026-04-01,Active
+C0795,Can Tho,RM_17,1.6,34.95,0.09,Advisory|Derivative,2026-04-28,Active
+C0796,Can Tho,RM_17,1.4,73.22,0.54,Margin,2026-04-04,VIP
+C0797,Da Nang,RM_15,0.41,80.71,0.09,Advisory|Bond,2026-04-15,Active
+C0798,Online,RM_12,1.36,406.41,0.21,Equity|Fund,2026-04-27,Active
+C0799,Hai Phong,RM_28,1.17,595.93,0.14,Advisory,2026-02-17,New
+C0800,Ho Chi Minh,RM_26,0.59,81.7,0.01,Margin|Bond|Fund,2026-04-30,New
+C0801,Hanoi HQ,RM_13,0.29,242.15,0.03,Fund|Margin,2026-04-10,Active
+C0802,Da Nang,RM_09,1.28,158.76,0.35,Equity|Advisory,2026-04-16,Active
+C0803,Online,RM_18,0.98,65.28,0.3,Bond|Margin,2026-04-29,Active
+C0804,Da Nang,RM_27,0.85,75.94,0.32,Bond|Derivative,2026-04-21,Active
+C0805,Da Nang,RM_03,1.87,17.55,0.38,Bond|Margin,2026-04-06,Dormant
+C0806,Can Tho,RM_11,2.7,26.86,0.3,Equity|Fund|Advisory,2026-04-28,Active
+C0807,Online,RM_12,0.68,58.47,0.29,Advisory|Bond|Derivative,2026-03-22,Active
+C0808,Hanoi HQ,RM_01,0.63,99.77,0.27,Derivative,2026-04-09,Active
+C0809,Hanoi HQ,RM_25,1.7,76.24,0.09,Advisory|Margin|Fund,2026-04-20,Active
+C0810,Can Tho,RM_17,0.43,222.47,0.05,Derivative,2026-04-28,Active
+C0811,Ho Chi Minh,RM_26,2.91,854.55,0.48,Advisory|Margin|Derivative,2026-04-19,New
+C0812,Hai Phong,RM_16,3.15,7.56,0.59,Bond|Equity,2026-03-27,VIP
+C0813,Can Tho,RM_11,1.31,90.22,0.24,Advisory|Derivative|Margin,2026-04-06,Active
+C0814,Hanoi HQ,RM_25,0.2,193.84,0.05,Bond,2026-04-06,New
+C0815,Ho Chi Minh,RM_14,0.15,57.59,0.05,Derivative|Fund,2026-04-26,New
+C0816,Da Nang,RM_09,0.7,105.55,0.03,Advisory,2026-04-25,Active
+C0817,Online,RM_06,0.67,167.6,0.2,Advisory,2026-04-29,Dormant
+C0818,Can Tho,RM_29,1.9,532.48,0.32,Margin|Equity,2026-03-07,Active
+C0819,Da Nang,RM_27,2.66,139.2,0.12,Equity|Derivative|Advisory,2026-03-10,Active
+C0820,Ho Chi Minh,RM_14,0.58,39.11,0.13,Fund|Equity|Derivative,2026-04-22,Active
+C0821,Hai Phong,RM_04,0.24,222.29,0.03,Margin,2026-04-11,Active
+C0822,Online,RM_24,0.47,62.15,0.2,Bond|Advisory,2026-04-17,Active
+C0823,Can Tho,RM_17,2.52,54.1,0.66,Fund|Margin|Equity,2026-04-09,New
+C0824,Hai Phong,RM_10,0.22,291.35,0.01,Advisory|Derivative,2026-04-29,Active
+C0825,Can Tho,RM_17,0.32,88.42,0.1,Bond,2026-02-20,Active
+C0826,Hanoi HQ,RM_13,0.54,274.03,0.14,Equity|Fund|Derivative,2026-04-22,Active
+C0827,Hanoi HQ,RM_25,0.35,83.44,0.07,Bond|Equity,2026-04-25,Active
+C0828,Online,RM_18,2.52,310.87,0.51,Margin|Fund|Bond,2026-04-10,Active
+C0829,Can Tho,RM_23,2.1,90.07,0.24,Equity,2026-02-18,Active
+C0830,Hai Phong,RM_10,0.21,573.4,0.06,Fund|Advisory,2026-04-09,Dormant
+C0831,Hai Phong,RM_04,0.77,776.63,0.15,Advisory,2026-04-21,Dormant
+C0832,Hanoi HQ,RM_07,1.24,222.39,0.07,Advisory|Margin,2026-03-19,Active
+C0833,Hai Phong,RM_04,1.29,198.45,0.36,Fund|Advisory,2026-04-12,Active
+C0834,Hai Phong,RM_22,0.43,69.65,0.06,Derivative|Equity|Fund,2026-04-21,Dormant
+C0835,Da Nang,RM_03,0.15,48.66,0.06,Derivative|Margin|Equity,2026-04-06,Active
+C0836,Da Nang,RM_09,0.35,107.58,0.13,Advisory,2026-04-28,Active
+C0837,Can Tho,RM_29,1.45,112.09,0.32,Advisory,2026-04-19,New
+C0838,Ho Chi Minh,RM_26,6.17,71.36,2.3,Bond,2026-04-30,Active
+C0839,Da Nang,RM_21,6.36,9.45,2.86,Equity|Bond,2026-03-28,Active
+C0840,Hai Phong,RM_28,0.62,402.73,0.02,Fund|Derivative|Margin,2026-04-19,Active
+C0841,Ho Chi Minh,RM_02,0.44,61.31,0.11,Margin|Equity,2026-04-21,Dormant
+C0842,Online,RM_30,4.79,255.54,1.51,Fund|Equity|Bond,2026-04-24,Active
+C0843,Da Nang,RM_09,0.82,56.05,0.13,Bond|Equity|Fund,2026-04-25,Active
+C0844,Ho Chi Minh,RM_26,2.05,72.9,0.79,Advisory|Margin,2026-04-21,Active
+C0845,Can Tho,RM_23,0.52,262.05,0.04,Bond,2026-04-06,Active
+C0846,Ho Chi Minh,RM_26,0.36,81.27,0.16,Advisory,2026-04-24,Active
+C0847,Hai Phong,RM_28,0.53,20.68,0.01,Margin|Derivative|Fund,2026-04-12,Active
+C0848,Hai Phong,RM_10,1.26,42.7,0.32,Advisory|Derivative,2026-03-26,Active
+C0849,Hanoi HQ,RM_19,1.39,108.89,0.09,Margin|Fund|Advisory,2026-04-12,Active
+C0850,Hai Phong,RM_22,0.48,20.84,0.11,Bond|Derivative,2026-04-24,Dormant
+C0851,Can Tho,RM_29,0.94,1095.66,0.33,Bond,2026-04-27,Dormant
+C0852,Hanoi HQ,RM_13,0.79,128.82,0.34,Derivative,2026-03-25,Active
+C0853,Da Nang,RM_09,0.85,388.55,0.23,Fund|Equity,2026-03-14,New
+C0854,Hai Phong,RM_28,0.57,199.85,0.05,Advisory|Bond|Equity,2026-04-12,Active
+C0855,Da Nang,RM_03,2.38,101.79,0.48,Fund,2026-04-21,Active
+C0856,Da Nang,RM_21,1.5,155.96,0.01,Advisory,2026-04-16,Active
+C0857,Hai Phong,RM_04,2.05,214.35,0.12,Derivative|Equity|Margin,2026-03-26,Active
+C0858,Online,RM_12,0.41,97.36,0.03,Advisory|Equity|Derivative,2026-02-01,Active
+C0859,Ho Chi Minh,RM_20,0.97,269.88,0.38,Advisory|Bond|Equity,2026-04-19,Active
+C0860,Da Nang,RM_09,0.67,231.92,0.05,Advisory|Fund,2026-04-27,Active
+C0861,Online,RM_12,0.44,98.2,0.05,Margin,2026-04-04,Dormant
+C0862,Da Nang,RM_09,0.87,569.36,0.12,Margin|Advisory,2026-04-28,Dormant
+C0863,Hanoi HQ,RM_01,0.97,11.2,0.29,Bond|Derivative|Equity,2026-04-21,Active
+C0864,Da Nang,RM_27,1.5,28.61,0.59,Bond,2026-04-21,Active
+C0865,Ho Chi Minh,RM_08,6.67,145.37,0.31,Equity,2026-03-28,Active
+C0866,Hai Phong,RM_28,0.46,20.62,0.1,Fund,2026-04-26,Active
+C0867,Hanoi HQ,RM_19,6.86,44.08,1.87,Margin,2026-03-30,Active
+C0868,Online,RM_24,0.31,104.09,0.1,Equity|Derivative|Advisory,2026-04-26,Active
+C0869,Can Tho,RM_29,1.88,113.16,0.33,Fund|Equity,2026-03-06,Dormant
+C0870,Hanoi HQ,RM_19,5.31,899.44,1.69,Equity|Derivative|Advisory,2026-04-27,Active
+C0871,Can Tho,RM_23,0.31,75.12,0.1,Margin,2026-04-17,Dormant
+C0872,Can Tho,RM_17,1.83,17.06,0.26,Derivative,2026-04-29,Active
+C0873,Ho Chi Minh,RM_02,0.73,85.3,0.2,Derivative|Bond|Margin,2026-03-02,Active
+C0874,Hanoi HQ,RM_25,2.58,275.66,1.05,Derivative|Margin,2026-03-26,Active
+C0875,Ho Chi Minh,RM_02,0.32,911.9,0.13,Bond,2026-03-28,Active
+C0876,Can Tho,RM_17,2.3,380.62,0.75,Derivative|Bond|Margin,2026-03-10,Active
+C0877,Da Nang,RM_27,0.31,303.21,0.06,Derivative|Bond|Equity,2026-04-22,New
+C0878,Da Nang,RM_21,0.33,69.09,0.04,Advisory,2026-04-26,Active
+C0879,Can Tho,RM_05,0.21,196.23,0.02,Equity|Fund|Derivative,2026-04-27,Active
+C0880,Hai Phong,RM_22,0.49,118.75,0.15,Advisory,2026-04-17,Active
+C0881,Hanoi HQ,RM_13,0.95,18.8,0.39,Equity|Margin|Bond,2026-03-28,Active
+C0882,Ho Chi Minh,RM_26,0.52,63.31,0.18,Derivative|Bond,2026-04-23,Active
+C0883,Da Nang,RM_15,0.44,3.01,0.15,Advisory|Bond,2026-04-29,Active
+C0884,Ho Chi Minh,RM_20,0.02,129.96,0.0,Equity|Bond,2026-04-04,Dormant
+C0885,Hai Phong,RM_22,0.81,22.76,0.06,Advisory|Margin|Derivative,2026-04-11,New
+C0886,Da Nang,RM_15,1.98,15.34,0.31,Equity|Derivative,2026-04-29,Active
+C0887,Online,RM_06,0.96,424.5,0.03,Derivative|Fund,2026-04-11,Active
+C0888,Hanoi HQ,RM_13,1.56,141.78,0.03,Advisory|Bond,2026-04-15,Active
+C0889,Can Tho,RM_05,0.88,216.09,0.17,Margin,2026-04-30,Dormant
+C0890,Ho Chi Minh,RM_14,0.54,78.56,0.02,Equity,2026-04-15,Active
+C0891,Hai Phong,RM_28,3.45,13.98,1.01,Advisory|Equity|Margin,2026-04-23,Dormant
+C0892,Ho Chi Minh,RM_26,0.23,23.3,0.02,Bond|Fund,2026-04-15,Dormant
+C0893,Ho Chi Minh,RM_26,0.1,26.63,0.01,Margin|Derivative|Bond,2026-04-21,New
+C0894,Hanoi HQ,RM_01,1.48,92.52,0.52,Advisory|Margin|Equity,2026-04-05,VIP
+C0895,Ho Chi Minh,RM_02,0.56,154.24,0.25,Margin,2026-04-14,Dormant
+C0896,Hanoi HQ,RM_25,0.52,169.76,0.14,Derivative|Margin,2026-04-14,Active
+C0897,Online,RM_06,2.06,697.1,0.6,Advisory,2026-04-29,Active
+C0898,Da Nang,RM_03,1.92,62.86,0.23,Bond,2026-04-26,Active
+C0899,Can Tho,RM_23,0.73,108.02,0.11,Equity|Bond,2026-04-23,Dormant
+C0900,Hai Phong,RM_28,1.21,34.02,0.36,Margin,2026-03-06,Active
+C0901,Hai Phong,RM_22,0.15,248.9,0.01,Bond,2026-04-20,Active
+C0902,Hai Phong,RM_28,1.73,49.64,0.6,Derivative|Equity|Margin,2026-04-20,Dormant
+C0903,Online,RM_18,0.04,325.97,0.01,Margin|Bond|Derivative,2026-04-10,VIP
+C0904,Hanoi HQ,RM_13,0.4,130.99,0.01,Bond,2026-04-25,Active
+C0905,Ho Chi Minh,RM_20,5.56,66.54,2.29,Advisory|Derivative,2026-04-29,Active
+C0906,Hanoi HQ,RM_19,0.56,149.03,0.13,Advisory|Bond|Derivative,2026-04-29,VIP
+C0907,Can Tho,RM_29,1.05,21.48,0.01,Bond|Fund,2026-04-17,Active
+C0908,Online,RM_30,0.54,19.43,0.01,Equity|Bond,2026-04-21,Dormant
+C0909,Can Tho,RM_23,1.22,99.49,0.39,Equity|Margin|Bond,2026-04-24,Active
+C0910,Hanoi HQ,RM_13,0.6,234.48,0.23,Equity,2026-04-25,Dormant
+C0911,Ho Chi Minh,RM_02,1.44,270.34,0.47,Fund|Equity|Bond,2026-04-26,Active
+C0912,Hanoi HQ,RM_13,0.54,38.51,0.24,Advisory,2026-04-26,Active
+C0913,Da Nang,RM_15,0.63,38.85,0.26,Equity|Bond,2026-03-31,Active
+C0914,Hanoi HQ,RM_07,0.36,188.78,0.05,Bond,2026-04-28,Dormant
+C0915,Can Tho,RM_29,0.39,263.06,0.01,Equity|Margin,2026-04-13,Active
+C0916,Can Tho,RM_29,5.84,74.85,2.35,Equity,2026-04-22,Active
+C0917,Ho Chi Minh,RM_20,0.91,19.76,0.28,Derivative|Margin,2026-04-10,Active
+C0918,Hai Phong,RM_16,7.72,78.96,1.41,Bond,2026-04-27,Active
+C0919,Online,RM_30,0.14,19.27,0.03,Bond|Advisory,2026-04-16,Active
+C0920,Hai Phong,RM_10,0.38,37.92,0.04,Derivative|Fund,2026-04-16,Active
+C0921,Hai Phong,RM_10,0.56,162.36,0.07,Bond|Equity|Margin,2026-04-24,Active
+C0922,Ho Chi Minh,RM_20,0.39,55.71,0.14,Fund|Margin|Derivative,2026-04-16,Active
+C0923,Online,RM_24,2.08,346.53,0.68,Derivative,2026-04-30,New
+C0924,Ho Chi Minh,RM_20,0.68,459.13,0.06,Derivative|Advisory,2026-03-30,Dormant
+C0925,Hanoi HQ,RM_07,0.06,171.05,0.0,Derivative|Equity,2026-04-09,Active
+C0926,Hanoi HQ,RM_01,0.62,58.1,0.01,Equity|Advisory|Margin,2026-04-23,Active
+C0927,Hanoi HQ,RM_01,1.71,64.83,0.35,Margin|Derivative|Equity,2026-04-18,Active
+C0928,Da Nang,RM_03,0.33,264.6,0.01,Margin|Equity,2026-04-02,Active
+C0929,Online,RM_18,2.15,389.27,0.68,Advisory|Bond,2026-04-18,Active
+C0930,Da Nang,RM_27,0.82,75.46,0.09,Derivative|Equity|Fund,2026-04-24,VIP
+C0931,Ho Chi Minh,RM_08,0.63,36.73,0.14,Margin|Fund|Advisory,2026-04-10,Active
+C0932,Ho Chi Minh,RM_14,1.44,36.39,0.49,Margin|Bond,2026-04-26,VIP
+C0933,Hai Phong,RM_16,1.37,105.12,0.44,Derivative|Bond,2026-04-29,Dormant
+C0934,Hai Phong,RM_10,2.46,212.92,1.07,Bond,2026-04-19,Dormant
+C0935,Hai Phong,RM_16,0.37,292.78,0.06,Bond|Equity,2026-04-29,Active
+C0936,Hai Phong,RM_04,0.32,29.02,0.1,Margin,2026-04-22,Active
+C0937,Online,RM_18,0.71,1705.84,0.31,Advisory|Fund,2026-04-19,Dormant
+C0938,Da Nang,RM_15,2.04,277.31,0.41,Bond,2026-04-08,Active
+C0939,Ho Chi Minh,RM_14,2.66,37.79,1.06,Advisory|Fund|Equity,2026-04-19,Active
+C0940,Hai Phong,RM_16,2.76,12.5,0.28,Bond|Advisory,2026-03-30,Active
+C0941,Hai Phong,RM_22,1.12,299.16,0.26,Equity|Margin,2026-03-30,Active
+C0942,Ho Chi Minh,RM_14,1.36,25.95,0.27,Equity|Margin,2026-04-12,Active
+C0943,Hanoi HQ,RM_19,1.94,92.21,0.26,Fund|Derivative|Margin,2026-04-30,Dormant
+C0944,Ho Chi Minh,RM_08,1.25,376.33,0.19,Fund|Advisory,2026-04-29,New
+C0945,Da Nang,RM_27,0.25,135.76,0.06,Margin|Equity|Derivative,2026-04-21,Active
+C0946,Can Tho,RM_17,0.17,69.5,0.04,Bond|Advisory,2026-04-27,Active
+C0947,Hai Phong,RM_10,1.36,85.06,0.39,Fund|Margin,2026-04-04,Active
+C0948,Can Tho,RM_17,0.37,132.2,0.05,Fund|Derivative|Margin,2026-03-15,Active
+C0949,Hai Phong,RM_22,0.29,275.87,0.0,Equity|Fund,2026-04-08,Active
+C0950,Ho Chi Minh,RM_20,0.75,99.07,0.19,Derivative|Bond,2026-04-28,Active
+C0951,Online,RM_24,0.47,236.98,0.08,Bond,2026-03-25,Active
+C0952,Hai Phong,RM_04,2.84,112.42,1.22,Fund,2026-03-15,Active
+C0953,Online,RM_30,0.43,43.5,0.12,Advisory|Fund|Margin,2026-04-12,Active
+C0954,Da Nang,RM_03,1.65,22.68,0.6,Bond|Margin|Advisory,2026-03-20,Active
+C0955,Ho Chi Minh,RM_20,0.64,79.4,0.05,Advisory,2026-04-12,Active
+C0956,Can Tho,RM_05,0.75,180.76,0.32,Fund|Derivative,2026-04-27,New
+C0957,Can Tho,RM_11,0.32,127.96,0.1,Bond|Advisory|Derivative,2026-04-13,Active
+C0958,Ho Chi Minh,RM_20,1.94,20.91,0.82,Bond,2026-04-10,Active
+C0959,Ho Chi Minh,RM_02,2.0,76.77,0.38,Margin,2026-04-20,Active
+C0960,Hanoi HQ,RM_07,0.47,11.62,0.07,Fund|Equity|Bond,2026-04-28,Active
+C0961,Da Nang,RM_27,1.6,527.71,0.47,Bond|Advisory,2026-03-30,Dormant
+C0962,Ho Chi Minh,RM_20,0.89,71.55,0.21,Fund|Bond,2026-04-22,Active
+C0963,Hanoi HQ,RM_01,0.63,67.14,0.1,Equity,2026-04-08,Active
+C0964,Online,RM_06,0.56,34.17,0.02,Equity|Bond,2026-04-18,Active
+C0965,Online,RM_06,0.35,25.67,0.08,Advisory|Margin|Bond,2026-04-23,Active
+C0966,Ho Chi Minh,RM_02,0.08,100.95,0.03,Bond|Advisory,2026-04-30,Active
+C0967,Da Nang,RM_27,1.08,144.2,0.35,Margin,2026-04-27,Active
+C0968,Da Nang,RM_03,0.52,520.81,0.06,Fund|Equity|Advisory,2026-01-27,Dormant
+C0969,Hai Phong,RM_10,0.69,82.26,0.01,Equity,2026-04-19,Active
+C0970,Can Tho,RM_23,0.85,619.57,0.23,Bond|Advisory|Derivative,2026-04-26,Active
+C0971,Ho Chi Minh,RM_26,1.59,91.07,0.66,Fund|Advisory,2026-03-13,New
+C0972,Hai Phong,RM_22,3.6,16.74,0.64,Fund|Margin,2026-04-15,Active
+C0973,Hai Phong,RM_04,1.32,134.69,0.04,Bond|Margin,2026-04-18,Dormant
+C0974,Hanoi HQ,RM_13,0.69,218.09,0.13,Fund,2026-04-25,Active
+C0975,Online,RM_18,0.36,244.18,0.14,Margin|Derivative|Advisory,2026-04-17,Active
+C0976,Ho Chi Minh,RM_20,1.77,242.4,0.28,Derivative|Bond,2026-04-27,Active
+C0977,Online,RM_18,1.35,32.3,0.26,Equity|Margin,2026-04-28,Active
+C0978,Online,RM_12,0.58,652.62,0.19,Bond|Advisory,2026-04-07,Active
+C0979,Hai Phong,RM_28,0.13,84.84,0.05,Fund,2026-04-24,New
+C0980,Da Nang,RM_03,0.23,317.54,0.07,Fund|Margin|Advisory,2026-04-02,New
+C0981,Da Nang,RM_03,1.06,575.29,0.47,Margin|Bond,2026-04-25,Dormant
+C0982,Da Nang,RM_27,1.29,30.96,0.44,Fund|Derivative|Advisory,2026-02-13,Active
+C0983,Online,RM_24,0.61,582.0,0.15,Margin,2026-01-25,Active
+C0984,Ho Chi Minh,RM_26,0.39,107.78,0.02,Margin,2026-04-11,Active
+C0985,Ho Chi Minh,RM_02,0.71,64.49,0.23,Advisory,2026-03-25,Active
+C0986,Online,RM_24,1.06,49.09,0.27,Bond|Equity|Advisory,2026-04-02,Active
+C0987,Online,RM_24,0.43,259.57,0.15,Derivative|Advisory|Margin,2026-03-05,Active
+C0988,Da Nang,RM_15,2.69,262.19,0.82,Equity|Advisory|Margin,2026-04-27,Active
+C0989,Hai Phong,RM_16,1.67,41.55,0.45,Margin|Advisory,2026-03-17,Active
+C0990,Hai Phong,RM_16,2.05,39.01,0.11,Fund,2026-04-21,Active
+C0991,Hai Phong,RM_22,4.02,149.12,1.52,Derivative,2026-03-08,Active
+C0992,Can Tho,RM_05,0.78,444.72,0.33,Bond|Fund,2026-04-01,New
+C0993,Hanoi HQ,RM_13,0.42,47.73,0.1,Advisory|Derivative,2026-04-25,Active
+C0994,Can Tho,RM_11,1.11,796.22,0.21,Equity|Margin|Bond,2026-04-15,Active
+C0995,Ho Chi Minh,RM_20,0.9,28.62,0.09,Advisory|Derivative,2026-04-26,Active
+C0996,Ho Chi Minh,RM_26,0.68,93.83,0.05,Derivative,2026-04-16,Active
+C0997,Online,RM_30,0.27,1336.02,0.11,Equity,2026-04-28,Active
+C0998,Da Nang,RM_21,0.74,76.76,0.21,Derivative|Margin,2026-04-26,Dormant
+C0999,Hanoi HQ,RM_01,0.64,209.35,0.23,Bond|Margin|Advisory,2026-04-13,New
+C1000,Ho Chi Minh,RM_20,0.25,94.79,0.1,Equity,2026-04-19,Active
