@@ -202,7 +202,7 @@ with tabs[0]:
         """
 **Mục đích:** Giúp Ban lãnh đạo nhìn nhanh sức khỏe kinh doanh: doanh thu, lợi nhuận, AUM, margin và cảnh báo sớm.
 
-**Giải thích:** “Tab này trả lời 3 câu hỏi: hôm nay business tốt hay xấu, rủi ro ở đâu, và cần hành động gì ngay.”
+**Giải thích:** Tab này trả lời 3 câu hỏi: hôm nay business tốt hay xấu, rủi ro ở đâu, và cần hành động gì ngay.
 """
     )
 
@@ -356,7 +356,7 @@ with tabs[6]:
     st.subheader("Action Center")
     st.markdown(
         """
-**Điểm khác biệt lớn nhất của mô hình:** Dashboard thường chỉ nói “điều gì đang xảy ra”. Action Center trả lời thêm “phải làm gì”.
+**Điểm khác biệt lớn nhất của mô hình này:** Dashboard thường chỉ nói “điều gì đang xảy ra”. Action Center trả lời thêm “phải làm gì”.
 """
     )
     action_list = actions_df["Recommended Action"].tolist()
@@ -424,5 +424,5 @@ with tabs[9]:
 
 st.divider()
 st.caption(
-    "INTERVIEW VERSION kế thừa bản FINAL/ENTERPRISE. Demo chạy ngay bằng CSV; có sẵn connector/API-ready để thay dữ liệu thật."
+    "CHÚC VNDIRECT TIẾP TỤC VƯƠN TỚI NHỮNG TẦM CAO MỚI"
 )
