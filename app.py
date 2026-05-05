@@ -192,11 +192,7 @@ tabs = st.tabs(
         "7️⃣ Action Center",
         "8️⃣ OKR / Initiative",
         "9️⃣ CEO Email",
-        "🔟 Interview Pack",
-        "🎤 Demo Script",
-        "🧩 CTCK Operating Model",
-        "💣 Case Study",
-        "🧱 Data Quality",
+        "🔟 Data Quality",
     ]
 )
 
