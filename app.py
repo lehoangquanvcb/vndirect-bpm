@@ -18,7 +18,7 @@ from modules.report_engine import build_ceo_email, build_interview_story
 
 
 st.set_page_config(
-    page_title="VNDIRECT BPM INTERVIEW VERSION",
+    page_title="VNDIRECT BPM - AUTHOR: LE HOANG QUAN",
     page_icon="🏆",
     layout="wide",
 )
@@ -40,9 +40,9 @@ st.markdown(
 )
 
 # Dùng st.title thay vì custom HTML để tránh lỗi bị cắt ký tự trên Streamlit Cloud.
-st.title("🏆 VNDIRECT Business Performance Intelligence — INTERVIEW VERSION")
+st.title("🏆 VNDIRECT Business Performance Intelligence — AUTHOR: LE HOANG QUAN")
 st.caption(
-    "Kế thừa FINAL + ENTERPRISE: CEO dashboard | Customer Intelligence | Policy Simulator | Competitor Benchmark | OKR | CEO Email | Interview Story"
+    "Tính năng: CEO dashboard | Customer Intelligence | Policy Simulator | Competitor Benchmark | OKR | CEO Email | Interview Story"
 )
 
 with st.sidebar:
@@ -170,8 +170,12 @@ if boss_mode:
     st.markdown(
         """
 <div class="script-box">
-<b>Câu mở đầu khi demo cho sếp:</b><br>
-“Em không xây dashboard đơn thuần. Em xây một hệ thống hỗ trợ ra quyết định kinh doanh cho mảng bán lẻ chứng khoán: từ dữ liệu → phân tích → dự báo → hành động.”
+<b>Ưu điểm của mô hình:</b><br>
+“Đây không phải là dashboard đơn thuần mà là một hệ thống hỗ trợ ra quyết định kinh doanh: đi từ Dữ liệu → Phân tích → Dự báo → Hành động.”
+</div>
+<div class="script-box">
+<b>Lưu ý:</b><br>
+“Mô hình có nhiều tab, được đánh số từ 1 đến 10. Click vào từng tab để xem nội dung nhé:”
 </div>
 """,
         unsafe_allow_html=True,
@@ -200,9 +204,9 @@ with tabs[0]:
     st.subheader("Executive Dashboard")
     st.markdown(
         """
-**Mục đích:** Cho Ban lãnh đạo nhìn nhanh sức khỏe kinh doanh: doanh thu, lợi nhuận, AUM, margin và cảnh báo sớm.
+**Mục đích:** Giúp Ban lãnh đạo nhìn nhanh sức khỏe kinh doanh: doanh thu, lợi nhuận, AUM, margin và cảnh báo sớm.
 
-**Cách nói với sếp:** “Tab này trả lời 3 câu hỏi: hôm nay business tốt hay xấu, rủi ro ở đâu, và cần hành động gì ngay.”
+**Giải thích:** “Tab này trả lời 3 câu hỏi: hôm nay business tốt hay xấu, rủi ro ở đâu, và cần hành động gì ngay.”
 """
     )
 
@@ -271,7 +275,7 @@ with tabs[3]:
     st.subheader("Market & Competitor Benchmark")
     st.markdown(
         """
-**Cách giải thích:** Market data giúp tách yếu tố khách quan khỏi yếu tố nội bộ. Nếu thị trường giảm thì doanh thu giảm có thể là do thanh khoản chung; nếu thị trường tăng mà doanh thu giảm thì phải kiểm tra khách hàng, phí, margin và hiệu suất RM.
+**Giải thích:** Market data giúp tách yếu tố khách quan khỏi yếu tố nội bộ. Nếu thị trường giảm thì doanh thu giảm có thể là do thanh khoản chung; nếu thị trường tăng mà doanh thu giảm thì phải kiểm tra khách hàng, phí, margin và hiệu suất RM.
 """
     )
 
@@ -348,7 +352,7 @@ with tabs[5]:
 
     st.markdown(
         """
-**Cách giải thích:** Forecast không phải để đoán tuyệt đối chính xác, mà để tạo early warning và giúp lập kế hoạch kinh doanh theo kịch bản.
+**Giải thích:** Forecast không phải để đoán tuyệt đối chính xác, mà để tạo early warning và giúp lập kế hoạch kinh doanh theo kịch bản.
 """
     )
 
@@ -384,144 +388,6 @@ with tabs[8]:
     st.download_button("Download CEO email HTML", data=email_html, file_name="ceo_morning_brief.html", mime="text/html")
 
 with tabs[9]:
-    st.subheader("Interview Pack")
-    st.markdown(build_interview_story())
-    st.markdown("### 10 câu trả lời nên chuẩn bị")
-    qs = [
-        "Bạn sẽ đo hiệu suất kinh doanh bán lẻ chứng khoán bằng bộ KPI nào?",
-        "Nếu doanh thu môi giới giảm nhưng thị trường tăng, bạn phân tích thế nào?",
-        "Giảm phí giao dịch có phải là cách tốt để tăng thị phần không?",
-        "Làm sao phát hiện sớm khách hàng có nguy cơ rời bỏ?",
-        "Bạn phối hợp với IT/Sales/Marketing/Risk như thế nào?",
-        "Bạn xây dựng operating rhythm tuần/tháng cho phòng như thế nào?",
-        "Dashboard tốt khác báo cáo truyền thống ở điểm nào?",
-        "Bạn ưu tiên tăng margin hay kiểm soát rủi ro?",
-        "Làm sao benchmark VNDIRECT với SSI, VPS, TCBS?",
-        "90 ngày đầu bạn sẽ làm gì?",
-    ]
-    for q in qs:
-        st.write("- " + q)
-
-with tabs[10]:
-    st.subheader("Demo Script — Nói với sếp trong 5–7 phút")
-
-    st.markdown(
-        """
-### 1. Mở đầu
-<div class="script-box">
-“Em không xây dashboard, mà xây một hệ thống hỗ trợ ra quyết định kinh doanh cho mảng bán lẻ chứng khoán.”
-</div>
-
-### 2. Mô hình tổng thể
-<div class="script-box">
-“Hệ thống gồm 4 lớp: dữ liệu → phân tích → dự báo → hành động. Điểm khác biệt là Action Engine: hệ thống không chỉ báo cáo mà còn đề xuất hành động.”
-</div>
-
-```text
-Market data + Internal data
-        ↓
-KPI & Customer Analytics
-        ↓
-Forecast & Scenario
-        ↓
-Action Engine
-```
-
-### 3. Khi đi qua từng tab
-- **Executive:** “Snapshot toàn bộ business, kèm CEO narrative.”
-- **Customer Intelligence:** “Phát hiện khách VIP/Mass Affluent có nguy cơ rời bỏ.”
-- **Policy Simulator:** “Test chính sách trước khi triển khai.”
-- **Market & Competitor:** “Tách yếu tố thị trường khỏi vấn đề nội bộ.”
-- **Action Center:** “Chuyển insight thành hành động cho RM/Sales/Marketing/Risk.”
-
-### 4. Câu kết
-<div class="good-box">
-“Mục tiêu không phải là hiển thị dữ liệu, mà là giúp tăng doanh thu, giữ khách hàng và kiểm soát rủi ro tốt hơn.”
-</div>
-""",
-        unsafe_allow_html=True,
-    )
-
-with tabs[11]:
-    st.subheader("Mô hình vận hành công ty chứng khoán")
-    st.markdown(
-        """
-### 1. Logic vận hành tổng thể
-```text
-Khách hàng
-   ↓
-RM / Sales
-   ↓
-Sản phẩm: Trading / Margin / Advisory
-   ↓
-Doanh thu: Brokerage fee + Margin income + Product fee
-   ↓
-Risk + Operations + IT
-```
-
-### 2. RM là gì?
-**RM = Relationship Manager = người quản lý quan hệ khách hàng.**  
-Trong CTCK, RM là người chăm sóc khách hàng, giữ AUM, kích hoạt giao dịch và tạo doanh thu.
-
-### 3. Ba driver doanh thu chính
-1. **Trading volume** → tạo phí giao dịch.  
-2. **Margin balance** → tạo lãi margin.  
-3. **Active clients / VIP clients** → quyết định tính bền vững của doanh thu.
-
-### 4. Ba rủi ro lớn
-1. **Market liquidity giảm** → doanh thu môi giới giảm.  
-2. **Margin risk** → thị trường giảm mạnh làm tăng rủi ro call margin.  
-3. **Customer churn** → khách chuyển sang đối thủ.
-
-### 5. Câu nên nói
-<div class="good-box">
-“CTCK là business dựa trên khách hàng, giao dịch và margin — hệ thống của em tập trung tối ưu cả 3 yếu tố này.”
-</div>
-""",
-        unsafe_allow_html=True,
-    )
-
-with tabs[12]:
-    st.subheader("Case Study — Doanh thu môi giới giảm 20%")
-    st.markdown(
-        """
-## Câu hỏi CEO có thể hỏi
-**“Doanh thu môi giới giảm 20% trong 2 tháng gần đây. Bạn là Head Performance, bạn xử lý thế nào?”**
-
-## Framework trả lời
-<div class="script-box">
-“Em sẽ phân tích theo 3 lớp: Market → Customer → Internal.”
-</div>
-
-### 1. Market
-- VNINDEX có giảm không?
-- Thanh khoản thị trường có giảm không?
-- Nếu thị trường giảm, doanh thu giảm có thể là yếu tố khách quan.
-
-### 2. Customer
-- Active clients có giảm không?
-- Khách VIP/Mass Affluent có giảm activity không?
-- Có nhóm khách nào churn hoặc chuyển sang đối thủ không?
-
-### 3. Internal
-- Chính sách phí có kém cạnh tranh không?
-- Margin rate có hấp dẫn không?
-- RM/chi nhánh nào underperform?
-
-## Hành động
-- Nếu do thị trường: giữ khách, tối ưu chi phí, tránh đẩy margin quá mức.
-- Nếu do khách hàng: RM gọi lại khách VIP, campaign kích hoạt inactive clients.
-- Nếu do nội bộ: A/B test phí, cải thiện chính sách margin, đào tạo RM.
-
-## Câu kết
-<div class="good-box">
-“Mục tiêu không chỉ là phục hồi doanh thu, mà là xác định đúng nguyên nhân để tránh lặp lại trong tương lai.”
-</div>
-""",
-        unsafe_allow_html=True,
-    )
-
-with tabs[13]:
     st.subheader("Data Quality & Governance")
     rows = []
     for name, df in all_data.items():
@@ -553,7 +419,7 @@ with tabs[13]:
 | Customer/RM/Branch | Demo | Thay bằng CRM/trading/core nội bộ |
 
 <div class="warning-box">
-<b>Câu nói an toàn khi demo:</b><br>
+<b>Lưu ý đối với dữ liệu:</b><br>
 “Hiện tại đây là demo framework. VNINDEX có thể lấy qua vnstock; các phần nội bộ như khách hàng, margin, RM, market share sẽ thay bằng dữ liệu thật khi được kết nối với hệ thống nội bộ.”
 </div>
 """,
