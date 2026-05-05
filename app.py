@@ -11,7 +11,7 @@ from modules.kpi_engine import (
     scenario_engine,
     action_engine,
 )
-from modules.vnstock_connector import get_full_market_pack
+from modules.vnstock_connector import get_vnindex_history, get_market_liquidity
 from modules.customer_engine import enrich_customers, customer_summary, rm_churn_ranking
 from modules.policy_engine import simulate_policy
 from modules.report_engine import build_ceo_email, build_interview_story
@@ -49,7 +49,9 @@ st.caption(
 
 with st.sidebar:
     st.header("⚙️ Control Panel")
-    use_vnstock = st.toggle("Thử lấy VNINDEX qua vnstock", value=True)
+    use_vnstock = st.toggle("Dùng vnstock live", value=False, help="Mặc định tắt để app mở nhanh. Bật lên và bấm Refresh khi cần dữ liệu live.")
+    market_days = st.selectbox("Market data window", [30, 60, 90, 180], index=2)
+    refresh_market = st.button("Refresh vnstock data")
     view_mode = st.radio("Giao diện", ["PC / Boardroom", "Mobile friendly"], index=0)
     forecast_days = st.slider("Forecast horizon", 7, 90, 30)
 
@@ -76,19 +78,20 @@ def load_cached_data():
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
-def load_market_from_vnstock(days: int = 180):
-    """Load public market data from vnstock.
+def load_market_from_vnstock(days: int = 90):
+    """Cached vnstock loader. Cache TTL = 1 hour to avoid calling vnstock on every rerun."""
+    vnindex_df = get_vnindex_history(days=days)
+    liquidity_result = get_market_liquidity(days=days)
 
-    The pack may include:
-    - VNINDEX history
-    - Liquidity/trading value if vnstock returns it
-    - Multiple indices such as VNINDEX/VN30/HNXINDEX/UPCOMINDEX when available
-    - Listed brokerage stocks panel, e.g. VND, SSI, VCI, HCM, MBS
-    """
-    return get_full_market_pack(days=days)
+    if isinstance(liquidity_result, tuple):
+        liquidity_df, liquidity_source = liquidity_result
+    else:
+        liquidity_df, liquidity_source = liquidity_result, "volume_proxy"
+
+    return vnindex_df, liquidity_df, liquidity_source
 
 
-def build_market_dataset(demo_market: pd.DataFrame, use_live: bool = True, days: int = 180):
+def build_market_dataset(demo_market: pd.DataFrame, use_live: bool = False, refresh_live: bool = False, days: int = 90):
     """
     Trả về:
     - market: dataframe dùng cho KPI engine, bắt buộc có date, vnindex.
@@ -101,19 +104,28 @@ def build_market_dataset(demo_market: pd.DataFrame, use_live: bool = True, days:
 
     vnindex_df = None
     liquidity_df = None
-    indices_df = pd.DataFrame()
-    broker_panel = pd.DataFrame()
     liquidity_source = "fallback_demo"
-    data_note = "Đang dùng dữ liệu demo CSV."
+    data_note = "Đang dùng dữ liệu demo CSV. Bật vnstock live và bấm Refresh để lấy dữ liệu mới."
 
     if use_live:
-        pack = load_market_from_vnstock(days=days)
-        vnindex_df = pack.get("vnindex_df")
-        liquidity_df = pack.get("liquidity_df")
-        indices_df = pack.get("indices_df", pd.DataFrame())
-        broker_panel = pack.get("broker_panel", pd.DataFrame())
-        liquidity_source = pack.get("liquidity_source", "unknown")
-        data_note = pack.get("source_note", data_note)
+        session_key = f"vnstock_market_pack_{days}"
+
+        if refresh_live:
+            load_market_from_vnstock.clear()
+            with st.spinner("Đang lấy dữ liệu vnstock. Lần đầu có thể chậm 10–30 giây..."):
+                vnindex_df, liquidity_df, liquidity_source = load_market_from_vnstock(days=days)
+            st.session_state[session_key] = {
+                "vnindex_df": vnindex_df,
+                "liquidity_df": liquidity_df,
+                "liquidity_source": liquidity_source,
+            }
+        elif session_key in st.session_state:
+            cached_pack = st.session_state[session_key]
+            vnindex_df = cached_pack.get("vnindex_df")
+            liquidity_df = cached_pack.get("liquidity_df")
+            liquidity_source = cached_pack.get("liquidity_source", "unknown")
+        else:
+            data_note = "vnstock live đang bật nhưng chưa bấm Refresh; app dùng demo để tránh treo khi mở."
 
     if vnindex_df is not None and not vnindex_df.empty:
         market = vnindex_df.copy()
@@ -125,11 +137,13 @@ def build_market_dataset(demo_market: pd.DataFrame, use_live: bool = True, days:
         if "market_liquidity_bil_vnd" not in market.columns:
             market["market_liquidity_bil_vnd"] = market.get("market_liquidity", market.get("volume", 0))
         if liquidity_source == "real_trading_value":
-            data_note = "VNINDEX và liquidity đang lấy qua vnstock; liquidity ưu tiên trading_value nếu API trả về."
-        elif liquidity_source in ["volume_proxy", "estimated_close_x_volume"]:
-            data_note = "VNINDEX lấy qua vnstock; liquidity đang là proxy/ước tính vì API không trả về trading_value chuẩn."
+            data_note = "VNINDEX lấy qua vnstock; liquidity dùng trading value nếu API trả về. Market share/margin/fee vẫn là demo hoặc dữ liệu nhập tay."
+        elif liquidity_source == "estimated_close_x_volume":
+            data_note = "VNINDEX lấy qua vnstock; liquidity là ước tính close x volume. Market share/margin/fee vẫn là demo hoặc dữ liệu nhập tay."
+        elif liquidity_source == "volume_proxy":
+            data_note = "VNINDEX lấy qua vnstock; liquidity hiện là volume proxy, chưa phải giá trị giao dịch chuẩn. Market share/margin/fee vẫn là demo hoặc dữ liệu nhập tay."
         else:
-            data_note = "VNINDEX lấy qua vnstock. Market share/margin/fee vẫn là demo hoặc dữ liệu nhập tay."
+            data_note = "VNINDEX lấy qua vnstock; liquidity nguồn chưa xác định. Market share/margin/fee vẫn là demo hoặc dữ liệu nhập tay."
     else:
         market = demo.copy()
         vnindex_df = demo[["date", "vnindex"]].copy()
@@ -151,15 +165,28 @@ def build_market_dataset(demo_market: pd.DataFrame, use_live: bool = True, days:
             else:
                 liquidity_df["market_liquidity"] = 0
 
-    return market, vnindex_df, liquidity_df, indices_df, broker_panel, liquidity_source, data_note
+    return market, vnindex_df, liquidity_df, data_note
 
 
 all_data = load_cached_data()
 branch, pnl, rm = all_data["branch"], all_data["pnl"], all_data["rm"]
 customer, competitor, okr = all_data["customer"], all_data["competitor"], all_data["okr"]
-market, vnindex_df, liquidity_df, indices_df, broker_panel, liquidity_source, data_note = build_market_dataset(
-    all_data["market"], use_live=use_vnstock, days=180
+market, vnindex_df, liquidity_df, data_note = build_market_dataset(
+    all_data["market"],
+    use_live=use_vnstock,
+    refresh_live=refresh_market,
+    days=market_days,
 )
+
+if use_vnstock and "vnstock" in data_note.lower():
+    st.sidebar.success("✅ Market data: đã lấy/cached từ vnstock")
+elif use_vnstock:
+    st.sidebar.warning("⚠️ Market data: đang dùng demo/fallback. Bấm Refresh vnstock data để lấy live.")
+else:
+    st.sidebar.info("ℹ️ Market data: demo/fallback để app mở nhanh")
+
+if "date" in vnindex_df.columns and not vnindex_df.empty:
+    st.sidebar.info(f"📅 Last market date: {pd.to_datetime(vnindex_df['date']).max().date()}")
 
 kpis = latest_period_kpis(branch, pnl, market)
 warnings = warning_table(kpis)
@@ -286,110 +313,46 @@ with tabs[2]:
         st.dataframe(latest_rm.head(15), use_container_width=True, hide_index=True)
 
 with tabs[3]:
-    st.subheader("Market & Competitor Benchmark — Full Market Data")
+    st.subheader("Market & Competitor Benchmark")
     st.markdown(
         """
 **Cách giải thích:** Market data giúp tách yếu tố khách quan khỏi yếu tố nội bộ. Nếu thị trường giảm thì doanh thu giảm có thể là do thanh khoản chung; nếu thị trường tăng mà doanh thu giảm thì phải kiểm tra khách hàng, phí, margin và hiệu suất RM.
 """
     )
 
-    # Data-source badges
-    if use_vnstock and vnindex_df is not None and not vnindex_df.empty:
-        st.success("✅ VNINDEX: đang lấy từ vnstock/public market data")
-    else:
-        st.warning("⚠️ VNINDEX: đang dùng demo/fallback CSV")
-
-    if liquidity_source == "real_trading_value":
-        st.success("✅ Liquidity: trading value từ vnstock nếu API trả về")
-    elif liquidity_source == "estimated_close_x_volume":
-        st.warning("⚠️ Liquidity: ước tính close × volume cho cổ phiếu niêm yết")
-    elif liquidity_source == "volume_proxy":
-        st.warning("⚠️ Liquidity: volume proxy, chưa phải giá trị giao dịch chuẩn")
-    else:
-        st.warning("⚠️ Liquidity: demo/fallback")
-
-    st.caption(f"Last VNINDEX date: {vnindex_df['date'].max().date() if 'date' in vnindex_df.columns and not vnindex_df.empty else 'N/A'}")
-
-    market_tabs = st.tabs(["VNINDEX & Liquidity", "Indices", "Broker Stocks", "Manual Benchmark", "Data Notes"])
-
-    with market_tabs[0]:
-        c1, c2 = st.columns(2)
-        with c1:
-            st.plotly_chart(
-                px.line(vnindex_df.tail(180), x="date", y="vnindex", title="VNINDEX"),
-                use_container_width=True,
-            )
-        with c2:
-            st.plotly_chart(
-                px.line(
-                    liquidity_df.tail(180),
-                    x="date",
-                    y="market_liquidity",
-                    title="Market Liquidity / Trading Value if available",
-                ),
-                use_container_width=True,
-            )
-        st.dataframe(vnindex_df.tail(10), use_container_width=True, hide_index=True)
-
-    with market_tabs[1]:
-        st.markdown("### Multi-index public market data")
-        if indices_df is not None and not indices_df.empty:
-            idx = indices_df.copy()
-            idx["date"] = pd.to_datetime(idx["date"], errors="coerce")
-            st.plotly_chart(
-                px.line(idx, x="date", y="close", color="symbol", title="Indices: VNINDEX / VN30 / HNX / UPCOM nếu vnstock hỗ trợ"),
-                use_container_width=True,
-            )
-            latest_idx = idx.sort_values("date").groupby("symbol", as_index=False).tail(1)
-            st.dataframe(latest_idx, use_container_width=True, hide_index=True)
-        else:
-            st.info("Không lấy được multi-index từ vnstock. App vẫn fallback VNINDEX/demo.")
-
-    with market_tabs[2]:
-        st.markdown("### Listed brokerage stocks — public market performance")
-        st.caption("Các mã này là cổ phiếu niêm yết của nhóm CTCK; không phải thị phần môi giới chính thức.")
-        if broker_panel is not None and not broker_panel.empty:
-            bp = broker_panel.copy()
-            for col in ["return_1m_pct", "return_3m_pct", "return_period_pct", "trading_value_bil_vnd"]:
-                if col in bp.columns:
-                    bp[col] = pd.to_numeric(bp[col], errors="coerce").round(2)
-            st.plotly_chart(
-                px.bar(bp.sort_values("return_1m_pct", ascending=False), x="ticker", y="return_1m_pct", title="Broker stock return 1M (%)"),
-                use_container_width=True,
-            )
-            st.dataframe(bp, use_container_width=True, hide_index=True)
-        else:
-            st.info("Không lấy được dữ liệu nhóm cổ phiếu CTCK từ vnstock trong môi trường hiện tại.")
-
-    with market_tabs[3]:
-        st.markdown("### Manual / internal benchmark")
+    c1, c2 = st.columns(2)
+    with c1:
+        st.plotly_chart(px.line(vnindex_df.tail(180), x="date", y="vnindex", title="VNINDEX"), use_container_width=True)
+        st.plotly_chart(
+            px.line(liquidity_df.tail(180), x="date", y="market_liquidity", title="Market Liquidity / Volume Proxy"),
+            use_container_width=True,
+        )
+    with c2:
         st.plotly_chart(
             px.bar(
                 competitor.sort_values("brokerage_market_share_pct", ascending=False),
                 x="firm",
                 y="brokerage_market_share_pct",
-                title="Brokerage Market Share Benchmark — manual/demo input",
+                title="Brokerage Market Share Benchmark",
             ),
             use_container_width=True,
         )
         st.dataframe(competitor, use_container_width=True, hide_index=True)
-        st.success(
-            "Gap analysis: VNDIRECT cần đồng thời bảo vệ thị phần, nâng digital conversion và tăng active clients từ nhóm Retail/Mass Affluent."
-        )
 
-    with market_tabs[4]:
-        st.markdown(
-            f"""
+    st.success(
+        "Gap analysis: VNDIRECT cần đồng thời bảo vệ thị phần, nâng digital conversion và tăng active clients từ nhóm Retail/Mass Affluent."
+    )
+
+    st.markdown(
+        f"""
 <div class="warning-box">
 <b>Lưu ý về dữ liệu:</b><br>
 {data_note}<br><br>
-<b>Real/public qua vnstock:</b> VNINDEX, chỉ số nếu API hỗ trợ, giá/volume cổ phiếu CTCK niêm yết.<br>
-<b>Không có trực tiếp trong vnstock:</b> thị phần môi giới chính thức, dư nợ margin từng CTCK, phí thực thu, digital score, dữ liệu khách hàng/RM nội bộ.<br><br>
-Khi demo với sếp, nên nói: “Phần market public có thể lấy qua vnstock; phần thị phần, margin, khách hàng và RM sẽ thay bằng dữ liệu nội bộ/nguồn chính thức khi triển khai thật.”
+Market share, margin balance, fee và digital score hiện là dữ liệu demo/benchmark mẫu, cần thay bằng dữ liệu nội bộ hoặc nguồn chính thức khi triển khai thật.
 </div>
 """,
-            unsafe_allow_html=True,
-        )
+        unsafe_allow_html=True,
+    )
 
 with tabs[4]:
     st.subheader("Policy Impact Simulator")
