@@ -26,9 +26,9 @@ st.set_page_config(
 st.markdown(
     """
 <style>
-.block-container {padding-top: 1rem; padding-bottom: 2rem;}
+.block-container {padding-top: 2.4rem; padding-bottom: 2rem; max-width: 1500px;}
 [data-testid="stMetricValue"] {font-size: 24px;}
-.big-title {font-size:30px;font-weight:800;}
+.big-title {font-size:30px;font-weight:800; line-height:1.25; margin:0.5rem 0 0.25rem 0; white-space:normal;}
 .small-note {color:#6B7280;font-size:13px;}
 .card {background:#FFFFFF;border:1px solid #E5E7EB;border-radius:18px;padding:16px;box-shadow:0 3px 14px rgba(0,0,0,0.05);}
 .script-box {background:#F8FAFC;border-left:5px solid #2563EB;padding:14px 16px;border-radius:12px;margin:10px 0;}
@@ -39,10 +39,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown(
-    '<div class="big-title">🏆 VNDIRECT Business Performance Intelligence — INTERVIEW VERSION</div>',
-    unsafe_allow_html=True,
-)
+# Dùng st.title thay vì custom HTML để tránh lỗi bị cắt ký tự trên Streamlit Cloud.
+st.title("🏆 VNDIRECT Business Performance Intelligence — INTERVIEW VERSION")
 st.caption(
     "Kế thừa FINAL + ENTERPRISE: CEO dashboard | Customer Intelligence | Policy Simulator | Competitor Benchmark | OKR | CEO Email | Interview Story"
 )
