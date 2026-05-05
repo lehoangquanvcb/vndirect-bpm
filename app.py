@@ -41,9 +41,6 @@ st.markdown(
 
 # Dùng st.title thay vì custom HTML để tránh lỗi bị cắt ký tự trên Streamlit Cloud.
 st.title("🏆 VNDIRECT Business Performance Intelligence — AUTHOR: LE HOANG QUAN")
-st.caption(
-    "Tính năng: CEO dashboard | Customer Intelligence | Policy Simulator | Competitor Benchmark | OKR | CEO Email | Interview Story"
-)
 
 with st.sidebar:
     st.header("⚙️ Control Panel")
@@ -66,7 +63,7 @@ with st.sidebar:
 
     st.divider()
     st.subheader("Demo mode")
-    boss_mode = st.toggle("Bật nội dung giải thích cho sếp", value=True)
+    boss_mode = st.toggle("Bật nội dung giải thích", value=True)
 
 
 @st.cache_data(show_spinner=False)
@@ -170,12 +167,7 @@ if boss_mode:
     st.markdown(
         """
 <div class="script-box">
-<b>Ưu điểm của mô hình:</b><br>
-“Đây không phải là dashboard đơn thuần mà là một hệ thống hỗ trợ ra quyết định kinh doanh: đi từ Dữ liệu → Phân tích → Dự báo → Hành động.”
-</div>
-<div class="script-box">
-<b>Lưu ý:</b><br>
-“Mô hình có nhiều tab, được đánh số từ 1 đến 10. Click vào từng tab để xem nội dung nhé:”
+<b>Hệ thống hỗ trợ ra quyết định kinh doanh: đi từ Dữ liệu → Phân tích → Dự báo → Hành động. Mô hình có nhiều tab, được đánh số từ 1 đến 10. Click vào từng tab để xem nội dung:</b><br>
 </div>
 """,
         unsafe_allow_html=True,
