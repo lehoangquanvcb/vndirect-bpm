@@ -44,11 +44,6 @@ st.title("🏆 VNDIRECT Business Performance Intelligence — AUTHOR: LE HOANG Q
 
 with st.sidebar:
     st.header("⚙️ Control Panel")
-    mobile_mode = st.radio(
-        "Giao diện",
-        ["PC / Boardroom", "Mobile friendly"]
-    ) == "Mobile friendly"
-
     # Không gọi vnstock live trên Streamlit Cloud để tránh treo app.
     # Dữ liệu thật được cập nhật offline bằng update_market_data.py -> data/market_data_real.csv.
     view_mode = st.radio("Giao diện", ["PC / Boardroom", "Mobile friendly"], index=0)
@@ -148,28 +143,12 @@ policy = simulate_policy(
     campaign_budget,
 )
 
-if mobile_mode:
-    # Mobile → chia 2 cột / hàng
-    col1, col2 = st.columns(2)
-
-    col1.metric("Revenue", f"{kpis['revenue_tr']:,.0f} tr")
-    col2.metric("Profit", f"{kpis['profit_tr']:,.0f} tr")
-
-    col1, col2 = st.columns(2)
-    col1.metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
-    col2.metric("Margin", f"{kpis['margin_bil_vnd']:,.0f} tỷ")
-
-    st.metric("Market Share", f"{kpis['market_share_pct']:.1f}%", delta="+0.5%")
-
-else:
-    # PC / Boardroom → 5 cột ngang
-    cols = st.columns(5)
-
-    cols[0].metric("Revenue", f"{kpis['revenue_tr']:,.0f} tr")
-    cols[1].metric("Profit", f"{kpis['profit_tr']:,.0f} tr")
-    cols[2].metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
-    cols[3].metric("Margin", f"{kpis['margin_bil_vnd']:,.0f} tỷ")
-    cols[4].metric("Market Share", f"{kpis['market_share_pct']:.1f}%")
+cols = st.columns(2 if view_mode.startswith("Mobile") else 5)
+cols[0].metric("Revenue", f"{kpis['revenue_mil_vnd']:,.0f} tr", f"{kpis['revenue_wow_pct']:.1f}% WoW")
+cols[1].metric("Profit", f"{kpis['profit_mil_vnd']:,.0f} tr")
+cols[2].metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
+cols[3].metric("Margin", f"{kpis['margin_balance_bil_vnd']:,.0f} tỷ")
+cols[4].metric("High churn", f"{cust_summary['high_churn_customers']:,}")
 
 st.info(executive_narrative(kpis))
 st.caption(f"Market data note: {data_note}")
