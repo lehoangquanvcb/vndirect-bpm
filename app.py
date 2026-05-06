@@ -402,7 +402,7 @@ with tabs[4]:
 
     st.markdown(
         """
-**Câu nói khi demo:** “Ví dụ nếu giảm phí giao dịch, hệ thống không chỉ cho thấy doanh thu phí giảm, mà còn ước lượng volume effect và ROI của campaign đi kèm.”
+**Giải thích:** Nếu giảm phí giao dịch, hệ thống không chỉ cho thấy doanh thu phí giảm, mà còn ước lượng volume effect và ROI của campaign đi kèm.
 """
     )
 
@@ -520,8 +520,8 @@ with tabs[7]:
     st.markdown(
         """
 <div class="good-box">
-<b>Câu nói với sếp:</b><br>
-“Em không chỉ đo RM theo doanh thu. Em đo theo balanced scorecard: doanh thu, khách hàng, AUM/giao dịch, chất lượng bán hàng và rủi ro. Cách này thúc đẩy tăng trưởng nhưng tránh hành vi chạy margin hoặc doanh số ngắn hạn quá mức.”
+<b>Giải thích:</b><br>
+Mô hình không chỉ đo RM theo doanh thu mà còn đo theo balanced scorecard: Doanh thu, Khách hàng, AUM/giao dịch, Chất lượng bán hàng và rủi ro. Cách này thúc đẩy tăng trưởng nhưng tránh hành vi chạy margin hoặc doanh số ngắn hạn quá mức.
 </div>
 """,
         unsafe_allow_html=True,
