@@ -47,7 +47,6 @@ with st.sidebar:
     # Không gọi vnstock live trên Streamlit Cloud để tránh treo app.
     # Dữ liệu thật được cập nhật offline bằng update_market_data.py -> data/market_data_real.csv.
     view_mode = st.radio("Giao diện", ["PC / Boardroom", "Mobile friendly"], index=0)
-    mobile_mode = view_mode == "Mobile friendly"
     forecast_days = st.slider("Forecast horizon", 7, 90, 30)
 
     st.divider()
@@ -126,6 +125,77 @@ def build_market_dataset(demo_market: pd.DataFrame):
     return market, vnindex_df, liquidity_df, data_note, data_source
 
 
+
+def _score_0_100(series: pd.Series, higher_is_better: bool = True) -> pd.Series:
+    """Convert a numeric series to percentile score 0-100."""
+    x = pd.to_numeric(series, errors="coerce").fillna(0)
+    if len(x) <= 1 or x.nunique() <= 1:
+        return pd.Series([70.0] * len(x), index=series.index)
+    score = x.rank(pct=True) * 100
+    if not higher_is_better:
+        score = 100 - score
+    return score.round(1)
+
+
+def build_rm_sales_kpi(rm_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Balanced scorecard cho RM/Sales.
+    Trọng số: Doanh thu 40%, Khách hàng 20%, AUM/Giao dịch 20%,
+    Chất lượng bán hàng 10%, Rủi ro/Tuân thủ 10%.
+    """
+    latest_date = rm_df["date"].max()
+    latest = rm_df[rm_df["date"] == latest_date].copy()
+
+    # Chuẩn hóa tên cột nếu sau này dữ liệu thật đổi tên nhẹ.
+    for col in ["revenue_mil_vnd", "new_accounts", "aum_bil_vnd", "margin_balance_bil_vnd", "conversion_rate_pct"]:
+        if col not in latest.columns:
+            latest[col] = 0
+
+    latest["margin_to_aum_pct"] = (
+        pd.to_numeric(latest["margin_balance_bil_vnd"], errors="coerce").fillna(0)
+        / pd.to_numeric(latest["aum_bil_vnd"], errors="coerce").replace(0, pd.NA)
+        * 100
+    ).fillna(0)
+
+    latest["score_revenue"] = _score_0_100(latest["revenue_mil_vnd"], True)
+    latest["score_customer"] = (
+        0.6 * _score_0_100(latest["new_accounts"], True)
+        + 0.4 * _score_0_100(latest["conversion_rate_pct"], True)
+    ).round(1)
+    latest["score_aum_trading"] = (
+        0.6 * _score_0_100(latest["aum_bil_vnd"], True)
+        + 0.4 * _score_0_100(latest["margin_balance_bil_vnd"], True)
+    ).round(1)
+    latest["score_sales_quality"] = _score_0_100(latest["conversion_rate_pct"], True)
+
+    # Rủi ro: margin/AUM quá cao thì trừ điểm. Ngưỡng demo: <=30% tốt, >60% rủi ro cao.
+    latest["score_risk_compliance"] = (100 - (latest["margin_to_aum_pct"].clip(0, 60) / 60 * 100)).round(1)
+
+    latest["total_kpi_score"] = (
+        0.40 * latest["score_revenue"]
+        + 0.20 * latest["score_customer"]
+        + 0.20 * latest["score_aum_trading"]
+        + 0.10 * latest["score_sales_quality"]
+        + 0.10 * latest["score_risk_compliance"]
+    ).round(1)
+
+    latest["kpi_status"] = latest["total_kpi_score"].apply(
+        lambda x: "🟢 Xuất sắc" if x >= 80 else ("🟡 Cần cải thiện" if x >= 60 else "🔴 Rủi ro")
+    )
+    latest["risk_flag"] = latest["margin_to_aum_pct"].apply(
+        lambda x: "🔴 Margin cao" if x >= 50 else ("🟡 Theo dõi" if x >= 30 else "🟢 An toàn")
+    )
+
+    cols = [
+        "rm", "branch", "total_kpi_score", "kpi_status", "risk_flag",
+        "revenue_mil_vnd", "new_accounts", "aum_bil_vnd", "margin_balance_bil_vnd",
+        "conversion_rate_pct", "margin_to_aum_pct",
+        "score_revenue", "score_customer", "score_aum_trading",
+        "score_sales_quality", "score_risk_compliance",
+    ]
+    return latest[cols].sort_values("total_kpi_score", ascending=False)
+
+
 all_data = load_cached_data()
 branch, pnl, rm = all_data["branch"], all_data["pnl"], all_data["rm"]
 customer, competitor, okr = all_data["customer"], all_data["competitor"], all_data["okr"]
@@ -143,32 +213,26 @@ policy = simulate_policy(
     margin_rate_change,
     campaign_budget,
 )
+rm_kpi = build_rm_sales_kpi(rm)
 
-# =====================
-# KPI DISPLAY - RESPONSIVE FIX
-# Mobile friendly chỉ dùng 2 cột mỗi hàng để tránh lỗi IndexError.
-# PC / Boardroom dùng 5 cột ngang.
-# =====================
-if mobile_mode:
-    col1, col2 = st.columns(2)
-    col1.metric("Revenue", f"{kpis['revenue_mil_vnd']:,.0f} tr", f"{kpis['revenue_wow_pct']:.1f}% WoW")
-    col2.metric("Profit", f"{kpis['profit_mil_vnd']:,.0f} tr")
+# KPI header: responsive cho PC và Mobile.
+if view_mode.startswith("Mobile"):
+    c1, c2 = st.columns(2)
+    c1.metric("Revenue", f"{kpis['revenue_mil_vnd']:,.0f} tr", f"{kpis['revenue_wow_pct']:.1f}% WoW")
+    c2.metric("Profit", f"{kpis['profit_mil_vnd']:,.0f} tr")
 
-    col1, col2 = st.columns(2)
-    col1.metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
-    col2.metric("Margin", f"{kpis['margin_balance_bil_vnd']:,.0f} tỷ")
+    c1, c2 = st.columns(2)
+    c1.metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
+    c2.metric("Margin", f"{kpis['margin_balance_bil_vnd']:,.0f} tỷ")
 
-    col1, col2 = st.columns(2)
-    col1.metric("Market Share", f"{kpis.get('market_share_pct', 0):.1f}%")
-    col2.metric("High churn", f"{cust_summary['high_churn_customers']:,}")
+    st.metric("High churn", f"{cust_summary['high_churn_customers']:,}")
 else:
-    cols = st.columns(6)
+    cols = st.columns(5)
     cols[0].metric("Revenue", f"{kpis['revenue_mil_vnd']:,.0f} tr", f"{kpis['revenue_wow_pct']:.1f}% WoW")
     cols[1].metric("Profit", f"{kpis['profit_mil_vnd']:,.0f} tr")
     cols[2].metric("AUM", f"{kpis['aum_bil_vnd']:,.0f} tỷ")
     cols[3].metric("Margin", f"{kpis['margin_balance_bil_vnd']:,.0f} tỷ")
-    cols[4].metric("Market Share", f"{kpis.get('market_share_pct', 0):.1f}%")
-    cols[5].metric("High churn", f"{cust_summary['high_churn_customers']:,}")
+    cols[4].metric("High churn", f"{cust_summary['high_churn_customers']:,}")
 
 st.info(executive_narrative(kpis))
 st.caption(f"Market data note: {data_note}")
@@ -187,7 +251,7 @@ if boss_mode:
     st.markdown(
         """
 <div class="script-box">
-<b>Hệ thống hỗ trợ ra quyết định kinh doanh: đi từ Dữ liệu → Phân tích → Dự báo → Hành động. Mô hình có nhiều tab, được đánh số từ 1 đến 10. Click vào từng tab để xem nội dung:</b><br>
+<b>Hệ thống hỗ trợ ra quyết định kinh doanh: đi từ Dữ liệu → Phân tích → Dự báo → Hành động. Mô hình có nhiều tab, được đánh số từ 1 đến 11. Click vào từng tab để xem nội dung:</b><br>
 </div>
 """,
         unsafe_allow_html=True,
@@ -202,9 +266,10 @@ tabs = st.tabs(
         "5️⃣ Policy Simulator",
         "6️⃣ Forecast & Scenario",
         "7️⃣ Action Center",
-        "8️⃣ OKR / Initiative",
-        "9️⃣ CEO Email",
-        "🔟 Data Quality",
+        "8️⃣ RM / Sales KPI",
+        "9️⃣ OKR / Initiative",
+        "🔟 CEO Email",
+        "11️⃣ Data Quality",
     ]
 )
 
@@ -381,21 +446,102 @@ with tabs[6]:
     for i, a in enumerate(action_list + extra, 1):
         st.write(f"{i}. {a}")
 
+
 with tabs[7]:
+    st.subheader("RM / Sales KPI — Balanced Scorecard")
+    st.markdown(
+        """
+**Mục đích:** Đo RM/Sales không chỉ theo doanh thu, mà theo mô hình cân bằng: doanh thu, khách hàng, AUM/giao dịch, chất lượng bán hàng và rủi ro/tuân thủ.
+
+**Trọng số đề xuất:** Doanh thu 40% | Khách hàng 20% | AUM/Giao dịch 20% | Chất lượng bán hàng 10% | Rủi ro & Tuân thủ 10%.
+"""
+    )
+
+    top_rm = rm_kpi.head(1).iloc[0]
+    bottom_rm = rm_kpi.tail(1).iloc[0]
+    risk_rm_count = int((rm_kpi["risk_flag"] == "🔴 Margin cao").sum())
+
+    if view_mode.startswith("Mobile"):
+        st.metric("Top RM", f"{top_rm['rm']}", f"{top_rm['total_kpi_score']:.1f} điểm")
+        st.metric("RM cần cải thiện", f"{bottom_rm['rm']}", f"{bottom_rm['total_kpi_score']:.1f} điểm")
+        st.metric("RM margin cao", f"{risk_rm_count}")
+    else:
+        k1, k2, k3 = st.columns(3)
+        k1.metric("Top RM", f"{top_rm['rm']}", f"{top_rm['total_kpi_score']:.1f} điểm")
+        k2.metric("RM cần cải thiện", f"{bottom_rm['rm']}", f"{bottom_rm['total_kpi_score']:.1f} điểm")
+        k3.metric("RM margin cao", f"{risk_rm_count}")
+
+    c1, c2 = st.columns(2)
+    with c1:
+        st.plotly_chart(
+            px.bar(
+                rm_kpi.head(15),
+                x="rm",
+                y="total_kpi_score",
+                color="kpi_status",
+                title="Top 15 RM theo điểm KPI tổng",
+            ),
+            use_container_width=True,
+        )
+    with c2:
+        score_cols = [
+            "score_revenue", "score_customer", "score_aum_trading",
+            "score_sales_quality", "score_risk_compliance",
+        ]
+        score_avg = rm_kpi[score_cols].mean().reset_index()
+        score_avg.columns = ["KPI group", "Average score"]
+        st.plotly_chart(
+            px.bar(score_avg, x="KPI group", y="Average score", title="Điểm trung bình theo nhóm KPI"),
+            use_container_width=True,
+        )
+
+    st.markdown("### Bảng xếp hạng RM/Sales")
+    display_cols = [
+        "rm", "branch", "total_kpi_score", "kpi_status", "risk_flag",
+        "revenue_mil_vnd", "new_accounts", "aum_bil_vnd", "margin_balance_bil_vnd",
+        "conversion_rate_pct", "margin_to_aum_pct",
+    ]
+    st.dataframe(rm_kpi[display_cols], use_container_width=True, hide_index=True)
+
+    st.markdown("### Cảnh báo quản trị")
+    high_revenue_high_risk = rm_kpi[(rm_kpi["score_revenue"] >= 75) & (rm_kpi["risk_flag"] == "🔴 Margin cao")]
+    weak_rm = rm_kpi[rm_kpi["total_kpi_score"] < 60]
+
+    if high_revenue_high_risk.empty and weak_rm.empty:
+        st.success("Không có cảnh báo nghiêm trọng trong kỳ hiện tại.")
+    else:
+        if not high_revenue_high_risk.empty:
+            st.warning("RM có doanh thu cao nhưng margin/AUM cao — cần kiểm soát khẩu vị rủi ro.")
+            st.dataframe(high_revenue_high_risk[display_cols], use_container_width=True, hide_index=True)
+        if not weak_rm.empty:
+            st.warning("RM có điểm KPI dưới 60 — cần coaching, kiểm tra pipeline và tệp khách hàng.")
+            st.dataframe(weak_rm[display_cols], use_container_width=True, hide_index=True)
+
+    st.markdown(
+        """
+<div class="good-box">
+<b>Câu nói với sếp:</b><br>
+“Em không chỉ đo RM theo doanh thu. Em đo theo balanced scorecard: doanh thu, khách hàng, AUM/giao dịch, chất lượng bán hàng và rủi ro. Cách này thúc đẩy tăng trưởng nhưng tránh hành vi chạy margin hoặc doanh số ngắn hạn quá mức.”
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+
+with tabs[8]:
     st.subheader("OKR / Initiative Tracker")
     okr2 = okr.copy()
     okr2["status"] = okr2["progress"].apply(lambda x: "🔴 Đỏ" if x < 0.5 else ("🟡 Vàng" if x < 0.8 else "🟢 Xanh"))
     st.dataframe(okr2, use_container_width=True, hide_index=True)
     st.plotly_chart(px.bar(okr2, x="initiative", y="progress", color="risk_level", title="Initiative Progress"), use_container_width=True)
 
-with tabs[8]:
+with tabs[9]:
     st.subheader("CEO Email / Morning Brief")
     top_actions = actions_df["Recommended Action"].tolist() + extra
     email_html = build_ceo_email(kpis, cust_summary, top_actions)
     st.components.v1.html(email_html, height=500, scrolling=True)
     st.download_button("Download CEO email HTML", data=email_html, file_name="ceo_morning_brief.html", mime="text/html")
 
-with tabs[9]:
+with tabs[10]:
     st.subheader("Data Quality & Governance")
     rows = []
     for name, df in all_data.items():
