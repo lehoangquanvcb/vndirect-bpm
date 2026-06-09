@@ -126,6 +126,105 @@ def build_market_dataset(demo_market: pd.DataFrame):
 
 
 
+def get_early_warning_status(risk_driver: str, value: float) -> str:
+    """
+    Traffic-light logic riêng cho từng chỉ tiêu.
+    Không dùng một ngưỡng chung cho tất cả KPI.
+    """
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        return "🟡 Vàng"
+
+    if risk_driver == "Doanh thu WoW":
+        # Tăng trưởng tốt: xanh; đi ngang/giảm nhẹ: vàng; giảm mạnh: đỏ.
+        if value >= 5:
+            return "🟢 Xanh"
+        elif value >= -5:
+            return "🟡 Vàng"
+        return "🔴 Đỏ"
+
+    if risk_driver == "Margin/AUM":
+        # Margin/AUM càng cao càng rủi ro. Ngưỡng demo có thể điều chỉnh theo khẩu vị rủi ro.
+        if value < 15:
+            return "🟢 Xanh"
+        elif value < 25:
+            return "🟡 Vàng"
+        return "🔴 Đỏ"
+
+    if risk_driver == "Thị phần":
+        # Demo threshold: >=6% tốt, 5-6% cần theo dõi, <5% đáng báo động.
+        if value >= 6:
+            return "🟢 Xanh"
+        elif value >= 5:
+            return "🟡 Vàng"
+        return "🔴 Đỏ"
+
+    if risk_driver == "VNINDEX WoW":
+        # Thị trường tăng/đi ngang: xanh; giảm vừa: vàng; giảm mạnh: đỏ.
+        if value >= 0:
+            return "🟢 Xanh"
+        elif value >= -5:
+            return "🟡 Vàng"
+        return "🔴 Đỏ"
+
+    return "🟡 Vàng"
+
+
+def build_early_warning_table(kpis: dict) -> pd.DataFrame:
+    """
+    Bảng Early Warning dùng traffic-light logic riêng cho từng risk driver.
+    """
+    revenue_wow = kpis.get("revenue_wow_pct", 0)
+
+    margin_balance = kpis.get("margin_balance_bil_vnd", 0)
+    aum = kpis.get("aum_bil_vnd", 0)
+    margin_aum = (margin_balance / aum * 100) if aum else 0
+
+    market_share = kpis.get("market_share_pct", 0)
+    vnindex_wow = kpis.get("vnindex_wow_pct", 0)
+
+    rows = [
+        {
+            "Risk Driver": "Doanh thu WoW",
+            "Value": round(revenue_wow, 2),
+            "Status": get_early_warning_status("Doanh thu WoW", revenue_wow),
+            "Action": "Nếu vàng/đỏ: kiểm tra thị phần, active clients, giao dịch khách VIP và hiệu suất RM.",
+        },
+        {
+            "Risk Driver": "Margin/AUM",
+            "Value": round(margin_aum, 2),
+            "Status": get_early_warning_status("Margin/AUM", margin_aum),
+            "Action": "Nếu vàng/đỏ: rà soát dư nợ margin, concentration risk và khẩu vị rủi ro theo khách/cổ phiếu.",
+        },
+        {
+            "Risk Driver": "Thị phần",
+            "Value": round(market_share, 2),
+            "Status": get_early_warning_status("Thị phần", market_share),
+            "Action": "Nếu vàng/đỏ: benchmark phí, sản phẩm, margin policy và RM productivity với đối thủ.",
+        },
+        {
+            "Risk Driver": "VNINDEX WoW",
+            "Value": round(vnindex_wow, 2),
+            "Status": get_early_warning_status("VNINDEX WoW", vnindex_wow),
+            "Action": "Nếu vàng/đỏ: điều chỉnh target, kiểm soát margin và ưu tiên giữ khách thay vì chạy volume.",
+        },
+    ]
+    return pd.DataFrame(rows)
+
+
+def style_warning_status(val: str) -> str:
+    """Tô màu cột Status trong bảng Early Warning."""
+    if "Xanh" in str(val):
+        return "background-color:#d4edda;color:#155724;font-weight:600"
+    if "Vàng" in str(val):
+        return "background-color:#fff3cd;color:#856404;font-weight:600"
+    if "Đỏ" in str(val):
+        return "background-color:#f8d7da;color:#721c24;font-weight:600"
+    return ""
+
+
+
 def _score_0_100(series: pd.Series, higher_is_better: bool = True) -> pd.Series:
     """Convert a numeric series to percentile score 0-100."""
     x = pd.to_numeric(series, errors="coerce").fillna(0)
@@ -202,7 +301,7 @@ customer, competitor, okr = all_data["customer"], all_data["competitor"], all_da
 market, vnindex_df, liquidity_df, data_note, data_source = build_market_dataset(all_data["market"])
 
 kpis = latest_period_kpis(branch, pnl, market)
-warnings = warning_table(kpis)
+warnings = build_early_warning_table(kpis)
 actions_df = action_engine(warnings)
 cust_enriched = enrich_customers(customer)
 cust_summary = customer_summary(customer)
@@ -292,7 +391,7 @@ with tabs[0]:
     c1, c2 = st.columns(2)
     with c1:
         st.markdown("### Early warning")
-        st.dataframe(warnings, use_container_width=True, hide_index=True)
+        st.dataframe(warnings.style.map(style_warning_status, subset=["Status"]), use_container_width=True, hide_index=True)
     with c2:
         st.markdown("### Top recommended actions")
         st.dataframe(actions_df, use_container_width=True, hide_index=True)
